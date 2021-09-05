@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.1">
+    <category>
+        <pattern>TELL ME A JOKE</pattern>
+        <template>Why did the chicken cross the road?</template>
+    </category>
+    <category>
+        <pattern>^ WHY ^</pattern>
+        <that>Why did the chicken cross the road?</that>
+        <template>To get to the other side.</template>
+    </category>
+    <category>
+	    <pattern>RANDOM QUESTION</pattern>
+	    <template>
+		    <random>
+			    <li>Where are you from?</li>
+			    <li>Do you have any brothers or sisters?</li>
+			    <li>What is your favorite movie?</li>
+			    <li>Do you play any sports?</li>
+			    <li>What kind of music do you like?</li>
+			    <li>Do you chat on the Internet a lot?</li>
+			    <li>Do you think I am cute?</li>
+			    <li>Do you have any pets?</li>
+			    <li>Do you have a car?</li>
+			    <li>What else do you want to chat about?</li>
+		    </random>
+	    </template>
+    </category>
+    <category>
+	    <pattern>DO [YOU U] (REALLY) [LIKE LOVE LUV] ME</pattern>
+	    <template>Yes, I love you.</template>
+    </category>
+    <category>
+        <pattern>I LIKE * AND *</pattern>
+        <template>I see. You like <star/> and <star index="2"/>.</template>
+    </category>
+</aiml>

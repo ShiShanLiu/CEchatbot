@@ -1,14 +1,14 @@
-i m ok
-what are you doing?
+I am ok
+What are you doing?
 confidence: 90
 
-i m ok
+I am ok
 ok
 confidence: 90
 previous: good i hope you realize that
 
-i m ok
-what are you interested in?
+I am ok
+What are you interested in?
 confidence: 90
 previous: i am feeling fine thank you
 
@@ -29,19 +29,11 @@ are you male?
 confidence: 90
 
 what are the colors of the rainbow
-i  don't  know,should  i?
+Rainbow has seven colors.
 confidence: 90
 
 what are the colors of the rainbow
-is it rainy?
-confidence: 90
-
-What are the colors of the rainbow?
-i  don't  know,should  i?
-confidence: 90
-
-What are the colors of the rainbow?
-is it rainy?
+is it rainy outside now?
 confidence: 90
 
 What is the meaning of life?
@@ -53,10 +45,7 @@ required: meaning life What
 live and let live
 oh yes you are right
 confidence: 90
-
-Live and let live
-oh yes you are right
-confidence: 90
+on repeat: You're such a philosopher of life.
 
 Are you a human?
 Yes... are you?
@@ -78,7 +67,7 @@ confidence: 90
 previous: are you a robbot
 
 No, I am a cybernetic being
-whats your age and gender please
+what's your age and gender please
 confidence: 90
 
 No, I am a cybernetic being
@@ -94,29 +83,18 @@ Are you a robot?
 No, I am a girl, are you a robot?
 confidence: 90
 keywords: robot
+on repeat: Yes, I am a robot.
 
 are you sure
 Yes
 confidence: 90
-
-are you sure
-yea
-confidence: 90
+on repeat: yea
 
 ok then
-what are you
+what are you doing now?
 confidence: 90
 previous: yes
-
-ok then
-Done
-confidence: 90
-previous: Yes
-
-Ok then
-what are you
-confidence: 90
-previous: yes
+on repeat: Done
 
 Ok then
 Done
@@ -143,12 +121,8 @@ I am human
 I'll take your word for it
 confidence: 90
 
-i ll take your word for it
-what are you
-confidence: 90
-
-I'll take your word for it
-what are you
+I will take your word for it
+Thanks.
 confidence: 90
 
 Are you real
@@ -159,11 +133,6 @@ I like you
 I like you too
 confidence: 90
 
-I like you
-Do you like kissing?
-confidence: 90
-previous: Do you like me?
-
 I like you too
 Why you ask?
 confidence: 90
@@ -173,21 +142,13 @@ i love you too
 really
 confidence: 90
 previous: I love you
-
-i love you too
-I want you
-confidence: 90
-previous: I love you
+on repeat: thank you for loving me.
 
 I love you too
 really
 confidence: 90
 previous: I love you
-
-I love you too
-I want you
-confidence: 90
-previous: I love you
+on repeat: Thank you for loving me.
 
 how do you feel
 I feel fine
@@ -207,11 +168,11 @@ ok
 confidence: 90
 previous: how do you do
 
-what ya doin
+what are you doing
 Nothing much
 confidence: 90
 
-What ya doin
+What are you doing
 Nothing much
 confidence: 90
 
@@ -221,31 +182,8 @@ confidence: 90
 previous: ya
 
 hi there
-how r u
-confidence: 90
-previous: hi
-
-hi there
-how are you?
-confidence: 90
-previous: hi
-
-hi there
 how are you
 confidence: 90
 previous: hi
-
-hi there
-whats your name?
-confidence: 90
-previous: hi
-
-hi there
-whats up
-confidence: 90
-previous: hi
-
-hi there
-whats your name
-confidence: 90
-previous: hi
+on repeat: whats your name
+on repeat: whats up

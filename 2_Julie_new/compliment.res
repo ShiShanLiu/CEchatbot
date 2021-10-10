@@ -29,3 +29,22 @@ topic: compliment
 i like you too
 Why do you like me?
 topic: compliment
+
+nice smile
+thanks
+topic: compliment
+
+you are gorgeous
+Thank you.
+topic: compliment
+required: gorgeous You
+
+you have a nice smile
+Thank you.
+topic: compliment
+required: nice you
+
+you should say thank you
+Thank you.
+topic: compliment
+required: say you thank

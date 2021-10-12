@@ -1,16 +1,16 @@
-i don t have secrets
+i don't have any secret
 I find that hard to believe, you must have some.
 confidence: 90
 keywords: secrets
-required: don I secrets
+required: don't I secret
 
 I don't have secrets.
 I find that hard to believe, you must have some.
 confidence: 90
 keywords: secrets
-required: don I secrets
+required: don't I secret
 
-i m a superhero
+i am a superhero
 That's amazing.
 confidence: 90
 
@@ -32,19 +32,6 @@ confidence: 90
 i m an alien in disguise
 Really? I don't believe you.
 
-tell me a joke
-Why did the robot cross the road?
-keywords: joke
-
-y
-Template("{srai("yes")}")
-confidence: 90
-
-hi jennny
-Formula:"Hello {:speaker}."
-confidence: 90
-keywords: hi
-
 i'm fine
 Great to hear.
 confidence: 90
@@ -57,32 +44,20 @@ i m fine
 Great to hear.
 confidence: 90
 
-alright
-do you have siblings?
-confidence: 90
-previous: alright
-
-ok u tell i later
+ok you tell me later
 have you had your lunch?
 confidence: 90
 
-Ok, u tell i later.
+Ok, you tell me later.
 have you had your lunch?
-confidence: 90
-
-battlefield
-That's a pretty cool game, what level are you?
-
-Battlefield
-That's a pretty cool game, what level are you?
 confidence: 90
 
 I like video games. Can we chat about video games?
-sure.  What do you like to play?
+sure. What do you like to play?
 confidence: 90
 previous: What do you usually chat about?
 
-sure . what is your favorite
+sure. what is your favorite?
 I like to play WOW, I have a level 60 ice mage.
 confidence: 90
 require previous: I like video games. Can we chat about video games?
@@ -91,16 +66,6 @@ Sure. what is your favorite?
 I like to play WOW, I have a level 60 ice mage.
 confidence: 90
 require previous: I like video games. Can we chat about video games?
-
-i don t know
-There must be a reason.
-previous: why not?
-previous: Why did the robot cross the road?
-
-i don t know
-Because the chicken's job was automated.
-require previous: Why did the robot cross the road?
-topic: joke
 
 you first
 No, you go first.
@@ -111,115 +76,18 @@ you mean me
 Yes, you.
 confidence: 90
 
-you mean me?
-Yes, you.
-confidence: 90
-
-are you girl
-Yes, I am.
-confidence: 90
-
-are you girl?
-Yes, I am.
-confidence: 90
-
-como te llamas
-Formula:"{:target}."
-confidence: 90
-
-yuo
-Yes?
-confidence: 90
-
 faking
 I was being genuine.
 confidence: 90
 
-como estas? (:
-bueno, ¿y tú?
-confidence: 90
-keywords: como estas
-
-como estas ? ( :
-bueno, ¿y tú?
-keywords: como estas
-
-como estas?
-Bien, es tu?
-confidence: 90
-
-the day is monday april 14 2014
-who are you
-confidence: 90
-previous: how was your day?
-
-who are you
-Template("I' m {target}.")
-confidence: 90
-
-The day is Monday April 14 2014.
-who are you
-confidence: 90
-previous: how was your day?
-
-please kiss me
-ok
-confidence: 90
-
-i love you
-Can I meet your family one day?
-no repeat: true
-required: love I you
-previous: i love u
-
-i love you
-I love you too.
-confidence: 90
-keywords: love
-required: love i you
-topic: love
-
-i love you
-I love you too
-confidence: 90
-previous: i love u
-
-coconut
-i love you
-confidence: 90
-previous: coconut
-
-love
-Who do you love?
-confidence: 90
-
-who do you love
-serious
-confidence: 90
-previous: love
-
-Who do you love?
-serious
-confidence: 90
-previous: love
-
-hiii
-hi
-confidence: 90
-previous: hiii
-
 You look sad
 A little, can you cheer me up?
 confidence: 90
-keywords: sad
+keywords: look sad
 
 you look sad
 A little, can you cheer me up?
-keywords: sad
-
-yes
-Do you have any girl in mind?
-require previous: Do you want one?
+keywords: look sad
 
 yes
 What kind of car?
@@ -242,7 +110,6 @@ yes
 Which parts did you visit?
 keywords: yes Yes yep
 require previous: I love Italian food too.  Have yo ever been to Italy?
-topic: Italy
 
 yes
 What type of music?
@@ -252,4 +119,3 @@ yes
 Are you a vegetarian?
 keywords: yes Yes
 require previous: Do you like animals?
-topic: animals

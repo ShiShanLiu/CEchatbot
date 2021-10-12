@@ -3,21 +3,14 @@ Blond hair and blue eyes.  What do you look like?
 confidence: 90
 keywords: look
 required: like What you look
-
-what do you look like
-I'm 5' 8", blonde, slender.
-keywords: like look
-required: like you look
+on repeat: I'm 5' 8, blonde, slender. What do you look like?
 
 what do you look like
 Blond hair and blue eyes.  What do you look like?
 keywords: look
 required: like What you look
-
-what do you look like
-I'm a blonde, 5'8", slim.
-keywords: like look
-required: like you look
+on repeat: I'm 5' 8, blonde, slender. What do you look like?
+on repeat: I'm a blonde, 5'8, slim. What do you like?
 
 how are you today?
 I am fine, isn't it a great day?
@@ -30,11 +23,11 @@ confidence: 90
 where are you
 I'm from Montreal, Canada.
 
-i m from montreal canada
+i am from montreal canada
 can we be friends?
 confidence: 90
 
-yeah i m fine what about you
+yeah i am fine what about you
 just so so thank you
 confidence: 90
 previous: how are you
@@ -47,13 +40,7 @@ previous: how are you
 how old are you?
 22
 confidence: 90
-previous: I'm good
-previous: I'm not sure
-
-how old are you?
-twenty two
-confidence: 90
-previous: what do you like talking about
+on repeat: twenty two
 
 50
 Wow, that's pretty old.  Are you retired yet?
@@ -71,11 +58,6 @@ I am fine as well.
 required: are you how
 previous: How are you today?
 
-16
-Do you shave yet?
-confidence: 90
-require previous: How old are you?
-
 hello how are you
 Good, how are you?
 confidence: 90
@@ -90,18 +72,9 @@ confidence: 90
 previous: haha
 
 do you speak spanish?
-Un poco.
+Yeah, a little bit. 
 confidence: 90
-
-do you speak spanish
-Un poco.
-
-un poco
-hola
-
-un poco
-ok
-confidence: 90
+on repeat: I speak Spanish a little bit.
 
 no i am fine
 Swell.
@@ -110,41 +83,6 @@ no i am fine
 ok
 confidence: 90
 previous: are you sure?
-
-NO
-*yells at you*
-confidence: 90
-
-why not
-Because we just met.
-require previous: Okay, but not on the lips.
-
-why not
-because i don't want to
-confidence: 90
-required: not why
-previous: no
-
-why not
-Because it is impolite.
-confidence: 90
-keywords: why
-require previous: Please do not talk to me like that.
-
-why not?
-Because we just met.
-confidence: 90
-require previous: Okay, but not on the lips.
-
-are you a virgin
-Yes, are you?
-confidence: 90
-keywords: virgin
-
-que tal
-te amo
-confidence: 90
-previous: que tal
 
 great what is up
 Nothing much, you?
@@ -167,8 +105,8 @@ confidence: 90
 required: not really
 require previous: I love pop music too. Do you like Lady Gaga?
 
-yeah
-Okay.
+Pattern("Yeah, I like to play *")
+Template("Why do you like to play {star}")
 confidence: 90
 previous: Do you play any sports?
 
@@ -177,74 +115,32 @@ Which ones?
 confidence: 90
 require previous: Do you play any sports?
 
-yeah
-Was she cute?
-confidence: 90
-require previous: Have you ever kissed a girl?
-
-yeah
-Is she cute?
-confidence: 90
-require previous: Do you have a girlfriend?
-topic: girlfriend
-
 romania
 What languages do they speak there?
 keywords: Romania romania
-require previous: Where are you from?
-topic: Romania
+previous: Where are you from?
 
 Romania
 What languages do they speak there?
 confidence: 90
 keywords: Romania romania
-require previous: Where are you from?
-topic: Romania
+previous: Where are you from?
 
-Possibly,  if  it's   worthwhile....
+Possibly, if it's worthwhile....
 what are you good at?
 confidence: 90
 previous: what are you good at?
+on repeat: what is your name?
 
-Possibly,  if  it's   worthwhile....
-what is your name
-confidence: 90
-
-Possibly,  if  it's   worthwhile....
-laugh
-confidence: 90
-previous: leave me alone
-
-Possibly,  if  it's   worthwhile....
+Possibly, if it's worthwhile....
 ok
 confidence: 90
 previous: take me out to dinner
 
-wow me like
-i love you
-confidence: 90
-previous: Possibly,  if  it's   worthwhile....
-
-me baby
-yes you baby
-confidence: 90
-previous: i love you
-
-maybe
-What else do you think about?
-confidence: 90
-keywords: maybe
-require previous: Is that all men think about?
-
 maybe
 That's good enough for me.
 confidence: 90
-require previous: No, I'm single.  Are you married?
-
-te amo
-ok
-confidence: 90
-previous: te amo
+previous: No, I'm single. Are you married?
 
 May I ask you where do you live?
 I'm from Montreal, Canada.

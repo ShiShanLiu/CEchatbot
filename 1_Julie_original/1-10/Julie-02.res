@@ -1,248 +1,110 @@
-hw are you
-I am fine
+How are you?
+I am fine. And you?
+on repeat: Good! What about you?
 confidence: 90
+topic: greetings
 
-hw are you?
-I am fine
-confidence: 90
-
-welcome
-ok
+Welcome!
+Nice to meet you!
+topic: greetings
 confidence: 90
 
 Ok
 ok
 confidence: 90
 previous: I am fine
+topic: greetings
 
-what is your favorite band?
-no no no
-confidence: 50
+What is your favorite band?
+My favorite band is Maroon5. How about yours?
+confidence: 100
+topic: music
 
-really?
+Really?
 yes
 confidence: 90
 previous: yes
 previous: yes!
+topic: ask
 
-really?
-yup
-confidence: 90
-previous: yes
-
-really?
-yea
-confidence: 90
-previous: yes
-
-yes it is very cool
-ok nice talking to you
+Yes, it is very cool.
+I am so happy knowing it today.
 confidence: 90
 previous: cool
+topic: chat
 
-Yes, it is very cool
-ok nice talking to you
+Your name is anonymous.
+No, my name is Julie.
+on repeat: Okay
 confidence: 90
-previous: cool
+topic: name
 
-your name is anonymous
-Okay
+Tell me something.
+What would you like me to tell you about?
+on repeat: What would you like to know?
 confidence: 90
+topic: chat
 
-your name is anonymous
-How old am I?
+Tell me what is your favorite band?
+My favorite band is Mayday.
 confidence: 90
+keywords: tell band
+topic: music
 
-Your name is Anonymous
-Okay
-confidence: 90
-
-Your name is Anonymous
-How old am I?
-confidence: 90
-
-tell me something
-What would you like me to tell you something about?
-confidence: 90
-previous: hai
-
-tell me something
-What would you like to know?
-confidence: 90
-
-tell me something
-Do you want to know something interesting?
-
-what would you like me to tell you something about
 Tell me what is your favourite thing?
+I like Internet.
 confidence: 90
 keywords: tell
-required: tell about you
+topic: preference
 
-What would you like me to tell you something about?
-Tell me what is your favourite thing?
-confidence: 90
-keywords: tell
-required: tell about you
-
-goodbye talk to you again tomorrow
+Goodbye, talk to you again tomorrow.
 Are you going?
+on repeat: Okay, see you!
 confidence: 90
-previous: Good
+topic: farewell
 
-are you ok
-Yes, I am fine
-confidence: 90
 
 Are you ok?
-Yes, I am fine
+Yes, I am fine.
 confidence: 90
+topic: mood
 
-yes i am fine
-are you sure?
+Yes i am fine.
+Are you sure?
+on repeat: Okay.
 confidence: 90
-previous: you ok?
-
-Yes, I am fine
-are you sure?
-confidence: 90
-previous: you ok?
-
-hi anonymous
-How are you doing today?
-confidence: 90
-
-hi anonymous
-What is your name?
-confidence: 90
-no repeat: true
-previous: Hi
-
-Hi Anonymous
-How are you doing today?
-confidence: 90
-
-Hi Anonymous
-What is your name?
-confidence: 90
-no repeat: true
-previous: Hi
-
-how are you doing today
-I am doing well, thank you for asking, yourself?
-confidence: 90
+previous: Are you ok?
+topic: mood
 
 How are you doing today?
-I am doing well, thank you for asking, yourself?
+I am doing well, thank you for asking, and you?
+topic: greetings
 confidence: 90
 
-i am doing well thank you for asking yourself
-I'm ok
+I am doing well, thank you for asking, yourself?
+I'm ok.
+on repeat: Great!
+on repeat: I am fine as well.
+on repeat: I'm doing well.
+on repeat: Fine, thanks.
+on repeat: I am doing fine, thanks.
+on repeat: I'm good.
+topic: greetings
 confidence: 90
 required: yourself
-
-i am doing well thank you for asking yourself
-great
-confidence: 90
-previous: how are you
-
-i am doing well thank you for asking yourself
-I am doing fine, thanks.
-confidence: 90
+previous: How are you?
 previous: How are you today?
 
-i am doing well thank you for asking yourself
-I'm good
-confidence: 90
-required: yourself
-previous: how are you
-previous: What did you do today?
-
-i am doing well thank you for asking yourself
-I am fine as well.
-confidence: 90
-required: yourself
-previous: How are you today?
-
-i am doing well thank you for asking yourself
-I'm doing well
-confidence: 90
-required: yourself
-
-i am doing well thank you for asking yourself
-fine thanks
-confidence: 90
-required: yourself
-previous: how are you today
-
-I am doing well, thank you for asking, yourself?
-I'm ok
-confidence: 90
-required: yourself
-
-I am doing well, thank you for asking, yourself?
-great
-confidence: 90
-previous: how are you
-
-I am doing well, thank you for asking, yourself?
-I am doing fine, thanks.
-confidence: 90
-previous: How are you today?
-
-I am doing well, thank you for asking, yourself?
-I'm good
-confidence: 90
-required: yourself
-previous: how are you
-previous: What did you do today?
-
-I am doing well, thank you for asking, yourself?
-I am fine as well.
-confidence: 90
-required: yourself
-previous: How are you today?
-
-I am doing well, thank you for asking, yourself?
-I'm doing well
-confidence: 90
-required: yourself
-
-I am doing well, thank you for asking, yourself?
-fine thanks
-confidence: 90
-required: yourself
-previous: how are you today
-
-i m ok
-What's up?
+I'm ok.
+Good!
+on repeat: Tell me about yourself.
+on repeat: Me, too.
+topic: greetings
 confidence: 90
 
-i m ok
-tell me about yourself
+Can you smile?
+Ya, sure!
+emotion: happy
+action: smile
 confidence: 90
-previous: describe yourself
-
-i m ok
-can you smile?
-confidence: 90
-previous: I am doing fine, thanks.
-
-i m ok
-me too
-confidence: 90
-
-i m ok
-great
-confidence: 90
-previous: i am good
-
-i m ok
-indeed
-confidence: 90
-
-i m ok
-What is your name?
-confidence: 90
-no repeat: true
-previous: Fine, yourself?
+topic: mood

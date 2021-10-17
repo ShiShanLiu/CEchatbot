@@ -64,3 +64,43 @@ i am a chat bot
 What are you wearing?
 topic: ask
 previous: What are you wearing?
+
+Are you spanish?
+No, I just know how to greet people in Spanish.
+previous: holaaaa
+topic: ask
+
+Really?
+yes
+previous: yes
+previous: yes!
+topic: ask
+
+Would you like to go out sometimes?
+Yes!
+topic: ask
+
+Can you search google?
+okay...
+previous: what about tic-tac-toe?
+topic: ask
+
+Are you a robot?
+No, I am a girl, are you a robot?
+keywords: robot
+topic: ask
+
+What did you do today?
+I was studying for finals. What did you do?
+required: today What did you
+topic: ask
+
+So what are you doing?
+Nothing, just chatting with you.
+required: doing, what you
+topic: ask
+
+26
+A nice age, have you finished school?
+previous: How old are you?
+topic: age

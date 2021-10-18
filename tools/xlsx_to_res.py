@@ -1,9 +1,20 @@
 import pandas as pd
 from pandas.io import excel
+import argparse
 
 if __name__ == "__main__":
+    # Parsing arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("input", help="specific the excel file path", type=str)
+    parser.add_argument("--output", help="specific the response folder path", type=str)
+    args = parser.parse_args()
+    if args.output == None:
+        args.output = ""
+    elif args.output[-1] != "/":
+        args.output += "/"
+
     # 讀入excel檔案名稱
-    excelFilePath = input('請輸入 excel 檔案路徑：')
+    excelFilePath = args.input
     fileName = excelFilePath.split('/')[-1].split('.')[-2]
     responseFileName = fileName + '.res'
 
@@ -18,14 +29,16 @@ if __name__ == "__main__":
         'On Repeat': 'on repeat',
         'Previous': 'previous',
         'Require Previous': 'require previous',
-        'Next': 'next'
+        'Next': 'next',
+        'No repeat': 'no repeat',
+        'Emotions': 'emotions'
     }
 
     # 開啟excel檔案
     df = pd.read_excel(excelFilePath)
 
     # 開啟response file檔案
-    with open(responseFileName, 'w') as responseFile:
+    with open(args.output + responseFileName, 'w') as responseFile:
         # 讀入excel每筆Question Response資料
         for row in range(df.shape[0]):
 

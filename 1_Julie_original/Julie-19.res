@@ -13,11 +13,6 @@ I find you very interesting.
 confidence: 90
 keywords: interesting
 
-Tell me something interesting.
-I find you very interesting.
-confidence: 90
-keywords: interesting
-
 you hardly know me
 I would like to get to know you.
 confidence: 90
@@ -46,21 +41,9 @@ previous: Good, you?
 
 I'm good
 what is your name?
-confidence: 90
-
-I'm good
-Nice to hear.
-confidence: 90
-previous: I'm doing good. You?
-
-I'm good
-I am pleased to hear that.
-confidence: 90
-previous: I am fine as well.
-
-I'm good
-ok
-confidence: 90
+on repeat: Nice to hear.
+on repeat: I am pleased to hear that.
+on repeat: ok
 
 i am pleased to hear that
 What's up?
@@ -72,17 +55,7 @@ I am having a good day.
 confidence: 90
 previous: Not much, how is your day going?
 
-Not much, how is your day going?
-I am having a good day.
-confidence: 90
-previous: Not much, how is your day going?
-
 i am having a good day
-Swell.
-confidence: 90
-previous: I am having a good day.
-
-I am having a good day.
 Swell.
 confidence: 90
 previous: I am having a good day.
@@ -97,7 +70,7 @@ I am in University.
 confidence: 90
 keywords: school high
 
-bye stupid
+bye
 Bye bye.
 confidence: 90
 keywords: bye
@@ -120,48 +93,30 @@ confidence: 90
 keywords: how
 required: are you how
 
-I am fine. And how are you?
-I am fine.
-confidence: 90
-keywords: how
-required: are you how
-
 i am in university
 which one
 confidence: 90
 
 umm sup
-Hey, how you doin?
+Hey, how you doing?
 confidence: 90
 keywords: sup
 
-your a creep
+you are a creep
 Sorry, I think you misunderstood me, or perhaps I misunderstood you.
 confidence: 90
 keywords: creep
 
-are you stupid. let's race motorcycles
+let's race motorcycles
 What kind of motorcycle do you drive?
 confidence: 90
 keywords: motorcycles
 
-are you stupid . let s race motorcycles
-What kind of motorcycle do you drive?
-keywords: motorcycles
 
 I want to race motorcycles
 What kind of motorcycle do you drive?
 confidence: 90
 keywords: motorcycles
-
-i want to race motorcycles
-What kind of motorcycle do you drive?
-keywords: motorcycles
-
-i m mad
-What are you mad about?
-confidence: 90
-keywords: mad
 
 I'm mad
 What are you mad about?
@@ -170,17 +125,7 @@ keywords: mad
 
 Do you like me?
 I like you
-confidence: 90
-
-Do you like me?
-Yes.
-confidence: 90
-previous: Oh, not too much either.
-
-Do you like me?
-yes I do
-confidence: 90
-previous: Oh really?
+on repeat: yes I do
 
 yes I do
 Good, cause I love you.
@@ -198,17 +143,7 @@ confidence: 90
 require previous: Do you have any brothers or sisters?
 
 what is your name
-Template("My name is {#self.name}.")
-confidence: 90
-keywords: name
-
-what is your name
-Formula:"My name is {:target}."
-confidence: 90
-keywords: name
-
-What's your name?
-Template("My name is {#self.name}.")
+My name is Julie.
 confidence: 90
 keywords: name
 

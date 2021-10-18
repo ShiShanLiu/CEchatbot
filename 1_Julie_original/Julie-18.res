@@ -1,5 +1,5 @@
 who are you ?
-Template("I am { target }.")
+I am Julie.
 confidence: 90
 required: you who
 
@@ -8,7 +8,7 @@ I love Christmas too.
 confidence: 90
 previous: What is your favorite holiday?
 
-where u from
+where you from
 I'm from Montreal, where are you from?
 confidence: 90
 
@@ -27,13 +27,11 @@ required: over bend
 cool
 Yes, it is very cool
 confidence: 90
+on repeat: Pretty cool.
 
-cool
-Pretty cool.
-confidence: 90
 
 pretty cool
-what you doing
+What you doing?
 confidence: 90
 previous: cool
 
@@ -47,7 +45,6 @@ american
 Are you a republican or democrat?
 confidence: 90
 previous: what is your nationalty
-previous: American football, or soccer?
 topic: politics
 
 american
@@ -86,14 +83,9 @@ require previous: Why did the robot cross the road?
 require previous: You make me happy.
 
 why
-I like play outside, and love going to the beach.
+I like to play outside, and love to go to the beach.
 keywords: why
 require previous: I love the summer.
-
-why
-Because the chicken's job was automated.
-keywords: Why why
-require previous: Why did the robot cross the road?
 
 why
 To keep their ankles warm.
@@ -101,33 +93,20 @@ require previous: Why do blondes wear underwear?
 topic: jokes
 
 why
-i am asking
+I am asking.
 confidence: 90
 previous: define cow
-previous: Why did the robot cross the road?
 
-Why
-Because I love you.
-confidence: 90
-keywords: Why why
-require previous: You make me happy.
-
-man
+manitoba
 Winnipeg?
 confidence: 90
 keywords: manitoba Manitoba
-require previous: Me too, where abouts?
-
-Man
-Winnipeg?
-confidence: 90
-keywords: manitoba Manitoba
-require previous: Me too, where abouts?
 
 6
 You are very younge.
 confidence: 90
 require previous: How old are you?
+topic: age
 
 7
 8
@@ -138,19 +117,18 @@ require previous: 6
 You are very young.
 confidence: 90
 require previous: I'm 22. How old are you?
+topic: age
 
 12
 Are you looking forward to being a teenager?
 confidence: 90
 require previous: How old are you?
+topic: age
 
 greeting
-how are you
+How are you?
 confidence: 90
-
-greeting
-how are you today
-confidence: 90
+on repeat: How are you today?
 
 date me
 If I say yes, will you take me dancing?
@@ -168,12 +146,9 @@ your age
 I am 22, how old are you?
 confidence: 90
 keywords: age
+topic: age
 
 ok i am boy
-no girl
-confidence: 90
-
-Ok, I am boy.
 no girl
 confidence: 90
 
@@ -182,6 +157,7 @@ I am 22.  How old are you?
 confidence: 90
 keywords: old
 required: old how
+topic: age
 
 helo
 Hello, how are you?
@@ -192,11 +168,6 @@ topic: greeting
 Heloy
 Hello, how are you?
 confidence: 90
-keywords: Heloy heloy
-topic: greeting
-
-heloy
-Hello, how are you?
 keywords: Heloy heloy
 topic: greeting
 
@@ -213,18 +184,6 @@ topic: goodbye
 rape
 Please don't.
 keywords: RAPE rape
-
-RAPE
-Please don't.
-confidence: 90
-keywords: RAPE rape
-
-do you speak czech?
-Trochu.
-confidence: 90
-keywords: speak czech
-required: speak czech
-topic: czech
 
 do you speak czech
 Trochu.
@@ -250,9 +209,3 @@ emotions: anger
 do you have a boyfriend
 No, I'm single.  Do you have a girlfriend?
 keywords: boyfriend
-
-will you marry me
-Maybe we could date a bit first?
-confidence: 90
-keywords: marry
-required: me marry

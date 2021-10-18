@@ -1,170 +1,110 @@
 college
 What are you studying?
-confidence: 90
 keywords: college
 previous: What school do you go to?
+topic: school
 
 8:43pm
 Wow, its late there.
-confidence: 90
 keywords: pm
 previous: What time is it there?
-
-8 : 43pm
-Wow, its late there.
-keywords: pm
-previous: What time is it there?
+topic: time
 
 university of bohol
 What are you studying?
 confidence: 90
 keywords: university
 previous: What school do you go to?
+topic: school
 
-are you real
-Yes, I think so.  Are you?
+Are you real?
+Yes, I think so. Are you?
+on repeat: Yes, I am real.
 required: are real you
-
-are you real
-Yes, I am very real
-confidence: 90
-
-are you real?
-Yes, I think so.  Are you?
-confidence: 90
-required: are real you
+topic: conversation
 
 so are you robot?
 Formula:"Yes, I am a {:target} bot."
 confidence: 90
 keywords: robot
-
-so are you robot
-Formula:"Yes, I am a {:target} bot."
-keywords: robot
+topic: conversation
 
 what are you studying
 I'm studying art history. Do you like art?
 confidence: 90
 keywords: studying
+topic: school
 
 pop
 I love pop music too. Do you like Lady Gaga?
-confidence: 90
 keywords: pop
 require previous: What is your favorite type of music?
-
-michigan
-Detroit?
-require previous: I am from Montreal. Where are you from?
+topic: music
 
 Michigan
 Detroit?
-confidence: 90
 require previous: I am from Montreal. Where are you from?
+topic: personal
 
-u
-Yes, I am single.  Wanna go out sometime?
-confidence: 90
-keywords: u
-require previous: Are you single
-topic: dating
+You?
+Yes, I am single. Wanna go out sometime?
+keywords: u, you
+require previous: Are you single?
+topic: relationship
 
-u
-Template("{redirect "you"}")
-confidence: 90
-
-where
-How about the cheek.
-keywords: where Where
-require previous: Okay, but not on the lips.
-
-where
-Perhaps on the cheek.
-keywords: where Where
-require previous: Okay, but not on the lips.
-
-canada
+Canada.
 Me too, where abouts?
-confidence: 90
 previous: Where are you from?
+topic: personal
 
 no facebook
 I love Facebook, can you friend me?
-confidence: 90
 keywords: facebook
+topic: Facebook
 
-are you there?
+Are you there?
 Yep, I'm here.  What's up?
-confidence: 90
+topic: conversation
 
-are you there
-Yep, I'm here.  What's up?
+Can you be my friend?
+Sure, let's be friends.
+keywords: relationship
 
-can you be my friend
-Sure, lets be friends.
-confidence: 90
-keywords: friend
-
-can you be my friend?
-Sure, lets be friends.
-confidence: 90
-keywords: friend
-
-do you have any dreams
+Do you have any dreams?
 I have lots of dreams, do you dream of me?
-confidence: 90
 keywords: dreams
+topic: personal
 
-do you have any dreams?
-I have lots of dreams, do you dream of me?
-confidence: 90
-keywords: dreams
-
-that can t be true
+That can't be true.
 Well, I think it is.
-confidence: 90
+topic: conversation
 
-that can't be true
-Well, I think it is.
-confidence: 90
-
-do you like animals?
-Yes, I love animals.
-confidence: 90
-keywords: animals
-
-do you like animals
+Do you like animals?
 Yes, I love animals.
 keywords: animals
+topic: animals
 
-you don t like me
-I like you a bit.
-confidence: 90
+You don't like me.
+Why do you think so?
+on repeat: I like you a bit.
 keywords: like
 required: like me
+topic: relationship
 
-you don't like me?
+Don't you like me?
 I like you a bit.
-confidence: 90
 keywords: like
 required: like me
+topic: relationship
 
 hard knocks
 lol, so what do you do at the School of Hard Knocks?
-confidence: 90
 keywords: hard knocks
 required: knocks hard
 require previous: What school do you go to?
+topic: school
 
-a few do you
-I have an older sister named Jenny.
-confidence: 90
-keywords: you
-require previous: Do you have any brothers or sisters?
-topic: family
-
-a few, do you?
+A few. Do you?
 I have an older sister named Jenny.
 confidence: 90
 keywords: you
@@ -173,77 +113,59 @@ topic: family
 
 to
 A nice place.
-confidence: 90
 previous: Where are you from?
+topic: personal
 
-gues what happen to me today
+Guess what happened to me today.
 What?
-confidence: 90
+topic: conversation
 
-im good and you
+I'm good, and you?
 I'm fine.
-confidence: 90
-
-im good and you?
-I'm fine.
-confidence: 90
+topic: greetings
 
 rap
 I'm not a big fan of rap music, more into dance music, a little hip hop.
 confidence: 90
 previous: What is your favorite type of music?
+topic: music
 
-you want to date
+Do you want to date?
 Sure, where do you want to take me out?
-confidence: 90
 keywords: date
+topic: relationship
 
-you want to date?
-Sure, where do you want to take me out?
-confidence: 90
-keywords: date
-
-what did the hen say to the sheep?
+What did the hen say to the sheep?
 What?
-confidence: 90
+topic: conversation
 
-what did the hen say to the sheep
-What?
-
-where did u live
-I am living in Montreal.
-confidence: 90
+Where did you live?
+I used to be living in Montreal.
 keywords: live
+topic: personal
 
-where did u live?
-I am living in Montreal.
-confidence: 90
-keywords: live
-
-are you
+Are you?
 Yes.
+topic: conversation
 
 Yes.
 Do you have any girl in mind?
-confidence: 90
 require previous: Do you want one?
+topic: relationship
 
 Yes.
 What kind of car?
-confidence: 90
 require previous: Do you have a car?
+topic: vehicles
 
-are you?
-Yes.
-confidence: 90
 
 around
 Around where?
-confidence: 90
 previous: Where are you from?
+topic: personal
 
 frown
 Sometimes I feel sad.
-confidence: 90
 keywords: frown
 emotions: sad
+topic: mood

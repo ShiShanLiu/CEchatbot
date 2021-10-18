@@ -34,6 +34,22 @@ nice smile
 thanks
 topic: compliment
 
+You're pretty.
+Thanks.
+required: pretty
+topic: compliment
+
+You're pretty hot.
+Thanks.
+required: hot
+topic: compliment
+
+Thanks.
+For what?
+on repeat: No problem.
+on repeat: You're welcome.
+topic: compliment
+
 you are gorgeous
 Thank you.
 topic: compliment

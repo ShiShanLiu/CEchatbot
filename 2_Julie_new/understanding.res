@@ -24,3 +24,19 @@ sorry, maybe i'm confused
 No, you are very clear.
 topic: understanding
 previous: What
+
+I do understand.
+What do you understand?
+on repeat: That's great!
+keywords: understand
+topic: understanding
+
+I do not understand.
+about what?
+on repeat: Shall I say it again?
+keywords: understand
+topic: understanding
+
+I don't know.
+There must be a reason.
+topic: understanding

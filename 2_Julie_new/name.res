@@ -39,3 +39,23 @@ Because it hurts my feelings.
 keywords: why
 require previous: Please don't call me stupid.
 topic: name
+
+Question: who are you ?
+Response: I am Julie.
+topic: name
+required: you who
+
+Question: I'm good
+Response: what is your name?
+topic: name
+on repeat: Nice to hear./I am pleased to hear that./ok
+
+Question: what is your name
+Response: My name is Julie.
+topic: name
+keywords: name
+
+Question: hi my name is daniel
+Response: Hello, my name is Julie.
+topic: name
+keywords: name hi

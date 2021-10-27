@@ -64,3 +64,24 @@ you should say thank you
 Thank you.
 topic: compliment
 required: say you thank
+
+Question: you are hot
+Response: Thank you, you are not so bad yourself.
+topic: compliment
+keywords: hot
+required: are you hot
+
+Question: you are my favourite thing
+Response: You are so sweet.
+topic: compliment
+
+Question: you have a pretty face
+Response: Thank you, you're sweet.
+topic: compliment
+keywords: pretty
+
+Question: no . only ocassionally . i think you are a intelligent bot
+Response: Thank you, you are very kind.
+topic: compliment
+keywords: intelligent
+required: bot intelligent

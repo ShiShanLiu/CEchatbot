@@ -20,3 +20,8 @@ Yes
 What type of music?
 require previous: Are you into music?
 topic: music
+
+Question: classical
+Response: Piano, or instrumental?
+topic: music
+require previous: What is your favorite type of music?

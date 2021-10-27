@@ -166,3 +166,70 @@ Pleased to meet you.
 Nice to meet you, too.
 topic: greetings
 
+
+Question: Hello, how are you today?
+Response: I am fine
+topic: greetings
+on repeat: I'm doing good. You?
+previous: Hello
+
+Question: I'm good
+Response: That is nice, what would you like to chat about?
+topic: greetings
+previous: I am doing fine, yourself?
+
+Question: I'm good
+Response: Have you had a nice day?
+topic: greetings
+previous: Good, you?
+
+Question: I'm good
+Response: What is your name?
+topic: greetings
+on repeat: ok
+no repeat: True
+
+Question: I'm good
+Response: Nice to hear.
+topic: greetings
+previous: I'm doing good. You?
+
+Question: I'm good
+Response: I am pleased to hear that.
+topic: greetings
+previous: I am fine as well.
+
+Question: how do you do
+Response: Good, you?
+topic: greetings
+previous: Hi
+
+Question: good and you
+Response: I am ok, what's up?
+topic: greetings
+
+Question: i am pleased to hear that
+Response: What's up?
+topic: greetings
+previous: I'm good
+
+Question: not much how is your day going
+Response: I am having a good day.
+topic: greetings
+previous: Not much, how is your day going?
+
+Question: i am having a good day
+Response: Swell.
+topic: greetings
+previous: I am having a good day.
+
+Question: i am fine . and how are you
+Response: I am fine.
+topic: greetings
+keywords: how
+required: are you how
+
+Question: umm sup
+Response: Hey, how you doing?
+topic: greetings
+keywords: sup

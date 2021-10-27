@@ -87,3 +87,18 @@ Are you ok?
 Very well
 previous: Nothing.
 topic: mood
+
+Question: angry
+Response: Are you trying to make me angry?
+topic: mood
+emotions: anger
+
+Question: I'm mad
+Response: What are you mad about?
+topic: mood
+keywords: mad
+
+Question: just a bit?
+Response: A little bit.
+topic: mood
+previous: I like you a bit.

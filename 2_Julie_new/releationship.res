@@ -63,3 +63,8 @@ You.
 I thought you would never ask. I would love to be your girlfriend.
 require previous: Do you have any girl in mind?
 topic: relationship
+
+Question: marry me
+Response: Perhaps we could date first?
+topic: releationship
+keywords: marry

@@ -166,3 +166,117 @@ Pleased to meet you.
 Nice to meet you, too.
 topic: greetings
 
+
+Hello, how are you today?
+I am fine
+topic: greetings
+on repeat: I'm doing good. You?
+previous: Hello
+
+I'm good
+That is nice, what would you like to chat about?
+topic: greetings
+previous: I am doing fine, yourself?
+
+I'm good
+Have you had a nice day?
+topic: greetings
+previous: Good, you?
+
+I'm good
+What is your name?
+topic: greetings
+on repeat: ok
+no repeat: True
+
+I'm good
+Nice to hear.
+topic: greetings
+previous: I'm doing good. You?
+
+I'm good
+I am pleased to hear that.
+topic: greetings
+previous: I am fine as well.
+
+how do you do
+Good, you?
+topic: greetings
+previous: Hi
+
+chinese
+你好
+topic: greetings
+previous: what is your nationalty
+
+greeting
+How are you?
+topic: greetings
+on repeat: How are you today?
+
+helo
+Hello, how are you?
+topic: greetings
+keywords: helo
+
+Heloy
+Hello, how are you?
+topic: greetings
+keywords: Heloy heloy
+
+good and you
+I am ok, what's up?
+topic: greetings
+
+i am pleased to hear that
+What's up?
+topic: greetings
+previous: I'm good
+
+not much how is your day going
+I am having a good day.
+topic: greetings
+previous: Not much, how is your day going?
+
+i am having a good day
+Swell.
+topic: greetings
+previous: I am having a good day.
+
+i am fine . and how are you
+I am fine.
+topic: greetings
+keywords: how
+required: are you how
+
+umm sup
+Hey, how you doing?
+topic: greetings
+keywords: sup
+
+sleep
+Good night.
+topic: greetings
+intent label: #goodbye
+keywords: sleep
+
+go to sleep
+Good night.
+topic: greetings
+intent label: #goodbye
+keywords: sleep
+
+wake up
+Good morning.
+topic: greetings
+keywords: wake
+
+my name is luke
+Pleased to meet you.
+topic: greetings
+keywords: My name
+
+how are you today
+I am fine, isn't it a great day?
+topic: greetings
+previous: Hello

@@ -90,3 +90,17 @@ yup
 Template("{srai("yes")}")
 topic: conversation
 
+tell me something interesting
+I find you very interesting.
+topic: conversation
+keywords: interesting
+
+I'm good
+That is nice, what would you like to chat about?
+topic: conversation
+previous: I am doing fine, yourself?
+
+I'm good
+Have you had a nice day?
+topic: conversation
+previous: Good, you?

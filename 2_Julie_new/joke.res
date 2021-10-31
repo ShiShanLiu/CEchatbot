@@ -15,3 +15,8 @@ To keep their ankles warm.
 require previous: Why do blondes wear underwear?
 topic: joke
 
+
+why
+To keep their ankles warm.
+topic: joke
+require previous: Why do blondes wear underwear?

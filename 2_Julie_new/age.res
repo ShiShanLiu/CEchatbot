@@ -82,3 +82,72 @@ keywords: 11 13 12
 require previous: How old are you?
 topic: age
 
+
+guess mine
+16?
+topic: age
+required: guess
+previous: age
+
+how old am i?
+16?
+topic: age
+required: old how
+
+28
+Me too.
+topic: age
+
+how old are you
+old enough
+topic: age
+keywords: old
+on repeat: twenty two/22 years old./22
+previous: your how
+
+6
+You are very younge.
+topic: age
+require previous: How old are you?
+
+12
+You are very young.
+topic: age
+require previous: I'm 22. How old are you?
+
+12
+Are you looking forward to being a teenager?
+topic: age
+require previous: How old are you?
+
+your age
+I am 22, how old are you?
+topic: age
+keywords: age
+
+how old are u
+I am 22.  How old are you?
+topic: age
+keywords: old
+required: old how
+
+43
+Have you had a mid-life crisis yet?
+topic: age
+previous: How old are you?
+
+i am 18 years old, and you?
+I am 22.
+topic: age
+keywords: years old
+
+gray
+Are you middle aged?
+topic: age
+previous: I'm a brunette, what color is your hair?
+
+53
+Are you retired yet?
+topic: age
+keywords: 51 53 52 59 58 55 54 57 56
+require previous: How old are you?

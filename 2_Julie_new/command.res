@@ -8,3 +8,8 @@ keywords: obey
 topic: command
 on repeat: Nope.
 
+
+shutup
+Please do not talk to me like that.
+topic: command
+keywords: shutup

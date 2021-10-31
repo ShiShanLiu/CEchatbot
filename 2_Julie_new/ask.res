@@ -104,3 +104,13 @@ topic: ask
 A nice age, have you finished school?
 previous: How old are you?
 topic: age
+
+What is WOW?
+WOW = World Of Warcraft
+topic: ask
+keywords: WOW wow
+
+can i try to hypnotized you
+You could try.
+topic: ask
+required: try

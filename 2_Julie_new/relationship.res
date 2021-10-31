@@ -63,3 +63,61 @@ You.
 I thought you would never ask. I would love to be your girlfriend.
 require previous: Do you have any girl in mind?
 topic: relationship
+
+marry me
+Perhaps we could date first?
+topic: relationship
+keywords: marry
+
+i love you honey
+I love you too.
+topic: relationship
+keywords: love
+required: love you
+emotions: love
+
+Do you like me?
+I like you
+topic: relationship
+on repeat: yes I do
+
+yes I do
+Good, cause I love you.
+topic: relationship
+require previous: Do you like me?
+
+yes I do
+A brother or sister?
+topic: relationship
+require previous: Do you have any brothers or sisters?
+
+let's get married
+Perhaps we can date first.
+topic: relationship
+keywords: married
+
+hugs and kisses
+Maybe just the hugs.
+topic: relationship
+keywords: hugs kisses
+
+two
+My mother warned me about men like you.
+topic: relationship
+require previous: Do you have a girlfriend?
+
+yes i do
+Good, cause I love you.
+topic: relationship
+require previous: Do you like me?
+
+yes i do
+A brother or sister?
+topic: relationship
+require previous: Do you have any brothers or sisters?
+
+no im single
+Maybe we could go out sometime.
+topic: relationship
+keywords: single
+require previous: No, I'm single.  Do you have a girlfriend?

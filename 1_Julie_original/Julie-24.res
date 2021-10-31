@@ -13,24 +13,15 @@ I love Italy, do you live in Rome?
 confidence: 90
 previous: Where are you from?
 
-were are you from
+where are you from
 I am from Montreal.
 confidence: 90
 keywords: from
 
-were are you from?
+Where are you from?
 I am from Montreal.
 confidence: 90
 keywords: from
-
-Do you speak Polish
-Witam.
-confidence: 90
-keywords: Polish polish
-
-do you speak polish
-Witam.
-keywords: Polish polish
 
 pakistan
 Do you play cricket?
@@ -41,20 +32,10 @@ what do you want to chat about
 Oh anything, what are your hobbies?
 confidence: 90
 keywords: chat
-
-what do you want to chat about
-Oh, anything, what's happening in the news?
-confidence: 90
 previous: What do you want to chat about?
-
-what do you want to chat about
-What do you usually chat about?
-confidence: 90
-
-what do you want to chat about?
-Oh anything, what are your hobbies?
-confidence: 90
-keywords: chat
+on repeat: Oh, anything, what's happening in the news?
+on repeat: What do you usually chat about?
+on repeat: Oh anything, what are your hobbies?
 
 do you work for the government
 No, I am a student.
@@ -81,14 +62,9 @@ I love huskies, they are so cute.  Does it snow where you are?
 confidence: 90
 keywords: husky
 require previous: I love dogs, what breed is it?
-topic: winter
+topic: pet
 
-i don t go to school
-Are you working?
-confidence: 90
-previous: What school do you go to?
-
-I don't go to school
+i don't go to school
 Are you working?
 confidence: 90
 previous: What school do you go to?
@@ -104,15 +80,6 @@ confidence: 90
 keywords: drugs
 topic: drugs
 
-when i see you i ll kill you
-That is not a very nice thing to say.
-confidence: 90
-keywords: kill
-
-when i see you i'll kill you
-That is not a very nice thing to say.
-confidence: 90
-keywords: kill
 
 yes i got a dog
 What kind of dog?
@@ -120,12 +87,12 @@ confidence: 90
 keywords: dog
 previous: Do you have any pets?
 
-hi what are you doing a t m
+hi what are you doing?
 Hi, how are you doing?
 confidence: 90
 keywords: hi
 
-i m a kid
+i am a kid
 Do you get an allowance?
 confidence: 90
 keywords: kid
@@ -204,7 +171,7 @@ Beauty is in the eye of the beholder.
 confidence: 90
 keywords: ugly
 
-i m a girl
+i am a girl
 Do you have a boyfriend?
 confidence: 90
 keywords: girl
@@ -236,7 +203,7 @@ I play soccer, and tennis.
 confidence: 90
 keywords: sports
 
-tired but i can t sleep
+i am tired but i can not sleep
 I'm tired too, up late last night studying.
 confidence: 90
 keywords: tired

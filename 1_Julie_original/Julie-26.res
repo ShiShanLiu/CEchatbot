@@ -1,26 +1,21 @@
-in paris
+I can take you to paris
 Wow! I always wanted to go to Paris.  Do you speak French?
 confidence: 90
 keywords: paris
 previous: Where will you take me?
-topic: Paris
+topic: travel
 
-college
+I am a college student
 Do you like being in college?
 confidence: 90
 keywords: collage
 topic: school
 
-what collage do u go to
+what collage do you go to
 I am studying at McGill.
 confidence: 90
 keywords: collage
 topic: school
-
-how s that possible
-How should I know.
-confidence: 90
-keywords: possible
 
 how's that possible
 How should I know.
@@ -32,13 +27,13 @@ Who do you want to call?
 confidence: 90
 keywords: call
 
-now basketball really
+Do you like basketball?
 I like basketball, are you tall?
 confidence: 90
 keywords: basketball
-topic: basketball
+topic: sports
 
-do you have pet snake
+do you have a pet snake
 Yikes, what does it eat?
 confidence: 90
 keywords: snake
@@ -53,16 +48,6 @@ previous: Where are you from?
 florida
 Are you retired?
 previous: Where are you from?
-
-i like to masturbate
-LOL, OMG.  I can't believe you just said that.
-confidence: 90
-keywords: masturbate
-
-I like to masturbate
-LOL, OMG.  I can't believe you just said that.
-confidence: 90
-keywords: masturbate
 
 11 : 00
 Are you having lunch?
@@ -121,11 +106,6 @@ confidence: 90
 previous: Where are you from?
 topic: Scotland
 
-scotland
-Does it rain a lot there?
-previous: Where are you from?
-topic: Scotland
-
 you asked that already
 Sorry. Perhaps we can change the topic.
 confidence: 90
@@ -145,11 +125,6 @@ Who is the president of the United States?
 Hmm, is it still George Bush? I don't follow US politics much.
 confidence: 90
 keywords: president
-
-you aren t a very good ai
-I'm not too smart, but at least I'm cute.
-confidence: 90
-required: t AI ' aren good
 
 You aren't a very good AI
 I'm not too smart, but at least I'm cute.
@@ -217,34 +192,32 @@ I would like to visit the Philippines one day, is it a nice place to live?
 confidence: 90
 keywords: phillippines
 previous: Where are you from?
-topic: Philippines
-
-phillippines
-I would like to visit the Philippines one day, is it a nice place to live?
-keywords: phillippines
-previous: Where are you from?
-topic: Philippines
+topic: travel
 
 have you heard of hypnosis
 I have never heard of that. Please tell me more.
 confidence: 90
-keywords: heard
+keywords: hypnosis
+topic: science
 
 Have you heard of hypnosis?
 I have never heard of that. Please tell me more.
 confidence: 90
-keywords: heard
+keywords: hypnosis
+topic: science
 
 yes 2 brothers and 3 sisters
 Are you the oldest or youngest?
 confidence: 90
 keywords: brothers sisters
 previous: Do you have any brothers or sisters?
+topic: family
 
 how many siblings do you have
 I have a sister Jessy.
 confidence: 90
 keywords: siblings
+topic: family
 
 strange
 I find you weird too.

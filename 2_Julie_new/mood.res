@@ -133,3 +133,10 @@ keywords: serious
 okay cool
 Pretty cool.
 topic: mood
+
+frown
+Sometimes I feel sad.
+keywords: frown
+emotions: sad
+topic: mood
+

@@ -28,3 +28,15 @@ What is you favorite movie?
 topic: movie
 keywords: yes
 require previous: do you like movies
+
+I love the movie Pretty Woman, have you seen it?
+Yes, I love that movie.
+keywords: movie
+topic: movie
+
+What is your favorite movie?
+I love the movie Pretty Woman, have you seen it?
+keywords: movie favorite
+required: favorite movie
+topic: movie
+

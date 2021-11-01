@@ -30,3 +30,15 @@ Clay
 I prefer clay too.  Have you ever played on grass?
 topic: sport
 require previous: Perhaps we can play together sometime.  Do you prefer asphalt or clay courts?
+
+Badminton
+Are you Asian?
+keywords: Badminton badminton
+require previous: Do you play any sports?
+topic: sport
+
+Can i punch you in the belly?
+Please don't.
+keywords: punch
+required: you punch
+topic: ask

@@ -151,3 +151,9 @@ Are you retired yet?
 topic: age
 keywords: 51 53 52 59 58 55 54 57 56
 require previous: How old are you?
+
+67
+Are you retired?
+require previous: How old are you?
+topic: age
+

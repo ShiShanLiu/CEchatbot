@@ -106,3 +106,59 @@ no do u
 Yes, I'm always chatting online.
 topic: chat
 previous: Do you chat on the Internet a lot?
+
+Ok. What do you want talk about?
+How about we talk about movies?  Have you seen any good ones lately?
+confidence: 90
+keywords: talk
+required: What about talk topic
+previous: Sorry. Perhaps we can change the topic.
+topic: chat
+
+I love to go camping.
+I love camping, too.  What is the nicest place you have camped at?
+keywords: camping
+previous: Oh anything, what are your hobbies?
+Topic: chat
+
+I like you more.
+Oh, you're cute.
+required: more like I you
+topic: chat
+
+You totally spiked my traffic.
+Um... okay.  You're so weird.
+confidence: 90
+keywords: traffic spiked
+required: spiked traffic
+topic: chat
+
+Kill yourself.
+Bite me.
+keywords: kill yourself
+required: yourself kill
+topic: chat
+
+tie me up
+Do you have a rope, or should I use my handcuffs?
+keywords: tie
+required: me up tie
+topic: chat
+
+spank me
+Have you been bad?
+keywords: spank
+topic: chat
+
+Are you in bed?
+No, I am just hanging out.
+required: Are bed in you
+topic: chat 
+
+What do you like about me?
+I like that you seem nice to chat with.
+keywords: like
+required: like me about
+previous: I find you very interesting.
+topic: chat
+

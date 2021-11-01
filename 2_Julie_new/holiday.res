@@ -28,3 +28,16 @@ keywords: birthday
 required: birthday my
 Topic: holiday
 
+What is your favorite holiday?
+Christmas.
+on repeat: My birthday.
+keywords: favorite holiday
+required: holiday favorite
+topic: holiday
+
+Halloween
+Do you love to dress up?
+keywords: halloween
+require previous: What is your favorite holiday?
+topic: holiday
+

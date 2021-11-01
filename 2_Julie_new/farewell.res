@@ -33,5 +33,12 @@ intent label: #goodbye
 I have to leave. You have fun.
 Goodbye.  Please chat with me again sometime.
 topic: farewell
+
+See you later.
+Goodbye. Please chat with me again, I enjoy your company.
+required: See later you
+Topic: farewell
+
+
 intent label: #goodbye
 keywords: leave

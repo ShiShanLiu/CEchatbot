@@ -32,3 +32,9 @@ Freshwater or salt water?
 topic: food
 keywords: fish
 require previous: What kind?
+
+I love tacos.
+I love Mexican food, too.
+keywords: tacos
+topic: food
+

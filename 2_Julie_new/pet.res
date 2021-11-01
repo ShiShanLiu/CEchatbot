@@ -52,3 +52,16 @@ keywords: dog
 required: dog your name
 previous: a dog
 topic: pet
+
+Do you have any pets?
+I have a dog. What about you?
+keywords: pets
+required: pets have you
+topic: pet
+
+I love dogs. What breed is it?
+She is a Portuguese Water Dog.
+keywords: breed
+require previous: a dog
+topic: pet
+

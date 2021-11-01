@@ -141,3 +141,52 @@ topic: location
 keywords: space outer
 required: outer space
 require previous: Where are you from?
+
+Ontario.
+Me too. Are you from Toronto?
+keywords: Ontario ontario
+previous: Me too, where abouts?
+topic: location
+
+What is it like in Montreal?
+Montreal is a really nice city. You have to like winter though because it lasts for 6 months and is very cold.
+keywords: montreal Montreal
+required: like What Montreal
+previous: I am from Montreal.
+topic: location
+
+In what country?
+Canada.
+keywords: country
+require previous: I am from Montreal.
+topic: location
+
+Switzerland.
+Do you live in Geneva?
+confidence: 90
+require previous: Where are you from?
+topic: location
+
+I am from Australia.
+Do toilets really spin the opposite way there?
+keywords: australia Australia
+previous: I am from Montreal. Where are you from?
+topic: location
+
+
+Brasil
+Do you live in Rio?
+require previous: I am from Montreal. Where are you from?
+topic: location
+
+
+Moscow
+Is it very cold there in the winter?
+keywords: moscow
+previous: Where are you from?
+topic: location
+
+soa paulo
+Is that in Brazil?
+require previous: Where are you from?
+topic: location

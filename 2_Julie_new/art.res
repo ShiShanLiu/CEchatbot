@@ -13,3 +13,9 @@ Yes.
 What paint did you draw?
 topic: art
 previous: I love art.  Are you an artist?
+
+You like art?
+I love art. The Impressionist style is my favorite.
+keywords: art
+previous: I am a student, studying art history.
+topic: art

@@ -41,3 +41,26 @@ Brothers or sisters?
 topic: family
 keywords: yes Yes
 require previous: Do you have any brothers or sisters?
+
+Do you have any brothers or sisters?
+Just a sister.
+on repeat: I also have a brother.
+topic: 
+
+Do you have any brothers or sisters?
+Just a sister.
+on repeat: I also have a brother.
+topic: family
+
+A few. Do you?
+I have an older sister named Jenny.
+confidence: 90
+keywords: you
+require previous: Do you have any brothers or sisters?
+topic: family
+
+younger
+Do you like being the oldest?
+require previous: Are they older or younger?
+topic: family
+

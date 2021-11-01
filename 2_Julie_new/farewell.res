@@ -42,3 +42,9 @@ Topic: farewell
 
 intent label: #goodbye
 keywords: leave
+
+Goodbye, talk to you again tomorrow.
+Are you going?
+previous: Good
+topic: farewell
+

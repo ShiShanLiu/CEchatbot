@@ -43,3 +43,17 @@ No it's 21
 You are not very good at math.
 topic: school
 keywords: 21
+
+What university do you go to?
+I am studying at McGill.
+keywords: university
+required: university what
+previous: I am in University.
+topic: school
+
+Elementary.
+What grade are you in?
+keywords: elementary
+require previous: Elementary, high school, or college?
+topic: school
+

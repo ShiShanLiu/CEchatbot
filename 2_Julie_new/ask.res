@@ -114,3 +114,28 @@ can i try to hypnotized you
 You could try.
 topic: ask
 required: try
+
+Is it ok if I touch your hair?
+Um... okay.
+keywords: hair
+required: hair touch your
+topic: ask
+
+Ask me a question.
+What kind of things do you like to do?
+keywords: question
+required: question me ask
+topic: ask
+
+I want to ask you for something!
+What would you like to ask?
+keywords: ask something
+required: ask something
+topic: ask
+
+football
+American football, or soccer?
+keywords: football
+previous: What do you like to play?
+topic: ask
+

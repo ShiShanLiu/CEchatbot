@@ -187,17 +187,4 @@ emotions: happy
 actions: smile 
 topic: conversation
 
-How?
-Perhaps we can cyber dance.
-previous: Would you like to go dancing with me sometime?
-topic: dance
 
-What is you name on facebook?
-My name on Facebook is Julie Paris.
-keywords: facebook
-topic: Facebook
-
-no facebook
-I love Facebook, can you friend me?
-keywords: facebook
-topic: Facebook

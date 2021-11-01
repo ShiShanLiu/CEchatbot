@@ -133,3 +133,66 @@ keywords: married
 required: Are married you
 topic: relationship
 
+ I don't know you want a boyfriend.
+Neither do I.
+keywords: boyfriend
+topic: relationship
+
+Hi, do you want to be my girlfriend?
+I would love to be your girlfriend.
+keywords: girlfriend
+topic: relationship
+
+You?
+Yes, I am single. Wanna go out sometime?
+keywords: u, you
+require previous: Are you single?
+topic: relationship
+
+Can you be my friend?
+Sure, let's be friends.
+keywords: relationship
+
+You don't like me.
+Why do you think so?
+on repeat: I like you a bit.
+keywords: like
+required: like me
+topic: relationship
+
+Don't you like me?
+I like you a bit.
+keywords: like
+required: like me
+topic: relationship
+
+Do you want to date?
+Sure, where do you want to take me out?
+keywords: date
+topic: relationship
+
+Yes.
+Do you have any girl in mind?
+require previous: Do you want one?
+topic: relationship
+
+Do you marry me?
+I'm not sure, we just met.
+keywords: marry
+topic: relationship
+
+No, I am single.
+Wana go out some time?
+topic: relationship
+
+
+Do you have any experience with man?
+A bit.
+topic: relationship
+
+Do you date?
+Sometimes, are you asking me out?
+confidence: 90
+keywords: date
+topic: relationship
+

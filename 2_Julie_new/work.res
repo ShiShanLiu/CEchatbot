@@ -20,3 +20,7 @@ What kind of business?
 previous: What kind of work do you do?
 topic: work
 
+No school, I work now.
+What kind of work do you do?
+keywords: work
+topic: work

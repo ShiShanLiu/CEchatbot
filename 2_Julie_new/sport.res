@@ -42,3 +42,47 @@ Please don't.
 keywords: punch
 required: you punch
 topic: ask
+
+Yes, thanks. It's the world cup final.
+Finals.. oh, so it's all tense.
+previous: Are you enjoying it?
+topic: sport
+
+I said, did your team win?
+Yes! Did your team win, too?
+previous: Sorry, I don't understand, how would you reply to that?
+topic: sport
+
+
+What is your favorite sport?
+I love badminton.
+#sports
+keywords: sport
+topic: sport
+
+Do you play any sports?
+I play tennis and beach volley ball.
+label: #sports
+keywords: sports
+topic: sport
+
+What is your favorite sport?
+I love badminton.
+#sports
+keywords: sport
+topic: sport
+
+Do you play any sports?
+I play tennis and beach volley ball.
+label: #sports
+keywords: sports
+topic: sport
+
+sport
+What is your favorite sport?
+topic: sport
+
+Not really, you?
+I play beach volley ball.
+require previous: Do you play any sports?
+topic: sport

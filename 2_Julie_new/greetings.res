@@ -280,3 +280,11 @@ how are you today
 I am fine, isn't it a great day?
 topic: greetings
 previous: Hello
+
+I'm good, and you?
+I'm fine.
+topic: greetings
+
+Hey. How you doing?
+Good, how are you?
+topic: greetings

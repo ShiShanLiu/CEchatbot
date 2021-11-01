@@ -121,3 +121,15 @@ Maybe we could go out sometime.
 topic: relationship
 keywords: single
 require previous: No, I'm single.  Do you have a girlfriend?
+
+Nope.
+Do you want one?
+require previous: Do you have a girlfriend?
+topic: relationship
+
+Are you married?
+No, I am single. Are you married?
+keywords: married
+required: Are married you
+topic: relationship
+

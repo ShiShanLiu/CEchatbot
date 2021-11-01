@@ -157,3 +157,38 @@ Are you retired?
 require previous: How old are you?
 topic: age
 
+I'm 14
+You are very young.
+keywords: 14
+topic: age
+
+15 years old
+You are pretty young.
+keywords: 15
+topic: age
+
+You are pretty young.
+Thank you.
+topic: age
+
+And you?
+I am 22.
+previous: You are pretty young.
+topic: age
+
+older
+Do they pick on you?
+previous: Are they older or younger?
+previous: 18 years old?
+topic: age
+
+older
+40 years old?
+keywords: older
+previous: 18 years old?
+topic: age
+
+40
+Have you had a midlife crisis yet?
+previous: How old are you?
+topic: age

@@ -190,3 +190,14 @@ soa paulo
 Is that in Brazil?
 require previous: Where are you from?
 topic: location
+
+earth
+Perhaps narrow that down a bit.
+require previous: I'm from Montreal, where are you from?
+topic: location
+
+Mexico.
+I love Mexico.
+keywords: mexico
+topic: location
+

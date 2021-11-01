@@ -43,3 +43,39 @@ Volvo
 Is it a diesel?
 topic: cars
 require previous: What kind?
+
+Nope.
+Do you take the bus a lot?
+keywords: Nope nope
+require previous: Do you have a car?
+topic: car
+
+Yes i have a Porsche.
+Wow, can you take me for a drive sometime?
+keywords: porsche
+previous: Do you have a car?
+topic: car
+
+A Porsche.
+Nice, you must be very rich.
+keywords: porsche
+previous: What kind?
+topic: car
+
+Do you have a car?
+No, I normally take the bus.
+on repeat: Do you have one?
+keywords: car
+required: car have you
+topic: car
+
+Ford
+A truck?
+previous: What kind?
+topic: car
+
+truck
+A pickup, or SUV?
+keywords: truck
+topic: car
+

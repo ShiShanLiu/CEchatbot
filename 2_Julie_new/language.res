@@ -13,3 +13,10 @@ Teach me some Spanish.
 Hola! This is the only word I know.
 keywords: Spanish spanish
 topic: language
+
+Do you speak Polish
+Witam.
+confidence: 90
+keywords: Polish polish
+topic: language
+

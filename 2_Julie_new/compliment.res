@@ -108,3 +108,16 @@ I find you very amusing.
 topic: compliment
 required: Why laughing
 previous: lol
+
+Your hair is pretty.
+Thanks, I just had it cut. It used to be longer. Do you like women with long or short hair?
+keywords: pretty hair
+required: hair pretty
+topic: compliment
+
+Your eyes are a wonderful color of blue.
+Thanks, you're sweet. I like men who look you in the eye when they talk.
+keywords: wonderful eyes
+required: eyes wonderful Your
+topic: compliment
+

@@ -60,3 +60,10 @@ whos there
 Boo.
 topic: games
 require previous: Knock knock
+
+clay courts are better if you ask me
+Yes, I like clay courts, too.  Have you ever played on a grass court?
+keywords: clay
+require previous: Perhaps we can play together sometime. Do you prefer asphalt or clay courts?
+topic: games
+

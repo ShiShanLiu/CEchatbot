@@ -187,3 +187,8 @@ emotions: happy
 actions: smile 
 topic: conversation
 
+How?
+Perhaps we can cyber dance.
+previous: Would you like to go dancing with me sometime?
+topic: dance
+

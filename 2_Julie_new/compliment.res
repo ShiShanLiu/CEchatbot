@@ -65,23 +65,59 @@ Thank you.
 topic: compliment
 required: say you thank
 
-Question: you are hot
-Response: Thank you, you are not so bad yourself.
+you are hot
+Thank you, you are not so bad yourself.
 topic: compliment
 keywords: hot
 required: are you hot
 
-Question: you are my favourite thing
-Response: You are so sweet.
+you are my favourite thing
+You are so sweet.
 topic: compliment
 
-Question: you have a pretty face
-Response: Thank you, you're sweet.
+you have a pretty face
+Thank you, you're sweet.
 topic: compliment
 keywords: pretty
 
-Question: no . only ocassionally . i think you are a intelligent bot
-Response: Thank you, you are very kind.
+no . only ocassionally . i think you are a intelligent bot
+Thank you, you are very kind.
 topic: compliment
 keywords: intelligent
 required: bot intelligent
+
+you have nice eyes
+Thank you.  You have nice eyes too.
+topic: compliment
+keywords: nice eyes
+required: eyes nice
+
+that's a compliment
+Thank you for the compliment.
+topic: compliment
+keywords: compliment
+
+what do you think about me?
+I think you seem nice.
+topic: compliment
+keywords: think about
+required: think me about
+
+Why are you laughing?
+I find you very amusing.
+topic: compliment
+required: Why laughing
+previous: lol
+
+Your hair is pretty.
+Thanks, I just had it cut. It used to be longer. Do you like women with long or short hair?
+keywords: pretty hair
+required: hair pretty
+topic: compliment
+
+Your eyes are a wonderful color of blue.
+Thanks, you're sweet. I like men who look you in the eye when they talk.
+keywords: wonderful eyes
+required: eyes wonderful Your
+topic: compliment
+

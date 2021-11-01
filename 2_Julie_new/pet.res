@@ -2,18 +2,66 @@
 A dog?
 topic: pet
 previous: Do you have any pets?
-Question: yes I do
-Response: A dog, or cat?
+yes I do
+A dog, or cat?
 topic: pet
 require previous: Do you have any pets?
 
-Question: big
-Response: A Great Dane?
+big
+A Great Dane?
 topic: pet
 require previous: What kind of dog?
 
-Question: what is its name
-Response: Fido.
+what is its name
+Fido.
 topic: pet
 keywords: name
 require previous: a dog
+
+two horses
+Wow, do you live in a farm?
+topic: pet
+keywords: horses
+require previous: Do you have any pets?
+
+yes i do
+A dog, or cat?
+topic: pet
+require previous: Do you have any pets?
+
+I have a house plant. Does that count?
+No, I don't think that counts.
+topic: pet
+keywords: plant
+require previous: Do you have any pets?
+
+Not anymore.
+That sounds sad. What happened to them?
+require previous: Do you have any pets?
+topic: pet
+
+Nope.
+Do you want one?
+on repeat: Do you like animals?
+require previous: Do you have any pets?
+topic: pet
+
+What is the name of your dog?
+His name is Fido.
+keywords: dog
+required: dog your name
+previous: a dog
+topic: pet
+
+Do you have any pets?
+I have a dog. What about you?
+keywords: pets
+required: pets have you
+topic: pet
+
+I love dogs. What breed is it?
+She is a Portuguese Water Dog.
+keywords: breed
+require previous: a dog
+topic: pet
+

@@ -167,69 +167,124 @@ Nice to meet you, too.
 topic: greetings
 
 
-Question: Hello, how are you today?
-Response: I am fine
+Hello, how are you today?
+I am fine
 topic: greetings
 on repeat: I'm doing good. You?
 previous: Hello
 
-Question: I'm good
-Response: That is nice, what would you like to chat about?
+I'm good
+That is nice, what would you like to chat about?
 topic: greetings
 previous: I am doing fine, yourself?
 
-Question: I'm good
-Response: Have you had a nice day?
+I'm good
+Have you had a nice day?
 topic: greetings
 previous: Good, you?
 
-Question: I'm good
-Response: What is your name?
+I'm good
+What is your name?
 topic: greetings
 on repeat: ok
 no repeat: True
 
-Question: I'm good
-Response: Nice to hear.
+I'm good
+Nice to hear.
 topic: greetings
 previous: I'm doing good. You?
 
-Question: I'm good
-Response: I am pleased to hear that.
+I'm good
+I am pleased to hear that.
 topic: greetings
 previous: I am fine as well.
 
-Question: how do you do
-Response: Good, you?
+how do you do
+Good, you?
 topic: greetings
 previous: Hi
 
-Question: good and you
-Response: I am ok, what's up?
+chinese
+你好
+topic: greetings
+previous: what is your nationalty
+
+greeting
+How are you?
+topic: greetings
+on repeat: How are you today?
+
+helo
+Hello, how are you?
+topic: greetings
+keywords: helo
+
+Heloy
+Hello, how are you?
+topic: greetings
+keywords: Heloy heloy
+
+good and you
+I am ok, what's up?
 topic: greetings
 
-Question: i am pleased to hear that
-Response: What's up?
+i am pleased to hear that
+What's up?
 topic: greetings
 previous: I'm good
 
-Question: not much how is your day going
-Response: I am having a good day.
+not much how is your day going
+I am having a good day.
 topic: greetings
 previous: Not much, how is your day going?
 
-Question: i am having a good day
-Response: Swell.
+i am having a good day
+Swell.
 topic: greetings
 previous: I am having a good day.
 
-Question: i am fine . and how are you
-Response: I am fine.
+i am fine . and how are you
+I am fine.
 topic: greetings
 keywords: how
 required: are you how
 
-Question: umm sup
-Response: Hey, how you doing?
+umm sup
+Hey, how you doing?
 topic: greetings
 keywords: sup
+
+sleep
+Good night.
+topic: greetings
+intent label: #goodbye
+keywords: sleep
+
+go to sleep
+Good night.
+topic: greetings
+intent label: #goodbye
+keywords: sleep
+
+wake up
+Good morning.
+topic: greetings
+keywords: wake
+
+my name is luke
+Pleased to meet you.
+topic: greetings
+keywords: My name
+
+how are you today
+I am fine, isn't it a great day?
+topic: greetings
+previous: Hello
+
+I'm good, and you?
+I'm fine.
+topic: greetings
+
+Hey. How you doing?
+Good, how are you?
+topic: greetings

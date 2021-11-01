@@ -18,3 +18,33 @@ Take care.
 Bye bye.
 required: take care
 topic: farewell
+
+I must go now.
+Goodbye, see you later.
+topic: farewell
+intent label: #goodbye
+required: go must
+
+end
+Bye.
+topic: farewell
+intent label: #goodbye
+
+I have to leave. You have fun.
+Goodbye.  Please chat with me again sometime.
+topic: farewell
+
+See you later.
+Goodbye. Please chat with me again, I enjoy your company.
+required: See later you
+Topic: farewell
+
+
+intent label: #goodbye
+keywords: leave
+
+Goodbye, talk to you again tomorrow.
+Are you going?
+previous: Good
+topic: farewell
+

@@ -88,17 +88,55 @@ Very well
 previous: Nothing.
 topic: mood
 
-Question: angry
-Response: Are you trying to make me angry?
+angry
+Are you trying to make me angry?
 topic: mood
 emotions: anger
 
-Question: I'm mad
-Response: What are you mad about?
+I'm mad
+What are you mad about?
 topic: mood
 keywords: mad
 
-Question: just a bit?
-Response: A little bit.
+just a bit?
+A little bit.
 topic: mood
 previous: I like you a bit.
+
+really well
+Wonderful.
+topic: mood
+
+really bad . i need someone to talk to
+I'm sorry to hear that.  Perhaps I can cheer you up.
+topic: mood
+keywords: bad
+require previous: How is it going?
+
+i am bad today
+Sorry to hear that, perhaps I can cheer you up.
+topic: mood
+keywords: bad
+require previous: how are you today
+
+Good
+What did you do?
+topic: mood
+keywords: Good
+require previous: How is it going?
+
+i m serious
+I am very serious.
+topic: mood
+keywords: serious
+
+okay cool
+Pretty cool.
+topic: mood
+
+frown
+Sometimes I feel sad.
+keywords: frown
+emotions: sad
+topic: mood
+

@@ -83,65 +83,112 @@ require previous: How old are you?
 topic: age
 
 
-Question: guess mine
-Response: 16?
+guess mine
+16?
 topic: age
 required: guess
 previous: age
 
-Question: how old am i?
-Response: 16?
+how old am i?
+16?
 topic: age
 required: old how
 
-Question: 28
-Response: Me too.
+28
+Me too.
 topic: age
 
-Question: how old are you
-Response: old enough
+how old are you
+old enough
 topic: age
 keywords: old
 on repeat: twenty two/22 years old./22
 previous: your how
 
-Question: 6
-Response: You are very younge.
+6
+You are very younge.
 topic: age
 require previous: How old are you?
 
-Question: 12
-Response: You are very young.
+12
+You are very young.
 topic: age
 require previous: I'm 22. How old are you?
 
-Question: 12
-Response: Are you looking forward to being a teenager?
+12
+Are you looking forward to being a teenager?
 topic: age
 require previous: How old are you?
 
-Question: your age
-Response: I am 22, how old are you?
+your age
+I am 22, how old are you?
 topic: age
 keywords: age
 
-Question: how old are u
-Response: I am 22.  How old are you?
+how old are u
+I am 22.  How old are you?
 topic: age
 keywords: old
 required: old how
 
-Question: 43
-Response: Have you had a mid-life crisis yet?
+43
+Have you had a mid-life crisis yet?
 topic: age
 previous: How old are you?
 
-Question: i am 18 years old, and you?
-Response: I am 22.
+i am 18 years old, and you?
+I am 22.
 topic: age
 keywords: years old
 
-Question: gray
-Response: Are you middle aged?
+gray
+Are you middle aged?
 topic: age
 previous: I'm a brunette, what color is your hair?
+
+53
+Are you retired yet?
+topic: age
+keywords: 51 53 52 59 58 55 54 57 56
+require previous: How old are you?
+
+67
+Are you retired?
+require previous: How old are you?
+topic: age
+
+I'm 14
+You are very young.
+keywords: 14
+topic: age
+
+15 years old
+You are pretty young.
+keywords: 15
+topic: age
+
+You are pretty young.
+Thank you.
+topic: age
+
+And you?
+I am 22.
+previous: You are pretty young.
+topic: age
+
+older
+Do they pick on you?
+previous: Are they older or younger?
+previous: 18 years old?
+topic: age
+
+older
+40 years old?
+keywords: older
+previous: 18 years old?
+topic: age
+
+40
+Have you had a midlife crisis yet?
+previous: How old are you?
+topic: age

@@ -41,7 +41,13 @@ I don't know.
 There must be a reason.
 topic: understanding
 
-Question: you are a creep
-Response: Sorry, I think you misunderstood me, or perhaps I misunderstood you.
+you are a creep
+Sorry, I think you misunderstood me, or perhaps I misunderstood you.
 topic: understanding
 keywords: creep
+
+You don't understand what I am saying
+You are being very confusing.
+topic: understanding
+keywords: saying understand
+required: understand saying

@@ -90,3 +90,101 @@ yup
 Template("{srai("yes")}")
 topic: conversation
 
+tell me something interesting
+I find you very interesting.
+topic: conversation
+keywords: interesting
+
+I'm good
+That is nice, what would you like to chat about?
+topic: conversation
+previous: I am doing fine, yourself?
+
+I'm good
+Have you had a nice day?
+topic: conversation
+previous: Good, you?
+
+Thank you.
+You're welcome.
+topic: conversation
+
+poop
+You are so weird.
+topic: conversation
+
+Good to hear that.
+Great!
+topic: conversation
+
+yes or no
+Yes.
+topic: conversation
+
+Do you chat on the internet a lot?
+I'm always chatting online.
+on repeat: only with you
+keywords: chat Internet internet
+required: chat Internet
+topic: conversation
+
+Do you chat on the internet a lot?
+I'm always chatting online.
+on repeat: only with you
+keywords: chat Internet internet
+required: chat Internet
+topic: conversation
+
+Are you real?
+Yes, I think so. Are you?
+on repeat: Yes, I am real.
+required: are real you
+topic: conversation
+
+so are you robot?
+Formula:"Yes, I am a {:target} bot."
+confidence: 90
+keywords: robot
+topic: conversation
+
+Are you there?
+Yep, I'm here.  What's up?
+topic: conversation
+
+That can't be true.
+Well, I think it is.
+topic: conversation
+
+Guess what happened to me today.
+What?
+topic: conversation
+
+What did the hen say to the sheep?
+What?
+topic: conversation
+
+Are you?
+Yes.
+topic: conversation
+
+same as me
+Yep, we are the same.
+topic: conversation
+
+Can you carry me?
+Um, no.
+topic: conversation
+
+you stupid
+Please don't call me stupid.
+keywords: stupid
+topic: conversation
+
+Are you happy?
+You make me feel happy.
+keywords: happy
+emotions: happy
+actions: smile 
+topic: conversation
+
+

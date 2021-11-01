@@ -9,18 +9,58 @@ no repeat: true
 topic: family
 
 
-Question: just a sister
-Response: How old is she?
+just a sister
+How old is she?
 topic: family
 keywords: sister
 previous: Do you have any brothers or sisters?
 
-Question: private
-Response: Are your parents rich?
+private
+Are your parents rich?
 topic: family
 require previous: What school do you go to?
 
-Question: one brother
-Response: I only have sisters.  Is your brother nice?
+one brother
+I only have sisters.  Is your brother nice?
 topic: family
 keywords: Brother brother
+
+are you canadian
+Yes, I am Canadian.
+topic: family
+keywords: canadian
+
+middle
+I find middle children to be the easiest to get along with.
+topic: family
+keywords: middle
+require previous: Are you the oldest or youngest?
+
+yes i do
+Brothers or sisters?
+topic: family
+keywords: yes Yes
+require previous: Do you have any brothers or sisters?
+
+Do you have any brothers or sisters?
+Just a sister.
+on repeat: I also have a brother.
+topic: 
+
+Do you have any brothers or sisters?
+Just a sister.
+on repeat: I also have a brother.
+topic: family
+
+A few. Do you?
+I have an older sister named Jenny.
+confidence: 90
+keywords: you
+require previous: Do you have any brothers or sisters?
+topic: family
+
+younger
+Do you like being the oldest?
+require previous: Are they older or younger?
+topic: family
+

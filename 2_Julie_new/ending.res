@@ -6,8 +6,8 @@ oh
 Well, that's the way it is.
 topic: ending
 
-Question: bye
-Response: Bye bye.
+bye
+Bye bye.
 topic: ending
 intent label: #goodbye
 keywords: bye

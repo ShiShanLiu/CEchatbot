@@ -5,14 +5,41 @@ import argparse
 import os
 
 LOGGING_FORMAT = '%(levelname)s: %(message)s'
-logging.basicConfig(level=logging.WARNING, format=LOGGING_FORMAT)
+logging.basicConfig(level=logging.INFO, format=LOGGING_FORMAT)
 
 
-def qrpair_to_lines(QRPair: dict()):
-    lines = "\n"
+def qrpair_to_lines(QRPair: dict):
+    lines = str()
     for keys, value in QRPair.items():
-        lines += f"{keys}: {value}\n"
+        if keys == "Question" or keys == "Response":
+            lines += f"{value}\n"
+        else:
+            lines += f"{keys}: {value}\n"
     return lines
+
+
+def write_to_topicres(resPath: str, QRPair: dict):
+    # 如果 topic 存在
+    if os.path.isfile(f"{resPath}{QRPair['topic']}.res"):
+        with open(f"{resPath}{QRPair['topic']}.res", "a") as resFile:
+            resFile.write("\n")
+            resFile.write(qrpair_to_lines(QRPair))
+    # 如果 topic 不存在
+    else:
+        # 確認是否要加入新 topic
+        answer = input(
+            f"Confirm add topic \"{QRPair['topic']}\"? (Option: Y/N)\n")
+        # 是
+        if answer.lower() == "y":
+            with open(f"{resPath}{QRPair['topic']}.res", "w") as resFile:
+                resFile.write(qrpair_to_lines(QRPair))
+            logging.info(f"Topic \"{QRPair['topic']}\" added.")
+        # 否
+        elif answer.lower() == "n":
+            logging.info(f"Topic \"{QRPair['topic']}\" discarded.")
+        # 未定義
+        else:
+            logging.error("Option not recognizable.")
 
 
 if __name__ == "__main__":
@@ -57,12 +84,8 @@ if __name__ == "__main__":
         for lineNumber, line in enumerate(responseFile):
             # 輸入 Question & Response Pair 至 [topic].res
             if line == "\n" or line == "\r":
-                if os.path.isfile(f"{args.output}{QRPair['topic']}.res"):
-                    with open(f"{args.output}{QRPair['topic']}.res",
-                              "a") as resFile:
-                        resFile.write(qrpair_to_lines(QRPair))
-                else:
-                    logging.info(f"Topic {QRPair['topic']} doesn't exist.")
+                write_to_topicres(args.output, QRPair)
+
                 # 變數歸零
                 QRPair = defaultdict(lambda: "")
                 lineCnt = 0

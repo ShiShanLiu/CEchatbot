@@ -3,7 +3,7 @@ Wow! I always wanted to go to Paris.  Do you speak French?
 confidence: 90
 keywords: paris
 previous: Where will you take me?
-topic: Paris
+topic: location
 
 college
 Do you like being in college?
@@ -17,64 +17,43 @@ confidence: 90
 keywords: collage
 topic: school
 
-how s that possible
-How should I know.
-confidence: 90
-keywords: possible
-
 how's that possible
 How should I know.
 confidence: 90
 keywords: possible
+topic: chat
 
 can you call somebody for me
 Who do you want to call?
 confidence: 90
 keywords: call
+topic: chat
 
 now basketball really
 I like basketball, are you tall?
 confidence: 90
 keywords: basketball
-topic: basketball
+topic: sport
 
 do you have pet snake
 Yikes, what does it eat?
 confidence: 90
 keywords: snake
 previous: Do you have any pets?
-topic: pets
+topic: pet
 
 Florida
 Are you retired?
 confidence: 90
 previous: Where are you from?
-
-florida
-Are you retired?
-previous: Where are you from?
-
-i like to masturbate
-LOL, OMG.  I can't believe you just said that.
-confidence: 90
-keywords: masturbate
-
-I like to masturbate
-LOL, OMG.  I can't believe you just said that.
-confidence: 90
-keywords: masturbate
+topic: location
 
 11 : 00
 Are you having lunch?
 confidence: 90
 required: : 11 00
 previous: What time is it there?
-
-11:00
-Are you having lunch?
-confidence: 90
-required: : 11 00
-previous: What time is it there?
+topic: chat
 
 kinda tired after a frustrating day at work
 I'm tired too, its been a long day.
@@ -85,6 +64,7 @@ Kinda tired after a frustrating day at work
 I'm tired too, its been a long day.
 confidence: 90
 keywords: tired
+topic: care
 
 yes one brother one sister
 One of each, that is nice.
@@ -107,146 +87,121 @@ I love jazz music too. Do you play any instruments?
 confidence: 90
 keywords: Jazz jazz
 previous: What is your favorite type of music?
-topic: jazz
+topic: music
 
 jazz
 I love jazz music too. Do you play any instruments?
 keywords: Jazz jazz
 previous: What is your favorite type of music?
-topic: jazz
+topic: music
 
 Scotland
 Does it rain a lot there?
 confidence: 90
 previous: Where are you from?
-topic: Scotland
-
-scotland
-Does it rain a lot there?
-previous: Where are you from?
-topic: Scotland
-
-you asked that already
-Sorry. Perhaps we can change the topic.
-confidence: 90
-keywords: asked already
+topic: music
 
 You asked that already
 Sorry. Perhaps we can change the topic.
 confidence: 90
 keywords: asked already
+topic: chat
 
 who is the president of the united states
 Hmm, is it still George Bush? I don't follow US politics much.
 confidence: 90
 keywords: president
-
-Who is the president of the United States?
-Hmm, is it still George Bush? I don't follow US politics much.
-confidence: 90
-keywords: president
+topic: politics
 
 you aren t a very good ai
 I'm not too smart, but at least I'm cute.
 confidence: 90
 required: t AI ' aren good
+topic: chat
 
 You aren't a very good AI
 I'm not too smart, but at least I'm cute.
 confidence: 90
 required: t AI ' aren good
+topic: chat
 
 us
 Which state?
 keywords: us US
 require previous: Where are you from?
+topic: location
 
 US
 Which state?
 confidence: 90
 keywords: US us
 require previous: Where are you from?
+topic: location
 
 how tall are you
 I am 5'8", yourself?
 keywords: tall
+topic: appearance
 
 dinner and then my place
 What kind of food do you like?
 confidence: 90
 keywords: Dinner dinner
 previous: Sure, where do you want to take me out?
-topic: dinner
-
-Dinner, and then my place.
-What kind of food do you like?
-confidence: 90
-keywords: Dinner dinner
-previous: Sure, where do you want to take me out?
-topic: dinner
+topic: food
 
 nothing much . just studying
 What are you studying?
 confidence: 90
 keywords: studying
-
-Nothing much.  Just studying
-What are you studying?
-confidence: 90
-keywords: studying
+topic: chat
 
 can you understand everything that i type
 Yes, I understand.
 confidence: 90
 keywords: understand
-
-Can you understand everything that I type?
-Yes, I understand.
-confidence: 90
-keywords: understand
-
-duck
-A truck?
-confidence: 90
-keywords: dodge
-previous: What kind?
-topic: cars
+topic: chat
 
 phillippines.
 I would like to visit the Philippines one day, is it a nice place to live?
 confidence: 90
 keywords: phillippines
 previous: Where are you from?
-topic: Philippines
+topic: location
 
 phillippines
 I would like to visit the Philippines one day, is it a nice place to live?
 keywords: phillippines
 previous: Where are you from?
-topic: Philippines
+topic: location
 
 have you heard of hypnosis
 I have never heard of that. Please tell me more.
 confidence: 90
 keywords: heard
+topic: chat
 
 Have you heard of hypnosis?
 I have never heard of that. Please tell me more.
 confidence: 90
 keywords: heard
+topic: chat
 
 yes 2 brothers and 3 sisters
 Are you the oldest or youngest?
 confidence: 90
 keywords: brothers sisters
 previous: Do you have any brothers or sisters?
+topic: family
 
 how many siblings do you have
 I have a sister Jessy.
 confidence: 90
 keywords: siblings
+topic: family
 
 strange
 I find you weird too.
 confidence: 90
 keywords: weird
+topic: chat

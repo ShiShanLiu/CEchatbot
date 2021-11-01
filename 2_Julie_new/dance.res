@@ -19,3 +19,8 @@ I love to tango.  Are you a good dancer?
 topic: dance
 keywords: tango
 previous: Maybe we can go dancing sometime.
+
+How?
+Perhaps we can cyber dance.
+previous: Would you like to go dancing with me sometime?
+topic: dance

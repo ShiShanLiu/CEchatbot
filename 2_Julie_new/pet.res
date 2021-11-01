@@ -34,3 +34,21 @@ No, I don't think that counts.
 topic: pet
 keywords: plant
 require previous: Do you have any pets?
+
+Not anymore.
+That sounds sad. What happened to them?
+require previous: Do you have any pets?
+topic: pet
+
+Nope.
+Do you want one?
+on repeat: Do you like animals?
+require previous: Do you have any pets?
+topic: pet
+
+What is the name of your dog?
+His name is Fido.
+keywords: dog
+required: dog your name
+previous: a dog
+topic: pet

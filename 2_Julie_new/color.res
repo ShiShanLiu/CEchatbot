@@ -22,3 +22,10 @@ Pink.
 topic: color
 keywords: color
 require previous: I am wearing pj's.
+
+What is your favorite color?
+I like the color blue.  Which is your favorite color?
+keywords: color favorite
+required: color favorite
+topic: color
+

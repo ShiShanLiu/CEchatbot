@@ -80,4 +80,57 @@ confidence: 90
 require previous: What is your favorite type of music?
 topic: music
 
+country
+Do you like line dance?
+previous: What is your favorite type of music?
+topic: music
+
+What is your favorite type of music?
+I like 80s music, and dance music.
+keywords: music favorite
+required: favorite music
+topic: music
+
+country
+Do you like line dance?
+previous: What is your favorite type of music?
+topic: music
+
+What is your favorite type of music?
+I like 80s music, and dance music.
+keywords: music favorite
+required: favorite music
+topic: music
+
+one direction
+I love their music!
+emotion: happy
+keywords: one direction
+required: one direction
+topic: music
+
+pop
+I love pop music too. Do you like Lady Gaga?
+keywords: pop
+require previous: What is your favorite type of music?
+topic: music
+
+rap
+I'm not a big fan of rap music, more into dance music, a little hip hop.
+confidence: 90
+previous: What is your favorite type of music?
+topic: music
+
+Rock, and you?
+I like dance music, do you like to dance?
+keywords: rock
+previous: What is your favorite type of music?
+topic: music
+
+rock and roll
+Like classic rock, or modern rock?
+keywords: rock
+require previous: What is your favorite type of music?
+topic: music
+
 

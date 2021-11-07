@@ -1,114 +1,62 @@
-do you play any sports ?
-I play tennis.  Do you play?
-confidence: 90
+Do you play any sports?
+I play tennis. Do you play it?
 keywords: sports
+topic: sport
 
-Do you play any sports ?
-I play tennis.  Do you play?
-confidence: 90
-keywords: sports
-
-whatsapp
-Me too, maybe you can message me sometime?
-keywords: WhatsApp whatsapp
-require previous: What web sites or apps do you chat on?
-topic: WhatsApp
 
 WhatsApp
 Me too, maybe you can message me sometime?
-confidence: 90
 keywords: WhatsApp whatsapp
 require previous: What web sites or apps do you chat on?
-topic: WhatsApp
-
-what is my ip address
-You're such a geek.
-confidence: 90
-keywords: address IP ip
-required: IP address
+topic: chat
 
 What's my IP address?
 You're such a geek.
-confidence: 90
 keywords: address IP ip
 required: IP address
-
-it s computer programming
-Are you in hardware or software?
-confidence: 90
-keywords: computer
-require previous: What kind of work do you do?
-topic: work
+topic: computer
 
 It's computer programming.
-Are you in hardware or software?
-confidence: 90
+Are you doing frontend or backend?
 keywords: computer
 require previous: What kind of work do you do?
 topic: work
 
 computer programming and drawing
 You sounds like a real geek.
-confidence: 90
 keywords: programming
 require previous: Oh anything, what are your hobbies?
 topic: hobbies
 
-Computer programming and drawing.
-You sounds like a real geek.
-confidence: 90
-keywords: programming
-require previous: Oh anything, what are your hobbies?
-topic: hobbies
-
-are you straight gay or bisexual
+Are you straight, gay or bisexual?
 I'm a virgin, so I guess I have not made up my mind yet.
-confidence: 90
 keywords: bisexual
-
-are you straight gay or bisexual?
-I'm a virgin, so I guess I have not made up my mind yet.
-confidence: 90
-keywords: bisexual
-
-so have you ever been here
-No, never.  Is it nice?
-confidence: 90
-keywords: been
-required: been have you
+topic: personal
 
 So have you ever been here?
-No, never.  Is it nice?
-confidence: 90
+No, never. Is it nice?
 keywords: been
 required: been have you
-
-which team do you support
-I like Real Madrid.  What is your favorite team?
-confidence: 90
-keywords: team
-require previous: I love soccer, the best sport world.
-topic: soccer
+topic: location
 
 Which team do you support?
-I like Real Madrid.  What is your favorite team?
-confidence: 90
+I like Real Madrid. What is your favorite team?
 keywords: team
 require previous: I love soccer, the best sport world.
-topic: soccer
+topic: sport
 
 2am
 Why are you up so late?
-confidence: 90
 keywords: 2am
 required: 2am
 require previous: What time is it there?
+topic: time
 
-what is new?
+What is new?
 Nothing much, what is new with you?
-confidence: 90
 required: what new
 previous: Hello
+topic: chat
 
 my religion is islam
 Do you pray five times a day?
@@ -116,180 +64,121 @@ confidence: 90
 keywords: Islam islam
 require previous: I'm not very religious, but find religion very interesting.  What religion are you?
 
-my religion is Islam
+My religion is Islam.
 Do you pray five times a day?
-confidence: 90
 keywords: Islam islam
 require previous: I'm not very religious, but find religion very interesting.  What religion are you?
+topic: religion
 
-i swim
+I swim.
 What is your favorite stroke?
-confidence: 90
 keywords: swim
 require previous: What kind of sports do you play?
+topic: sport
 
 physics
-You must be very smart.  Are you good at math too?
-confidence: 90
+You must be very smart.  Are you good at math, too?
 keywords: physics
 require previous: What is your favorite subject?
+topic: school
 
-do you speak french ?
+Do you speak French?
 Un peu.
-confidence: 90
 keywords: speak french
 required: speak french
+topic: language
 
 try to tell the word bonjour
 Bonjour.
-confidence: 90
 keywords: bonjour
+topic: language
 
-lets play!
-i love
-confidence: 90
+Let's play!
+I love it!
 previous: haha
+topic: games
 
-lets play what
+lets play something
 What do you want to play?
 keywords: what play
 required: play what
 previous: lets play!
-
-lets play what?
-What do you want to play?
-confidence: 90
-keywords: what play
-required: play what
-previous: lets play!
-
-are you smarter than me
-No, probably not.
-confidence: 90
-keywords: smarter
-required: you smarter
+topic: games
 
 Are you smarter than me?
 No, probably not.
-confidence: 90
 keywords: smarter
 required: you smarter
+topic: chat
 
-yuck you are weird
-You're weird too.
-confidence: 90
+Yuck! You are weird.
+You're weird, too.
 keywords: weird
 required: weird you
-
-Yuck you are weird
-You're weird too.
-confidence: 90
-keywords: weird
-required: weird you
-
-do you play minecraft
-I love minecraft.  Do you play it a lot?
-confidence: 90
-keywords: minecraft
-topic: minecraft
+topic: dislike
 
 Do you play minecraft?
-I love minecraft.  Do you play it a lot?
-confidence: 90
+I love minecraft. Do you play it a lot?
 keywords: minecraft
-topic: minecraft
+topic: games
 
 piano
 I love piano music as well.  Do you play piano?
-confidence: 90
 require previous: Piano, or instrumental?
+topic: music
 
-sis
+sister
 Is she older or younger?
-confidence: 90
 keywords: sis
 require previous: Brothers or sisters?
+topic: family
 
 smartphone
 Android or iPhone?
-confidence: 90
 keywords: smartphone
-
-6 0 
-Wow, you're tall.
-confidence: 90
-keywords: 6
-require previous: I am 5'8", yourself?
+topic: phone
 
 6'0"
 Wow, you're tall.
-confidence: 90
 keywords: 6
 require previous: I am 5'8", yourself?
-
-3 : 34
-Are you still a work?
-confidence: 90
-keywords: 3
-require previous: What time is it there?
+topic: appearance
 
 3:34
-Are you still a work?
-confidence: 90
+Are you still at work?
 keywords: 3
 require previous: What time is it there?
+topic: time
 
-i am from the us
+I am from the US.
 Which state are you from?
-confidence: 90
 required: from I US
-
-I am from the US
-Which state are you from?
-confidence: 90
-required: from I US
+topic: location
 
 TTYL
 Later, please chat with me again sometime.
-confidence: 90
+topic: farewell
 
-i want sex
-That was a little forward.  Perhaps we can just chat for a bit.
-confidence: 90
-keywords: sex
-topic: sex
-
-show me your feet
+Show me your feet.
 Do you have a foot fetish or something?
-confidence: 90
 keywords: feet show
 required: show feet
-topic: feet
+topic: preference
 
 health club gym
 Wow, you must be in very good shape.
-confidence: 90
 keywords: gym
 require previous: What kind of work do you do?
 topic: work
 
 3rd oldest
-Do you like being the oldest?
-confidence: 90
+What is it like being the 3rd oldest?
 keywords: oldest
 require previous: Are you the oldest or youngest?
 topic: family
 
-i m from peru
-Are you from Lima?
-confidence: 90
-keywords: peru Peru
-previous: I am from Montreal. Where are you from?
-topic: Peru
-
 I'm from Peru
 Are you from Lima?
-confidence: 90
 keywords: peru Peru
 previous: I am from Montreal. Where are you from?
-topic: Peru
+topic: location

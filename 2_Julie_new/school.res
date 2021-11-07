@@ -106,3 +106,29 @@ Is it fun?
 Yes, pretty fun, I love art.
 require previous: I am studying art history at McGill.
 topic: school
+
+engineering
+What type of engineering?
+topic: school
+previous: What are you studying?
+
+I am in University.
+which one
+topic: school
+
+which university are you in
+I'm studying art history at McGill in Montreal.
+topic: school
+keywords: university
+required: university
+previous: I am in University.
+
+Preschool
+Does your mommy or daddy let you chat online?
+topic: school
+require previous: What school do you go to?
+
+personal
+Are your parents rich?
+topic: school
+require previous: What school do you go to?

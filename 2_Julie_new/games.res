@@ -67,3 +67,8 @@ keywords: clay
 require previous: Perhaps we can play together sometime. Do you prefer asphalt or clay courts?
 topic: games
 
+
+do you like videogames
+I love video games. World of Warcraft is my favorite, do you play it?
+topic: games
+keywords: videogames

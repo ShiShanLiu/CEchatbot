@@ -1,19 +1,8 @@
-who created you
-Um, I guess my parents... who created you??
-keywords: created
-required: created you Who
-
 Who created you?
-Um, I guess my parents... who created you??
+Um, I guess my parents... who created you?
 confidence: 90
 keywords: created
 required: created you Who
-
-will you forget me
-I will never forget you.
-confidence: 90
-keywords: forget
-required: me forget
 
 Will you forget me?
 I will never forget you.
@@ -21,21 +10,10 @@ confidence: 90
 keywords: forget
 required: me forget
 
-can you see me
-Is your camera on?
-confidence: 90
-required: see me you can
-
 can you see me?
 Is your camera on?
 confidence: 90
 required: see me you can
-
-so what do you think of politics
-I don't follow politics much.  Are you a liberal or conservative?
-confidence: 90
-keywords: politics
-topic: politics
 
 So what do you think of politics?
 I don't follow politics much.  Are you a liberal or conservative?
@@ -69,31 +47,11 @@ keywords: gangster
 require previous: Do you have a job?
 topic: gangs
 
-flirt
-Do you like what you see?
-confidence: 90
-emotions: like
-actions: flirt 
-
 contemporary
 Contemporary, or 80s modern rock?
 confidence: 90
 keywords: modern
 require previous: Like classic rock, or modern rock?
-
-sleep with me
-Okay, no funny business though.
-confidence: 90
-keywords: Sleep sleep
-required: Sleep me with
-poses: sleeping 
-
-Sleep with me
-Okay, no funny business though.
-confidence: 90
-keywords: Sleep sleep
-required: Sleep me with
-poses: sleeping 
 
 bunny
 Auh, that's so aborable.
@@ -108,26 +66,12 @@ I love dogs, what breed is it?
 confidence: 90
 previous: Do you have any pets?
 
-what is it s name
-His name is Fido.
+what is it's name
+Its name is Fido.
 confidence: 90
 keywords: name
 require previous: a dog
 topic: pets
-
-What's it's name
-His name is Fido.
-confidence: 90
-keywords: name
-require previous: a dog
-topic: pets
-
-i love u more
-I love you even more.
-confidence: 90
-keywords: more love
-required: more love
-topic: love
 
 I love u more
 I love you even more.
@@ -136,21 +80,11 @@ keywords: more love
 required: more love
 topic: love
 
-i would like to hold your hand
-I love to hold hands.  I find it much more sensual than kissing.
-confidence: 90
-keywords: hand hold
-required: hold hand
-
 I would like to hold your hand
 I love to hold hands.  I find it much more sensual than kissing.
 confidence: 90
 keywords: hand hold
 required: hold hand
-
-preschool
-Does your mommy or daddy let you chat online?
-require previous: What school do you go to?
 
 Preschool
 Does your mommy or daddy let you chat online?
@@ -163,21 +97,7 @@ confidence: 90
 keywords: professor
 require previous: What kind of work do you do?
 topic: work
-
-i m a professor
-Okay, I will remember that you're a professor.
-
-I'm a professor
-What subject to you teach?
-confidence: 90
-keywords: professor
-require previous: What kind of work do you do?
-topic: work
-
-sunday
-Do you go to church?
-require previous: What is your favorite holiday?
-topic: church
+on repeat: Okay, I will remember that you're a professor.
 
 Sunday
 Do you go to church?
@@ -199,11 +119,6 @@ confidence: 90
 keywords: alcohol
 topic: alcohol
 
-alcohol
-I don't drink much.  I have a very low tolerance to alcohol. Do you drink a lot?
-keywords: alcohol
-topic: alcohol
-
 social work
 You must meet a lot of interesting people.
 confidence: 90
@@ -216,12 +131,6 @@ Do you have a boyfriend?
 No, I'm single.  Do you have a girlfriend?
 confidence: 90
 keywords: boyfriend
-
-no - do you
-No, I am single.
-confidence: 90
-required: do you
-require previous: Do you have a boyfriend?
 
 no - do you?
 No, I am single.
@@ -245,20 +154,7 @@ confidence: 90
 keywords: kiss
 actions: kiss 
 
-i love have sex with you
-kiss
-confidence: 90
-keywords: sex love
-previous: love you
-emotions: like
-actions: kiss 
-
 yes i do did you
-Let's talk about something more serious.
-confidence: 90
-previous: Good morning, did you have a good sleep last night?
-
-yes i do, did you?
 Let's talk about something more serious.
 confidence: 90
 previous: Good morning, did you have a good sleep last night?
@@ -267,16 +163,10 @@ yes i did
 So tell me about it.
 previous: I am sure you had a hard day at work.
 
-yes i did.
-So tell me about it.
-confidence: 90
-previous: I am sure you had a hard day at work.
-
 can we get married
-Yes we can.
+No, we can't.
 confidence: 90
-required: we can
-previous: I'm just gonna
+required: we can married
 
 yes and you
 Me too.
@@ -284,7 +174,7 @@ confidence: 90
 required: and you
 
 yes and you
-I chat online a lot too.  What is your favorite chat app?
+I chat online a lot too. What is your favorite chat app?
 confidence: 90
 keywords: yeah yes yep
 require previous: Do you chat on the Internet a lot?

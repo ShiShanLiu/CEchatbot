@@ -24,3 +24,8 @@ No school, I work now.
 What kind of work do you do?
 keywords: work
 topic: work
+
+yes i did
+So tell me about it.
+topic: work
+previous: I am sure you had a hard day at work.

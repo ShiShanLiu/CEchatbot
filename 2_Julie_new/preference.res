@@ -82,3 +82,33 @@ keywords: book favorite
 required: book favorite
 topic: preference
 
+
+Android
+Me too.  Apple is too controlling.
+topic: preference
+keywords: android Android
+require previous: Do you prefer Android or iPhone?
+
+beyonce
+I love Beyoncé too.  Do you like her music or dancing more?
+topic: preference
+keywords: beyonce
+require previous: What is your favorite type of music?
+
+I would like to hold your hand
+I love to hold hands.  I find it much more sensual than kissing.
+topic: preference
+keywords: hand hold
+required: hold hand
+
+do you like Harry potter
+I loved the Harry Potter books, but I found the movies too long.  Which did you prefer?
+topic: preference
+keywords: Harry harry potter
+required: potter Harry
+
+god i hate canadians
+Why, what is wrong with us?
+topic: preference
+keywords: hate canadians
+required: hate canadians

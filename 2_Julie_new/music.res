@@ -170,3 +170,26 @@ confidence: 90
 keywords: korean
 topic: music
 
+
+do you like kpop
+I love K-Pop, T-Ara is my favorite.  Do you like them?
+topic: music
+keywords: K-Pop k-pop kpop
+
+contemporary
+Contemporary, or 80s modern rock?
+topic: music
+keywords: modern
+require previous: Like classic rock, or modern rock?
+
+the beatles
+I love the Beatles too. What is your favorite song?
+topic: music
+keywords: beatles Beatles
+require previous: What is your favorite type of music?
+
+harvard
+Wow. What are you studying?
+topic: music
+keywords: Harvard harvard
+require previous: What school do you go to?

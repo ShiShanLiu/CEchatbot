@@ -162,3 +162,25 @@ required: like me about
 previous: I find you very interesting.
 topic: chat
 
+
+i want to tell you a secret
+I promise not to tell anyone.
+topic: chat
+keywords: secret
+required: secret tell
+
+i am
+How come?
+topic: chat
+previous: You sound boring.
+
+can you see me?
+Is your camera on?
+topic: chat
+required: see me you can
+
+yes and you
+I chat online a lot too. What is your favorite chat app?
+topic: chat
+keywords: yeah yes yep
+require previous: Do you chat on the Internet a lot?

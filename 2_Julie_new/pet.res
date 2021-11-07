@@ -99,6 +99,7 @@ confidence: 90
 keywords: dog
 previous: Do you have any pets?
 topic: pet
+<<<<<<< HEAD
 
 yes and you?
 What kind?
@@ -121,3 +122,46 @@ keywords: shepherd shepard german
 require previous: What kind of dog?
 topic: pet
 
+=======
+german shepherd
+Shephards kind of scare me.  They are big dogs.
+topic: pet
+keywords: shepherd Shepherd
+previous: What kind of dog?
+
+indoor
+Do you get tired of changing their kitty litter?
+topic: pet
+keywords: indoor
+require previous: I'm allergic to cats. Are they indoor or outdoor cats?
+
+bunny
+Auh, that's so aborable.
+topic: pet
+keywords: bunny
+require previous: Do you have any pets?
+emotions: like
+
+a dog
+I love dogs, what breed is it?
+topic: pet
+previous: Do you have any pets?
+
+what is it's name
+Its name is Fido.
+topic: pet
+keywords: name
+require previous: a dog
+
+yes and you
+What kind?
+topic: pet
+keywords: yeah yes yep
+require previous: Do you have any pets?
+
+yes, two of them
+What kind of pets do you have?
+topic: pet
+keywords: yes
+require previous: Do you have any pets?
+>>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

@@ -59,3 +59,8 @@ hi my name is daniel
 Hello, my name is Julie.
 topic: name
 keywords: name hi
+
+what you name?
+Template("My name is {#self.name}.")
+topic: name
+keywords: name

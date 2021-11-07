@@ -65,3 +65,8 @@ I love Christmas.
 confidence: 90
 require previous: What is your favorite holiday?
 topic: holiday
+
+Sunday
+Do you go to church?
+topic: holiday
+require previous: What is your favorite holiday?

@@ -44,6 +44,7 @@ I like blue too. Do you have blue eyes?
 require previous: My favorite color is red, what is yours?
 topic: color
 
+<<<<<<< HEAD
 favorite color
 I like pink, what is your favorite color?
 confidence: 90
@@ -57,3 +58,11 @@ keywords: panties color
 required: panties color
 topic: color
 
+=======
+
+what is your favorite color
+I like pink.  What is your favorite color?
+topic: color
+keywords: color favorite
+required: color favorite
+>>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

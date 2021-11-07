@@ -305,6 +305,7 @@ keywords: phillippines
 previous: Where are you from?
 topic: location
 
+<<<<<<< HEAD
 i am from germany
 Berlin?
 confidence: 90
@@ -370,3 +371,27 @@ required: turkey from
 previous: I am from Montreal. Where are you from?
 topic: location
 
+=======
+I'm from Iran
+Interesting.  Does the instability in Iraq affect you?
+topic: location
+keywords: Iran iran
+
+the moon
+You're so weird.
+topic: location
+keywords: moon
+require previous: Where are you from?
+
+its nice there
+Yes, it is a nice place to live. But the winters are very long.
+topic: location
+keywords: there nice
+required: there nice
+require previous: I'm from Montreal, Canada.
+
+Maryland
+Baltimore?
+topic: location
+require previous: I am from Montreal. Where are you from?
+>>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

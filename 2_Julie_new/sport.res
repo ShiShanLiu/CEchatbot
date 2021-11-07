@@ -110,6 +110,7 @@ confidence: 90
 previous: What kind of sports do you play?
 topic: sport
 
+<<<<<<< HEAD
 not really I swim but that's about it
 I swim too.  What is your favorite stroke?
 confidence: 90
@@ -161,3 +162,15 @@ confidence: 90
 keywords: softball
 require previous: What kind of sports do you play?
 topic: sport
+=======
+Quarter back.
+Wow, you must have a good throwing arm.
+topic: sport
+keywords: Quarter quarter
+require previous: What position do you play?
+
+What is your favorite hobby?
+I like to play tennis, do you play?
+topic: sport
+keywords: hobby
+>>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

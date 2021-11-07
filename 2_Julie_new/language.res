@@ -20,6 +20,7 @@ confidence: 90
 keywords: Polish polish
 topic: language
 
+<<<<<<< HEAD
 what languages do you speak
 I speak English and a little French. Which languages can you speak?
 keywords: languages speak
@@ -47,3 +48,10 @@ confidence: 90
 keywords: spanish
 topic: language
 
+=======
+
+speak spanish?
+Hola
+topic: language
+keywords: spanish
+>>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

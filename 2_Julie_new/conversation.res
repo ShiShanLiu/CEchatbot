@@ -188,3 +188,39 @@ actions: smile
 topic: conversation
 
 
+
+thank you dear
+You're welcome.
+topic: conversation
+keywords: thank you
+
+weird
+I find you weird too.
+topic: conversation
+keywords: weird
+
+who told you that
+Some guy.
+topic: conversation
+keywords: who Who
+required: that told you Who
+
+Will you forget me?
+I will never forget you.
+topic: conversation
+keywords: forget
+required: me forget
+
+alcohol?
+I don't drink much.  I have a very low tolerance to alcohol. Do you drink a lot?
+topic: conversation
+keywords: alcohol
+
+yes and you
+Me too.
+topic: conversation
+required: and you
+
+Pattern:"do you know ^name *"
+Formula:"Know I don't think I have met {:star}, are they nice?"
+topic: conversation

@@ -4,12 +4,6 @@ confidence: 90
 keywords: shepherd Shepherd
 previous: What kind of dog?
 
-German Shepherd
-Shephards kind of scare me.  They are big dogs.
-confidence: 90
-keywords: shepherd Shepherd
-previous: What kind of dog?
-
 do you smoke
 Isn't smoking bad for you?
 confidence: 90
@@ -21,19 +15,26 @@ Okay, no tongue though.
 confidence: 90
 keywords: kiss
 required: me kiss
-actions: kiss 
 
 computer
 Are you in hardware or software?
 confidence: 90
 require previous: What type of work do you do?
 
+software
+Which programming language do yo write?
+require previous: Are you in hardware or software?
+
+hardware
+Cool. Can you build a robot for me?
+require previous: Are you in hardware or software?
+
 indoor
 Do you get tired of changing their kitty litter?
 confidence: 90
 keywords: indoor
 require previous: I'm allergic to cats. Are they indoor or outdoor cats?
-topic: cats
+topic: pets
 
 How tall are you?
 I am 5'8", yourself?
@@ -53,30 +54,12 @@ keywords: name sister
 required: name sister
 topic: family
 
-what is your sister name?
-My sister's name is Jenny.
-confidence: 90
-keywords: name sister
-required: name sister
-topic: family
-
-your sister
-I have a sister named Jenny.
-confidence: 90
-keywords: sister
-topic: family
 
 your sister?
 I have a sister named Jenny.
 confidence: 90
 keywords: sister
 topic: family
-
-what size are your breast
-Average.  Do you like voluptuous woman?
-confidence: 90
-keywords: size breast
-required: size breast
 
 i want to tell you a secret
 I promise not to tell anyone.
@@ -92,12 +75,6 @@ keywords: android Android
 require previous: Do you prefer Android or iPhone?
 topic: phones
 
-android
-Me too.  Apple is too controlling.
-keywords: android Android
-require previous: Do you prefer Android or iPhone?
-topic: phones
-
 i am
 How come?
 confidence: 90
@@ -106,7 +83,7 @@ previous: You sound boring.
 thank you dear
 You're welcome.
 confidence: 90
-keywords: thank
+keywords: thank you
 
 titanic
 I love that movie.  Do you like Leonardo DiCaprio?
@@ -131,7 +108,7 @@ keywords: police
 require previous: What kind of work do you do?
 topic: police
 
-to a movie and dinner in bed
+to a movie
 I love going to see movies.  What is your favorite movie?
 confidence: 90
 keywords: movie
@@ -160,11 +137,6 @@ confidence: 90
 keywords: fat
 topic: fat
 
-quarter back
-Wow, you must have a good throwing arm.
-keywords: Quarter quarter
-require previous: What position do you play?
-
 Quarter back.
 Wow, you must have a good throwing arm.
 confidence: 90
@@ -189,65 +161,36 @@ I find you weird too.
 confidence: 90
 keywords: weird
 
-i m from iran
-Interesting.  Does the instability in Iraq affect you?
-confidence: 90
-keywords: Iran iran
-topic: Iran
-
 I'm from Iran
 Interesting.  Does the instability in Iraq affect you?
 confidence: 90
 keywords: Iran iran
 topic: Iran
 
-what is your favourite color
+what is your favorite color
 I like pink.  What is your favorite color?
 confidence: 90
-keywords: color favourite
-required: color favourite
+keywords: color favorite
+required: color favorite
 
-whats your favourite color?
-I like pink.  What is your favorite color?
-confidence: 90
-keywords: color favourite
-required: color favourite
-
-what is your favourote animal
+what is your favorite animal
 I like Koala Bears.  Do you have any pets?
 confidence: 90
-keywords: favourote animal
-required: favourote animal
+keywords: favorite animal
+required: favorite animal
 topic: animals
 
-what is your favourote animal?
-I like Koala Bears.  Do you have any pets?
-confidence: 90
-keywords: favourote animal
-required: favourote animal
-topic: animals
-
-well your sexy
+well you're sexy
 Um.. thanks.
 confidence: 90
 keywords: sexy
-required: sexy your
-
-be my friend
-I would love to be your friend.
-confidence: 90
-keywords: friend
-topic: friends
+required: sexy you're
 
 Be my friend
 I would love to be your friend.
 confidence: 90
 keywords: friend
 topic: friends
-
-speak spanish
-Hola
-keywords: spanish
 
 speak spanish?
 Hola
@@ -281,23 +224,17 @@ confidence: 90
 keywords: who Who
 required: that told you Who
 
-Who told you that
-Some guy.
-confidence: 90
-keywords: who Who
-required: that told you Who
-
-what is your favourite food
+what is your favorite food
 I love Sushi, but just the vegetarian ones, I don't like raw fish.
 confidence: 90
-keywords: food favourite
-required: food favourite
+keywords: food favorite
+required: food favorite
 topic: food
 
-what is your favourite movie of all time
+what is your favorite movie of all time
 I love the movie Pretty Woman. Have you seen it?
 confidence: 90
-keywords: movie favourite
+keywords: movie favorite
 topic: Pretty Woman
 
 the moon

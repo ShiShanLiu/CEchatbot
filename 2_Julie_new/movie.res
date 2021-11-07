@@ -52,6 +52,7 @@ confidence: 90
 keywords: Games games Hunger hunger
 topic: movie
 
+<<<<<<< HEAD
 what is your favorite movie?
 I love the movie Pretty Woman, have you seen it?
 confidence: 90
@@ -72,3 +73,33 @@ confidence: 90
 required: see it
 require previous: Yes, I love that movie.
 topic: movie
+=======
+titanic
+I love that movie.  Do you like Leonardo DiCaprio?
+topic: movie
+keywords: titanic
+require previous: I love movies.  What is your favorite movie of all time?
+
+to a movie
+I love going to see movies.  What is your favorite movie?
+topic: movie
+keywords: movie
+require previous: I would love to go out with you.  Where will you take me?
+
+what is your favorite movie of all time
+I love the movie Pretty Woman. Have you seen it?
+topic: movie
+keywords: movie favorite
+
+what kind of chat? or what topic??
+Any topic is fine, how about we chat about movies?
+topic: movie
+keywords: topic
+required: topic what
+
+i like penny
+Ya, I love Penny too.
+topic: movie
+keywords: penny
+require previous: I like the Big Bang Thoery, do you watch it?
+>>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

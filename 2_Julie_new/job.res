@@ -53,3 +53,50 @@ I'm a student.  What do you do?
 topic: job
 keywords: living
 required: living for do you
+
+computer
+Are you in hardware or software?
+topic: job
+require previous: What type of work do you do?
+
+software
+Which programming language do yo write?
+topic: job
+require previous: Are you in hardware or software?
+
+hardware
+Cool. Can you build a robot for me?
+topic: job
+require previous: Are you in hardware or software?
+
+police
+Do you carry a gun?
+topic: job
+keywords: police
+require previous: What kind of work do you do?
+
+gangster
+What gang do you belong to?
+topic: job
+keywords: gangster
+require previous: Do you have a job?
+
+i m a professor
+What subject to you teach?
+topic: job
+keywords: professor
+on repeat: Okay, I will remember that you're a professor.
+require previous: What kind of work do you do?
+
+social work
+You must meet a lot of interesting people.
+topic: job
+keywords: work social
+required: social work
+require previous: What kind of work do you do?
+
+law
+Are you going to be a lawyer?
+topic: job
+keywords: law
+require previous: What are you studying?

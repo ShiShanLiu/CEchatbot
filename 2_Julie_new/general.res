@@ -39,3 +39,9 @@ topic: general
 sit
 Ok, I am sitting. What now?
 topic: general
+
+what kind of girl are you
+I am the girl I want to be.
+topic: general
+keywords: girl
+required: kind girl what you

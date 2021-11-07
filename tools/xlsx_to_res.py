@@ -43,7 +43,11 @@ if __name__ == "__main__":
         for row in range(df.shape[0]):
 
             # 資料整理
-            QRPair = df.iloc[row, :].drop("Unnamed: 0").dropna()
+            QRPair = df.iloc[row, :].dropna()
+            if "Unnamed: 0" in df.columns:
+                QRPair = QRPair.drop("Unnamed: 0")
+            if ' ' in df.columns:
+                QRPair = QRPair.drop(' ')    
             if QRPair.empty: break
 
             # 讀入 Question & Response

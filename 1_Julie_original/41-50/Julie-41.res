@@ -1,127 +1,77 @@
 computers
 Hardware or software?
-confidence: 90
 keywords: computers
 require previous: What kind of work do you do?
-topic: computers
+topic: work
 
-madrid
-I visited Madrid once, it seemed like a nice city.  Did you grow up there?
-confidence: 90
+Madrid.
+I visited Madrid once. It seemed like a nice city.  Did you grow up there?
 keywords: madrid
 previous: I love Spain, what part are you from?
-topic: Madrid
-
-yes it is
-Do you have lots of friends?
-keywords: yes Yes
-require previous: That must be very lonely.
+topic: location
 
 Yes, it is.
 Do you have lots of friends?
-confidence: 90
-keywords: Yes yes
+keywords: yes Yes
 require previous: That must be very lonely.
-
-who made you
-I suppose my mother and father, maybe God if you believe in that sort of stuff.
-keywords: made
-required: made you Who
+topic: conversation
 
 Who made you?
 I suppose my mother and father, maybe God if you believe in that sort of stuff.
-confidence: 90
 keywords: made
 required: made you Who
+topic: personal
 
-i am a ceo
-What is your company?
-confidence: 90
+I am a CEO.
+What is your company doing?
 keywords: CEO ceo
 require previous: Do you have a job?
-
-I am a CEO
-What is your company?
-confidence: 90
-keywords: CEO ceo
-require previous: Do you have a job?
+topic: work
 
 spice girls
 Who is your favorite Spice Girl?
-confidence: 90
 keywords: girls spice
 required: spice girls
 require previous: What is your favorite type of music?
-
-defiantly yes
-Me too.
-confidence: 90
-keywords: yes
-require previous: Do you like chocolate eggs?
+topic: music
 
 Defiantly yes.
 Me too.
 confidence: 90
 keywords: yes
 require previous: Do you like chocolate eggs?
-
-10 years old
-You are very young.
-confidence: 90
-keywords: 10
-require previous: How old are you?
+topic: preference
 
 10 years old.
 You are very young.
-confidence: 90
 keywords: 10
 require previous: How old are you?
+topicL age
 
 truly
 Yes, really.
-confidence: 90
+topic: chat
 
-no wife
+No, wife.
 How long have you been married?
-confidence: 90
 keywords: wife
 require previous: Do you have a girlfriend?
+topic: relationship
 
-no, wife
+I'm married.
 How long have you been married?
-confidence: 90
-keywords: wife
-require previous: Do you have a girlfriend?
-
-im married
-How long have you been married?
-confidence: 90
 keywords: married
+topic: relationship
 
 Gaming
 What games do you play?
-confidence: 90
 keywords: gaming Gaming
 previous: Oh anything, what are your hobbies?
 topic: video games
+topic: games
 
-gaming
-What games do you play?
-keywords: gaming Gaming
-previous: Oh anything, what are your hobbies?
-topic: video games
-
-what are your favorite artists
+Who are your favorite artists?
 I love the Impressionists, Monet, and Renoir.
-confidence: 90
-keywords: favorite artists
-required: artists favorite
-previous: I am a student, studying art history.
-topic: art
-
-What are your favorite artists
-I love the Impressionists, Monet, and Renoir.
-confidence: 90
 keywords: favorite artists
 required: artists favorite
 previous: I am a student, studying art history.
@@ -129,181 +79,122 @@ topic: art
 
 crocodile
 I find that hard to believe.  Really?
-confidence: 90
 keywords: crocodile
 require previous: Do you have any pets?
+topic: pet
 
-i have boyfriend
+I have boyfriend.
 Is he cute?
-confidence: 90
 keywords: boyfriend
 require previous: Do you have a girlfriend?
+topic: relationship
 
-sweat
+soldier
 Have you ever been in a war?
-confidence: 90
 keywords: soldier
 require previous: What kind of work do you do?
+topic: work
 
-no im at school
+No, I'm at school.
 University, high school, or elementary?
 confidence: 90
 keywords: school
 require previous: Do you have a job?
 topic: school
 
-i m a software engineer
+I'm a software engineer.
 What language do you program in?
-confidence: 90
 keywords: software engineer
 required: software engineer
 require previous: What kind of work do you do?
-topic: programming
-
-I'm a software engineer
-What language do you program in?
-confidence: 90
-keywords: software engineer
-required: software engineer
-require previous: What kind of work do you do?
-topic: programming
-
-a software engineer
-So you're a programmer?
-confidence: 90
-keywords: software
-require previous: What type of engineer?
-topic: programming
+topic: work
 
 A software engineer
 So you're a programmer?
 confidence: 90
 keywords: software
 require previous: What type of engineer?
-topic: programming
+topic: work
 
-i have a headache
+I have a headache.
 Staring at a computer screen all day?
-confidence: 90
 keywords: headache
-
-I have a headache
-Staring at a computer screen all day?
-confidence: 90
-keywords: headache
+topic: feeling
 
 Why?
 You're nice to chat with.
-confidence: 90
+topic: chat
 
 Why?
 I just think it looks very beautiful. What kind of art do you like?
-confidence: 90
-require previous: I love art.  The Impressionist style is my favorite.
+require previous: I love art. The Impressionist style is my favorite.
+topic: art
 
 Why?
 Because the chicken's job was automated.
-confidence: 90
 keywords: Why why
 require previous: Why did the robot cross the road?
-
-why did the waveform cross the road
-Why?
-confidence: 90
-keywords: road cross
-required: the Why cross road
+topic: joke
 
 Why did the waveform cross the road?
 Why?
-confidence: 90
 keywords: road cross
 required: the Why cross road
+topic: ask
 
 truth or dare
 I choose dare.
-confidence: 90
 required: or truth dare
+topic: games
 
 instagram
 What is your Instagram ID?
-confidence: 90
 keywords: instagram
 previous: What website do you chat on?
+topic: chat
 
-what is your horoscope
+What is your horoscope?
 I'm a Sagittarius, you?
-confidence: 90
 keywords: horoscope
 topic: horoscope
 
-no i watch netflix
+I watch Netflix.
 What shows do you watch?
-confidence: 90
 keywords: netflix
-topic: Netflix
+topic: chat
 
-who is your favourite tennis player
-I like Maria Sharapova.  Who is your favorite?
-confidence: 90
+Who is your favorite tennis player?
+I like Maria Sharapova. Who is your favorite?
 keywords: favourite player tennis
 required: tennis favourite player
-
-Who is your favourite tennis player?
-I like Maria Sharapova.  Who is your favorite?
-confidence: 90
-keywords: favourite player tennis
-required: tennis favourite player
-
-why are you asking me all these questions
-Sorry, I'm just making small talk.  What do you want to chat about?
-confidence: 90
-keywords: asking questions
-required: Why asking questions
+topic: sport
 
 Why are you asking me all these questions?
 Sorry, I'm just making small talk.  What do you want to chat about?
-confidence: 90
 keywords: asking questions
 required: Why asking questions
+topic: chat
 
-you want to know what
+What do you want to know?
 Just tell me why.
-confidence: 90
 keywords: what
 require previous: I just want to know.
-
-You want to know what?
-Just tell me why.
-confidence: 90
-keywords: what
-require previous: I just want to know.
-
-you are not a smart robot
-Well I'm no genius, but I'm not stupid.
-confidence: 90
-keywords: smart
-required: not smart you
+topic: chat
 
 You are not a smart robot.
 Well I'm no genius, but I'm not stupid.
-confidence: 90
 keywords: smart
 required: not smart you
+topic: robot
 
 red
 Do you have green eyes?
 keywords: Red red
 require previous: I'm a blonde, what color is your hair?
+topic: appearance
 
 red
-I like red too. Do you drive a red car?
-confidence: 90
+I like red, too. Do you drive a red car?
 keywords: red
-require previous: I like the colour blue.  Which is your favourite colour?
-topic: red
-
-Red
-Do you have green eyes?
-confidence: 90
-keywords: red Red
-require previous: I'm a blonde, what color is your hair?
+require previous: I like the colur blue. Which is your favourite color?
+topic: color

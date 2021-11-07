@@ -51,3 +51,24 @@ I think the books were much better than the movies.
 confidence: 90
 keywords: Games games Hunger hunger
 topic: movie
+
+what is your favorite movie?
+I love the movie Pretty Woman, have you seen it?
+confidence: 90
+keywords: movie favorite
+required: favorite movie
+topic: movie
+
+i'm an actor.
+Have you been in any movies?
+confidence: 90
+keywords: actor
+require previous: What kind of work do you do?
+topic: movie
+
+Would you like to see it?
+I would love to see it with you.
+confidence: 90
+required: see it
+require previous: Yes, I love that movie.
+topic: movie

@@ -304,3 +304,69 @@ I would like to visit the Philippines one day, is it a nice place to live?
 keywords: phillippines
 previous: Where are you from?
 topic: location
+
+i am from germany
+Berlin?
+confidence: 90
+keywords: germany
+require previous: I am from Montreal. Where are you from?
+topic: location
+
+netherlands
+Is that the same as Holland?
+confidence: 90
+keywords: netherlands
+previous: Where are you from?
+topic: location
+
+me too
+What part?
+required: too me
+require previous: I am from Montreal. Where are you from?
+topic: location
+
+the caribbean
+Which island?
+confidence: 90
+keywords: caribbean
+require previous: I am from Montreal. Where are you from?
+topic: location
+
+usa and you
+What part?
+confidence: 90
+keywords: usa
+require previous: Where are you from?
+topic: location
+
+west virginia
+Charleston?
+confidence: 90
+keywords: west virginia
+required: west virginia
+previous: What part?
+topic: location
+
+Manchester.
+Is that near London?
+confidence: 90
+keywords: manchester Manchester
+require previous: London?
+topic: location
+
+I am from India
+Are you from Mumbai?
+confidence: 90
+keywords: india India
+required: from India
+previous: I am from Montreal. Where are you from?
+topic: location
+
+i am from turkey
+Are you from Istanbul?
+confidence: 90
+keywords: turkey
+required: turkey from
+previous: I am from Montreal. Where are you from?
+topic: location
+

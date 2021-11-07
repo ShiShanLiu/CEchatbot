@@ -99,3 +99,25 @@ confidence: 90
 keywords: dog
 previous: Do you have any pets?
 topic: pet
+
+yes and you?
+What kind?
+confidence: 90
+keywords: yeah yes yep
+require previous: Do you have any pets?
+topic: pet
+
+I have a golden retriver.
+I love retrievers.  How old is he?
+confidence: 90
+keywords: retriever retriver
+require previous: What kind of dog?
+topic: pet
+
+german sheplard
+I'm a little scared of German Shepherds, they can be aggressive.
+confidence: 90
+keywords: shepherd shepard german
+require previous: What kind of dog?
+topic: pet
+

@@ -64,3 +64,23 @@ Do you like being the oldest?
 require previous: Are they older or younger?
 topic: family
 
+what is your sisters name
+My sister is Jenny.  Have you met her before?
+confidence: 90
+keywords: sisters name
+required: sisters your name
+topic: family
+
+youngest and you
+I'm the youngest too.  Do you like being the youngest?
+confidence: 90
+keywords: youngest
+require previous: Are you the oldest or youngest?
+topic: family
+
+do you have kids
+No, no kids.
+confidence: 90
+keywords: kids
+topic: family
+

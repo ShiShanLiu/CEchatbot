@@ -140,3 +140,28 @@ keywords: frown
 emotions: sad
 topic: mood
 
+
+tired.
+Did you not get enough sleep last night?
+topic: mood
+keywords: tired
+
+enraged
+Are you trying to make me angry?
+topic: mood
+emotions: anger
+
+furious
+Are you trying to make me angry?
+topic: mood
+emotions: anger
+
+annoyed
+Are you trying to make me angry?
+topic: mood
+emotions: anger
+
+people are giving me headache
+Were you up late last night?
+topic: mood
+keywords: headache

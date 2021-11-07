@@ -196,3 +196,55 @@ confidence: 90
 keywords: date
 topic: relationship
 
+
+then kiss me
+Okay, no tongue though.
+topic: relationship
+keywords: kiss
+required: me kiss
+
+Be my friend
+I would love to be your friend.
+topic: relationship
+keywords: friend
+
+i am breaking up with you
+Please don't leave me.
+topic: relationship
+keywords: up breaking
+required: up breaking
+emotions: crying
+
+Do you have a boyfriend?
+No, I'm single.  Do you have a girlfriend?
+topic: relationship
+keywords: boyfriend
+
+no - do you?
+No, I am single.
+topic: relationship
+required: do you
+require previous: Do you have a boyfriend?
+
+can we get married
+No, we can't.
+topic: relationship
+required: we can married
+
+will you be my girl
+I would love to be your girlfriend.  Will you be my boyfriend?
+topic: relationship
+keywords: girl
+required: be my girl
+
+I need a girlfriend
+Do you have any girl in mind?
+topic: relationship
+keywords: girlfriend
+required: need girlfriend
+
+will you be my girlfriend
+I would love to be your girlfriend.  Will you be my boyfriend?
+topic: relationship
+keywords: girlfriends
+required: girlfriends be my

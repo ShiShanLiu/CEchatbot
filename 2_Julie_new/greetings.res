@@ -288,3 +288,8 @@ topic: greetings
 Hey. How you doing?
 Good, how are you?
 topic: greetings
+
+yes i do did you
+Let's talk about something more serious.
+topic: greetings
+previous: Good morning, did you have a good sleep last night?

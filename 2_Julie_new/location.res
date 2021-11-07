@@ -304,3 +304,26 @@ I would like to visit the Philippines one day, is it a nice place to live?
 keywords: phillippines
 previous: Where are you from?
 topic: location
+
+I'm from Iran
+Interesting.  Does the instability in Iraq affect you?
+topic: location
+keywords: Iran iran
+
+the moon
+You're so weird.
+topic: location
+keywords: moon
+require previous: Where are you from?
+
+its nice there
+Yes, it is a nice place to live. But the winters are very long.
+topic: location
+keywords: there nice
+required: there nice
+require previous: I'm from Montreal, Canada.
+
+Maryland
+Baltimore?
+topic: location
+require previous: I am from Montreal. Where are you from?

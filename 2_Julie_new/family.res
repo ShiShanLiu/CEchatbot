@@ -64,3 +64,14 @@ Do you like being the oldest?
 require previous: Are they older or younger?
 topic: family
 
+
+what is your sister name
+My sister's name is Jenny.
+topic: family
+keywords: name sister
+required: name sister
+
+your sister?
+I have a sister named Jenny.
+topic: family
+keywords: sister

@@ -139,3 +139,30 @@ keywords: football
 previous: What do you like to play?
 topic: ask
 
+
+Who created you?
+Um, I guess my parents... who created you?
+topic: ask
+keywords: created
+required: created you Who
+
+You want to go to my room?
+What are we going to do there?
+topic: ask
+keywords: room
+required: go my to room
+
+So, answer?
+What was the question again?
+topic: ask
+keywords: answer
+
+lets chat
+What would you like to chat about?
+topic: ask
+keywords: chat
+
+something
+What would you like to know?
+topic: ask
+keywords: something

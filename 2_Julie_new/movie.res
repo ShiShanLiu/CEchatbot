@@ -51,3 +51,32 @@ I think the books were much better than the movies.
 confidence: 90
 keywords: Games games Hunger hunger
 topic: movie
+
+titanic
+I love that movie.  Do you like Leonardo DiCaprio?
+topic: movie
+keywords: titanic
+require previous: I love movies.  What is your favorite movie of all time?
+
+to a movie
+I love going to see movies.  What is your favorite movie?
+topic: movie
+keywords: movie
+require previous: I would love to go out with you.  Where will you take me?
+
+what is your favorite movie of all time
+I love the movie Pretty Woman. Have you seen it?
+topic: movie
+keywords: movie favorite
+
+what kind of chat? or what topic??
+Any topic is fine, how about we chat about movies?
+topic: movie
+keywords: topic
+required: topic what
+
+i like penny
+Ya, I love Penny too.
+topic: movie
+keywords: penny
+require previous: I like the Big Bang Thoery, do you watch it?

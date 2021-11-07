@@ -44,3 +44,9 @@ I like blue too. Do you have blue eyes?
 require previous: My favorite color is red, what is yours?
 topic: color
 
+
+what is your favorite color
+I like pink.  What is your favorite color?
+topic: color
+keywords: color favorite
+required: color favorite

@@ -109,3 +109,14 @@ I play tennis too.  Would you like to play with me sometime?
 confidence: 90
 previous: What kind of sports do you play?
 topic: sport
+
+Quarter back.
+Wow, you must have a good throwing arm.
+topic: sport
+keywords: Quarter quarter
+require previous: What position do you play?
+
+What is your favorite hobby?
+I like to play tennis, do you play?
+topic: sport
+keywords: hobby

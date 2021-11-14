@@ -3,13 +3,13 @@ You must be in good shape.
 confidence: 90
 keywords: walk
 previous: Do you take the bus a lot?
-topic: praise
+topic: compliment
 
 model
 Wow, are you very good looking?
 confidence: 90
 require previous: What kind of work do you do?
-topic: praise
+topic: compliment
 
 my mom has cancer
 That's horrible. Would you like to talk about it?
@@ -22,7 +22,7 @@ Wow, you must be very rich.
 confidence: 90
 keywords: ferrari
 previous: Do you have a car?
-topic: car
+topic: cars
 
 how old are you Julie
 I'm 22. How old are you?
@@ -77,22 +77,18 @@ How are you today.
 confidence: 90
 topic: greetings
 
-Teacher
-What grades do you teach?
-confidence: 90
-keywords: Teacher teacher
-require previous: What kind of work do you do?
-
 teacher
 What grades do you teach?
 keywords: Teacher teacher
 require previous: What kind of work do you do?
+topic: school
 
 do you like taylor swift
 I like her music. Do you like her?
 confidence: 90
 keywords: taylor swift
 required: taylor swift
+topic: music
 
 hip-hop
 I like hip hop too.  Who is your favorite artist?

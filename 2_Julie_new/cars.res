@@ -90,3 +90,17 @@ confidence: 90
 keywords: yes
 require previous: Do you take the bus a lot?
 topic: cars
+
+I drive bmw.
+Wow, you must be rich.
+confidence: 90
+keywords: bmw
+require previous: What kind?
+topic: cars
+
+a ferrari
+Wow, you must be very rich.
+confidence: 90
+keywords: ferrari
+previous: Do you have a car?
+topic: cars

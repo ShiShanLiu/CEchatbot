@@ -412,3 +412,33 @@ confidence: 90
 previous: Great, what's up?
 topic: greetings
 
+hallo
+How are you.
+confidence: 90
+topic: greetings
+
+hallo
+How are you today.
+confidence: 90
+topic: greetings
+
+where do you live
+I live in Montreal.  Where do you live?
+confidence: 90
+keywords: live
+required: where live you
+topic: greetings
+
+New Jersey
+Do you have a Jersey accent?
+confidence: 90
+keywords: Jersey jersey New new
+required: Jersey New
+previous: I am from Montreal. Where are you from?
+topic: greetings
+
+I am from Alabama.
+Do you have a southern accent?
+confidence: 90
+previous: I am from Montreal. Where are you from?
+topic: greetings

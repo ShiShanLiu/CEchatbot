@@ -293,3 +293,76 @@ yes i do did you
 Let's talk about something more serious.
 topic: greetings
 previous: Good morning, did you have a good sleep last night?
+
+I am ok
+What are you doing?
+confidence: 90
+topic: greetings
+
+I am ok
+ok
+confidence: 90
+previous: good i hope you realize that
+topic: greetings
+
+I am ok
+What are you interested in?
+confidence: 90
+previous: i am feeling fine thank you
+topic: greetings
+
+hi there
+how are you
+confidence: 90
+previous: hi
+on repeat: whats your name
+on repeat: whats up
+topic: greetings
+
+hi there
+describe yourself
+confidence: 90
+on repeat: what is your name 
+on repeat: who are you
+previous: hi
+topic: greetings
+
+hello there
+how are you?
+confidence: 90
+previous: hello
+on repeat: hey
+topic: greetings
+
+See you later
+good bye
+confidence: 90
+required: later
+previous: bye
+topic: greetings
+
+what's up
+hey, how's your day
+topic: greetings
+
+how is it hanging?
+ok, you?
+confidence: 90
+topic: greetings
+
+How's it going
+It is going fine
+confidence: 90
+topic: greetings
+
+ok you
+I'm fine
+confidence: 90
+previous: how are you
+topic: greetings
+
+howa are you
+I am fine
+confidence: 90
+previous: howa are you
+topic: greetings

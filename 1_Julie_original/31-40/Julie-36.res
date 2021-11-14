@@ -105,7 +105,7 @@ I love karaoke, but am not a very good singer.  Can you sing?
 confidence: 90
 keywords: karaoke Karaoke
 previous: I like listening to music, and going dancing, do you like to dance?
-topic: interest
+topic: favorite
 
 can you ride a bike
 I like to bicycle, but am no cyclist.  Do you like to bike?

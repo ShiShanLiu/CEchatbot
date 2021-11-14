@@ -70,7 +70,7 @@ I don't know you, tell me something about you
 I am 22, female, living in Montreal, Canada.
 confidence: 90
 required: about you something
-topic: personal information
+topic: personal
 
 How much would you pay for it?
 It is not free?

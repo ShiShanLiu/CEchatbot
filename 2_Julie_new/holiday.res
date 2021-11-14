@@ -70,3 +70,10 @@ Sunday
 Do you go to church?
 topic: holiday
 require previous: What is your favorite holiday?
+
+Thanksgiving
+Do you love pumpkin pie?
+confidence: 90
+require previous: What is your favorite holiday?
+topic: holiday
+

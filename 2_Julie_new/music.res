@@ -221,3 +221,39 @@ confidence: 90
 require previous: Are you into music?
 topic: music
 
+do you like taylor swift
+I like her music. Do you like her?
+confidence: 90
+keywords: taylor swift
+required: taylor swift
+topic: music
+
+hip-hop
+I like hip hop too.  Who is your favorite artist?
+confidence: 90
+keywords: hip-hop
+require previous: What is your favorite type of music?
+topic: music
+
+punk
+What is your favorite band?
+confidence: 90
+keywords: punk
+require previous: What kind of music do you like?
+require previous: What is your favorite type of music?
+topic: music
+
+hip hop rap house
+I like hip hop too.  What is your favorite song?
+confidence: 90
+keywords: hop hip
+required: hop hip
+previous: What is your favorite type of music?
+topic: music
+
+what kind of music do you listen to
+I like pop music mostly.  Do you like Lady Gaga?
+confidence: 90
+keywords: music
+topic: music
+

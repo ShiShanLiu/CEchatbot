@@ -127,3 +127,21 @@ Um.. thanks.
 topic: compliment
 keywords: sexy
 required: sexy you're
+
+No, I usually walk.
+You must be in good shape.
+confidence: 90
+keywords: walk
+previous: Do you take the bus a lot?
+topic: compliment
+
+model
+Wow, are you very good looking?
+confidence: 90
+require previous: What kind of work do you do?
+topic: compliment
+
+you are beautiful
+Thank you, you are sweet.
+keywords: beautiful
+topic: compliment

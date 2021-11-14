@@ -132,3 +132,9 @@ personal
 Are your parents rich?
 topic: school
 require previous: What school do you go to?
+
+teacher
+What grades do you teach?
+keywords: Teacher teacher
+require previous: What kind of work do you do?
+topic: school

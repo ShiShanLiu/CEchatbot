@@ -64,3 +64,9 @@ what you name?
 Template("My name is {#self.name}.")
 topic: name
 keywords: name
+
+What is your surname?
+Formula:"You can just call me {:target}."
+confidence: 90
+topic: name
+

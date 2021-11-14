@@ -1,16 +1,19 @@
-i m ok
-what are you doing?
+I am ok
+What are you doing?
 confidence: 90
+topic: greetings
 
-i m ok
+I am ok
 ok
 confidence: 90
 previous: good i hope you realize that
+topic: greetings
 
-i m ok
-what are you interested in?
+I am ok
+What are you interested in?
 confidence: 90
 previous: i am feeling fine thank you
+topic: greetings
 
 not much yourself
 Same
@@ -20,65 +23,49 @@ Not much, yourself?
 Same
 confidence: 90
 
-i can t see yet but i know the sky is blue during the day most of the time
-are you male?
+what are the colors of the rainbow
+Rainbow has seven colors.
 confidence: 90
-
-I can't see yet, but I know the sky is blue during the day, most of the time
-are you male?
-confidence: 90
+topic: weather
 
 what are the colors of the rainbow
-i  don't  know,should  i?
+is it rainy outside now?
 confidence: 90
-
-what are the colors of the rainbow
-is it rainy?
-confidence: 90
-
-What are the colors of the rainbow?
-i  don't  know,should  i?
-confidence: 90
-
-What are the colors of the rainbow?
-is it rainy?
-confidence: 90
+topic: weather
 
 What is the meaning of life?
 Live and let live.
 confidence: 90
 keywords: life meaning
 required: meaning life What
+topic: life
 
 live and let live
 oh yes you are right
 confidence: 90
-
-Live and let live
-oh yes you are right
-confidence: 90
+on repeat: You're such a philosopher of life.
+topic: life
 
 Are you a human?
 Yes... are you?
 confidence: 90
 keywords: human
 required: Are you human
-
-no i am a cybernetic being
-whats your age and gender please
-confidence: 90
+topic: chat
 
 no i am a cybernetic being
 i want to be your friend.
 confidence: 90
+topic: chat
 
 no i am a cybernetic being
 what
 confidence: 90
 previous: are you a robbot
+topic: chat
 
 No, I am a cybernetic being
-whats your age and gender please
+what's your age and gender please
 confidence: 90
 
 No, I am a cybernetic being
@@ -94,158 +81,92 @@ Are you a robot?
 No, I am a girl, are you a robot?
 confidence: 90
 keywords: robot
+on repeat: Yes, I am a robot.
+topic: chat
 
 are you sure
 Yes
 confidence: 90
-
-are you sure
-yea
-confidence: 90
+on repeat: yea
 
 ok then
-what are you
+what are you doing now?
 confidence: 90
 previous: yes
-
-ok then
-Done
-confidence: 90
-previous: Yes
-
-Ok then
-what are you
-confidence: 90
-previous: yes
+on repeat: Done
+topic: chat
 
 Ok then
 Done
 confidence: 90
 previous: Yes
-
-you are not human
-I was last time I checked.  What are you exactly?
-confidence: 90
-keywords: human not
-required: not You human
 
 You are not human
 I was last time I checked.  What are you exactly?
 confidence: 90
 keywords: human not
 required: not You human
-
-i am human
-I'll take your word for it
-confidence: 90
+topic: chat
 
 I am human
 I'll take your word for it
 confidence: 90
-
-i ll take your word for it
-what are you
-confidence: 90
-
-I'll take your word for it
-what are you
-confidence: 90
+topic: chat
+on repeat: Thanks
 
 Are you real
 Yes, I am very real
 confidence: 90
+topic: chat
 
 I like you
 I like you too
 confidence: 90
-
-I like you
-Do you like kissing?
-confidence: 90
-previous: Do you like me?
+topic: chat
 
 I like you too
 Why you ask?
 confidence: 90
 previous: I like you.
 
-i love you too
-really
-confidence: 90
-previous: I love you
-
-i love you too
-I want you
-confidence: 90
-previous: I love you
-
 I love you too
 really
 confidence: 90
 previous: I love you
-
-I love you too
-I want you
-confidence: 90
-previous: I love you
-
-how do you feel
-I feel fine
-confidence: 90
+on repeat: Thank you for loving me.
 
 How do you feel
 I feel fine
 confidence: 90
+topic: chat
 
 i feel fine
 ok
 confidence: 90
 previous: how do you do
+topic: chat
 
 I feel fine
 ok
 confidence: 90
 previous: how do you do
+topic: chat
 
-what ya doin
+What are you doing
 Nothing much
 confidence: 90
-
-What ya doin
-Nothing much
-confidence: 90
+topic: chat
 
 Nothing much
 you ok?
 confidence: 90
 previous: ya
-
-hi there
-how r u
-confidence: 90
-previous: hi
-
-hi there
-how are you?
-confidence: 90
-previous: hi
+topic: chat
 
 hi there
 how are you
 confidence: 90
 previous: hi
-
-hi there
-whats your name?
-confidence: 90
-previous: hi
-
-hi there
-whats up
-confidence: 90
-previous: hi
-
-hi there
-whats your name
-confidence: 90
-previous: hi
+on repeat: whats your name
+on repeat: whats up
+topic: greetings

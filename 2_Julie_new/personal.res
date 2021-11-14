@@ -224,3 +224,19 @@ To live and love.
 keywords: purpose
 topic: personal
 
+what would you like help with?
+I'd like to ask a question. The question I'm posing, is as follows: Is the Social Scene dead, or did it just go underground somewhere:)
+confidence: 90
+topic: personal
+
+I am in training to become a customer service agent
+how can you help me?
+confidence: 90
+previous: what do you do?
+topic: personal
+
+I am a chat bot
+What do you want to chat about?
+confidence: 90
+previous: I am a chat bot
+topic: personal

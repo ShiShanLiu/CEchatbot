@@ -79,3 +79,14 @@ A pickup, or SUV?
 keywords: truck
 topic: car
 
+yes
+What kind of car?
+require previous: Do you have a car?
+topic: cars
+
+yes
+Do you like taking the bus?
+confidence: 90
+keywords: yes
+require previous: Do you take the bus a lot?
+topic: cars

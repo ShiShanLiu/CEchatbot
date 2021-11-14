@@ -305,7 +305,6 @@ keywords: phillippines
 previous: Where are you from?
 topic: location
 
-<<<<<<< HEAD
 i am from germany
 Berlin?
 confidence: 90
@@ -371,27 +370,46 @@ required: turkey from
 previous: I am from Montreal. Where are you from?
 topic: location
 
-=======
-I'm from Iran
-Interesting.  Does the instability in Iraq affect you?
+Where are you?
+I'm from Montreal, Canada.
+confidence: 90
 topic: location
-keywords: Iran iran
 
-the moon
-You're so weird.
+where are you
+I'm from Montreal, Canada.
 topic: location
-keywords: moon
-require previous: Where are you from?
 
-its nice there
-Yes, it is a nice place to live. But the winters are very long.
+i am from montreal canada
+can we be friends?
+confidence: 90
 topic: location
-keywords: there nice
-required: there nice
-require previous: I'm from Montreal, Canada.
 
-Maryland
-Baltimore?
+Romania
+What languages do they speak there?
+confidence: 90
+keywords: Romania romania
+previous: Where are you from?
 topic: location
-require previous: I am from Montreal. Where are you from?
->>>>>>> a878f6102c93cb340287171b44f54f1ec443036d
+
+May I ask you where do you live?
+I'm from Montreal, Canada.
+confidence: 90
+topic: location
+
+Is Montreal a nice city?
+Yes, very nice, is it nice where you live?
+confidence: 90
+topic: location
+
+I live in Italy.
+Is it a nice place to live?
+confidence: 90
+topic: location
+
+yes
+Which places in Italy did you visit?
+confidence: 90
+keywords: yes
+require previous: I love Italian food too.  Have yo ever been to Italy?
+topic: location
+

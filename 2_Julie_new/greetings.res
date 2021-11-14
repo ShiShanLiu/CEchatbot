@@ -366,3 +366,49 @@ I am fine
 confidence: 90
 previous: howa are you
 topic: greetings
+
+yeah I'm fine what about you
+just so so thank you
+confidence: 90
+previous: how are you
+topic: greetings
+
+Fine, how are you?
+I am fine as well.
+confidence: 90
+required: are you how
+previous: How are you today?
+topic: greetings
+
+hello how are you
+Good, how are you?
+confidence: 90
+topic: greetings
+
+haha
+lets play!
+confidence: 90
+topic: greetings
+
+lets play
+i love
+confidence: 90
+previous: haha
+topic: greetings
+
+no i am fine
+Swell.
+topic: greetings
+
+no i am fine
+ok
+confidence: 90
+previous: are you sure?
+topic: greetings
+
+Great, what's up?
+Nothing much, you?
+confidence: 90
+previous: Great, what's up?
+topic: greetings
+

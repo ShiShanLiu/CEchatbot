@@ -164,4 +164,9 @@ What kind of pets do you have?
 topic: pet
 keywords: yes
 require previous: Do you have any pets?
->>>>>>> a878f6102c93cb340287171b44f54f1ec443036d
+
+yes
+A dog or cat?
+confidence: 90
+require previous: Do you have any pets?
+topic: pet

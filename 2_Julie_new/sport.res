@@ -1,4 +1,3 @@
-
 american
 What position do you play?
 topic: sport
@@ -110,7 +109,6 @@ confidence: 90
 previous: What kind of sports do you play?
 topic: sport
 
-<<<<<<< HEAD
 not really I swim but that's about it
 I swim too.  What is your favorite stroke?
 confidence: 90
@@ -162,15 +160,29 @@ confidence: 90
 keywords: softball
 require previous: What kind of sports do you play?
 topic: sport
-=======
-Quarter back.
-Wow, you must have a good throwing arm.
-topic: sport
-keywords: Quarter quarter
-require previous: What position do you play?
 
-What is your favorite hobby?
-I like to play tennis, do you play?
+Pattern("Yeah, I like to play *")
+Template("Why do you like to play {star}")
+confidence: 90
+previous: Do you play any sports?
 topic: sport
-keywords: hobby
->>>>>>> a878f6102c93cb340287171b44f54f1ec443036d
+
+yeah
+Which ones?
+confidence: 90
+require previous: Do you play any sports?
+topic: sport
+
+yes
+What kind of sports do you play?
+confidence: 90
+require previous: Do you play any sports?
+topic: sport
+
+yes
+Maybe we could play sometime.
+confidence: 90
+keywords: yes
+require previous: I play tennis. Do you play?
+topic: sport
+

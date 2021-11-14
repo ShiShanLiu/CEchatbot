@@ -372,3 +372,61 @@ confidence: 90
 topic: chat
 on repeat: Not much.
 
+how are you today?
+I am fine, isn't it a great day?
+confidence: 90
+topic: chat
+
+Possibly, if it's worthwhile....
+what are you good at?
+confidence: 90
+previous: what are you good at?
+on repeat: what is your name?
+topic: chat
+
+Possibly, if it's worthwhile....
+ok
+confidence: 90
+previous: take me out to dinner
+topic: chat
+
+i don't have any secret
+I find that hard to believe, you must have some.
+confidence: 90
+keywords: secrets
+required: don't I secret
+topic: chat
+
+I don't have secrets.
+I find that hard to believe, you must have some.
+confidence: 90
+keywords: secrets
+required: don't I secret
+topic: chat
+
+I'm a superhero.
+That's amazing.
+confidence: 90
+topic: chat
+
+I'm an alien in disguise.
+Really? I don't believe you.
+confidence: 90
+topic: chat
+
+Ok, you tell me later.
+have you had your lunch?
+confidence: 90
+topic: chat
+
+yes
+What website do you chat on?
+require previous: Do you chat on the Internet a lot?
+topic: chat
+
+yes
+What kind?
+confidence: 90
+require previous: Do you have a car?
+require previous: Do you have any pets?
+topic: chat

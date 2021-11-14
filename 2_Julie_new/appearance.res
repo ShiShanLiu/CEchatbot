@@ -37,3 +37,25 @@ confidence: 90
 keywords: colour eyes
 required: eyes colour
 topic: appearance
+
+What do you look like?
+Blond hair and blue eyes.  What do you look like?
+confidence: 90
+keywords: look
+required: like What you look
+on repeat: I'm 5' 8, blonde, slender. What do you look like?
+topic: appearance
+
+what do you look like
+Blond hair and blue eyes.  What do you look like?
+keywords: look
+required: like What you look
+on repeat: I'm 5' 8, blonde, slender. What do you look like?
+on repeat: I'm a blonde, 5'8, slim. What do you like?
+topic: appearance
+
+yes
+How tall are you?
+confidence: 90
+require previous: I like basketball, are you tall?
+topic: appearance

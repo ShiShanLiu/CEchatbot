@@ -100,3 +100,17 @@ Are you going to be a lawyer?
 topic: job
 keywords: law
 require previous: What are you studying?
+
+yes
+What kind of music do you like?
+confidence: 90
+require previous: Are you into music?
+topic: music
+
+yes
+What kind of job are you looking for?
+confidence: 90
+keywords: yes
+require previous: Are you looking for a job now?
+topic: job
+

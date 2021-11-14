@@ -193,3 +193,31 @@ Wow. What are you studying?
 topic: music
 keywords: Harvard harvard
 require previous: What school do you go to?
+
+not really
+Ya, she is kind of weird.  I like her music though.
+confidence: 90
+required: not really
+require previous: I love pop music too. Do you like Lady Gaga?
+topic: music
+
+yes
+What type of music?
+require previous: Are you into music?
+topic: music
+
+yes
+what is your favorite band?
+confidence: 90
+on repeat: Ok then
+on repeat: ok
+on repeat: Great
+on repeat: you have a nice smile
+topic: music
+
+yes
+What kind of music do you like?
+confidence: 90
+require previous: Are you into music?
+topic: music
+

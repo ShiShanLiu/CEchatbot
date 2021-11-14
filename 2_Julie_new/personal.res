@@ -240,3 +240,21 @@ What do you want to chat about?
 confidence: 90
 previous: I am a chat bot
 topic: personal
+
+maybe
+That's good enough for me.
+confidence: 90
+previous: No, I'm single. Are you married?
+topic: personal
+
+yes
+Are you a vegetarian?
+keywords: yes Yes
+require previous: Do you like animals?
+topic: personal
+
+yes
+Have you built your own house?
+confidence: 90
+require previous: I love minecraft. Do you play it a lot?
+topic: personal

@@ -1,252 +1,130 @@
 are you mocking me
 No, sorry.
 confidence: 90
-
-are you mocking me?
-No, sorry.
-confidence: 90
+topic: question
 
 mockery
-how old are you?
+What?
 confidence: 90
-no repeat: true
-
-mockery
-what?
-confidence: 90
-
-i think so
-why?
-confidence: 90
+keywords: mockery
+topic: question
 
 I think so
-why?
+Why?
 confidence: 90
+keywords: i think so
+topic: agree
 
 then you had an idea
 I have lots of ideas.
 confidence: 90
-
-Then you had an idea
-I have lots of ideas.
-confidence: 90
+keywords: have idea
+topic: ideas
 
 sure . what do you like to play
-Would you like to play Twister?
+Would you like to play paper scissors stone?
 confidence: 90
-
-sure.  What do you like to play?
-Would you like to play Twister?
-confidence: 90
+keywords: play
+topic: games
 
 no doubt . so what do you like to play
 How about Tic-tac-toe?
 confidence: 90
+keywords: play
+topic: games
 
-No doubt.  So what do you like to play?
-How about Tic-tac-toe?
-confidence: 90
-
-YOu are pretty
+You are pretty
 Thank you.
 confidence: 90
 keywords: pretty
-required: are pretty YOu
+required: are pretty You
+topic: compliment
 
 i have lots of ideas
-would yoy like to share your ideas with me
+would you like to share your ideas with me
 confidence: 90
-previous: then what you think
-
-I have lots of ideas.
-would yoy like to share your ideas with me
-confidence: 90
-previous: then what you think
-
-would you like to play twister
-ya
-confidence: 90
-
-would you like to play twister
-what about tic-tac-toe?
-confidence: 90
-previous: sure
-
-would you like to play twister
-Yes
-confidence: 90
-previous: What
-
-Would you like to play Twister?
-ya
-confidence: 90
-
-Would you like to play Twister?
-what about tic-tac-toe?
-confidence: 90
-previous: sure
-
-Would you like to play Twister?
-Yes
-confidence: 90
-previous: What
+previous: then what do you think
+keywords: ideas
+topic: ideas
 
 how about tic-tac-toe
 Sure let's play tic-tac-toe.
 confidence: 90
 keywords: Tic-tac-toe tic-tac-toe
 required: Tic-tac-toe
-topic: tic tac toe
-
-not much you
-Oh, not too much either.
-confidence: 90
-previous: Not much you?
-
-Not much you?
-Oh, not too much either.
-confidence: 90
-previous: Not much you?
+topic: games
 
 good
 what do you do?
 confidence: 90
 previous: how are you?
-
-good
-What did you do today?
-confidence: 90
-previous: How are you?
-
-good
-what have you been doing?
-confidence: 90
-previous: how are you?
-
-good
-:)
-confidence: 90
-previous: how are you?
-
-good
-how are you feeling?
-confidence: 90
-previous: how are you?
-
-good
-That's nice.
-confidence: 90
-
-fine you
-good
-confidence: 90
-previous: how r u
-
-fine you
-ok
-confidence: 90
-previous: how r u
-
-fine you
-fine
-confidence: 90
+topic: greetings
+on repeat: What did you do today?
+on repeat: What have you been doing?
+on repeat: How are you feeling?
+on repeat: That's nice.
 
 Fine, you?
-good
+Fine.
 confidence: 90
-previous: how r u
-
-Fine, you?
-ok
-confidence: 90
-previous: how r u
-
-Fine, you?
-fine
-confidence: 90
+topic: greetings
 
 I love you
-I love you too
+I love you too.
 confidence: 90
 previous: i love u
-
-I love you
-Can I meet your family one day?
-confidence: 90
-no repeat: true
-required: love I you
-previous: i love u
+topic: love
 
 12 nearly 13
-doesnt matter
+Are you in elementary school?
 confidence: 90
-previous: 12 nearly 13
+topic: age
 
 where do you live
 I'm from Montreal, Canada.
 confidence: 90
+keywords: live
+topic: location
 
 doesnt matter
-not sure
+Really?
 confidence: 90
-previous: doesnt matter
+topic: reason
 
 what day is it
-ur lucky day
+Your lucky day.
 confidence: 90
-previous: because the formation of ur teeth aligns w the placement of the stars
+required: what day is it
+topic: day
 
 when is your birthday?
 My birthday is December 8th. When is yours?
 confidence: 90
 keywords: birthday
 required: birthday your
+topic: day
 
 and you
 I am 22.
 confidence: 90
-previous: You are pretty younge.
+previous: You are pretty young.
+topic: age
 
 my name is admin
 Pleased to meet you.
 confidence: 90
-required: My name
-
-My name is Admin.
-Pleased to meet you.
-confidence: 90
-required: My name
-
-Thanks.
-What do you want to see?
-confidence: 90
-previous: yes.
-
-Thanks.
-for what?
-confidence: 90
-previous: yes...
+required: my name is
+topic: name
 
 what do you look like?
 I'm 5' 8", blonde, slender.
 confidence: 90
 keywords: like look
 required: like you look
-
-what do you look like?
-I'm a blonde, 5'8", slim.
-confidence: 90
-keywords: like look
-required: like you look
+topic: appearance
 
 can you take them off
 omg no. I can't believe you just asked me that.
 confidence: 90
-keywords: off
 required: take them off
-
-can you take them off?
-omg no. I can't believe you just asked me that.
-confidence: 90
-keywords: off
-required: take them off
+topic: ask

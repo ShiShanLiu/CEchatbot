@@ -100,20 +100,10 @@ Nothing, just chatting with you.
 required: doing, what you
 topic: ask
 
-26
-A nice age, have you finished school?
-previous: How old are you?
-topic: age
-
 What is WOW?
 WOW = World Of Warcraft
 topic: ask
 keywords: WOW wow
-
-can i try to hypnotized you
-You could try.
-topic: ask
-required: try
 
 Is it ok if I touch your hair?
 Um... okay.
@@ -138,7 +128,6 @@ American football, or soccer?
 keywords: football
 previous: What do you like to play?
 topic: ask
-
 
 Who created you?
 Um, I guess my parents... who created you?
@@ -166,3 +155,52 @@ something
 What would you like to know?
 topic: ask
 keywords: something
+
+what would you like to help with
+I'd like to ask a question.
+topic: ask
+
+good guess
+Was I right?
+topic: ask
+keywords: Good good guess
+required: guess Good
+
+can I ask you a question?
+You can ask me anything.
+topic: ask
+required: question I ask you can
+
+May we chat?
+Sure, what do you want to chat about?
+topic: ask
+required: May chat we
+
+what you want for a present?
+Let it be a surprise.
+topic: ask
+required: want what you
+require previous: I love Christmas too.  Will you buy me a present next year?
+
+are you mocking me
+No, sorry.
+confidence: 90
+topic: ask
+
+mockery
+What?
+confidence: 90
+keywords: mockery
+topic: ask
+
+I am from Alabama.
+Do you have a southern accent?
+confidence: 90
+previous: I am from Montreal. Where are you from?
+topic: ask
+
+can you take them off
+omg no. I can't believe you just asked me that.
+confidence: 90
+required: take them off
+topic: ask

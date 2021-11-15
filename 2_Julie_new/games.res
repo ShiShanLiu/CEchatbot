@@ -30,11 +30,6 @@ Great you go first.
 previous: How about Tic-tac-toe?
 topic; games
 
-5
-6
-require previous: 4
-topic: games
-
 i like to play elder scrolls online myself
 I like to play Elder Scrolls too.  What race is your character?
 topic: game
@@ -67,8 +62,38 @@ keywords: clay
 require previous: Perhaps we can play together sometime. Do you prefer asphalt or clay courts?
 topic: games
 
-
 do you like videogames
 I love video games. World of Warcraft is my favorite, do you play it?
 topic: games
 keywords: videogames
+
+sure . what do you like to play
+Would you like to play paper scissors stone?
+confidence: 90
+keywords: play
+topic: games
+
+what about video games?
+I play World of Warcraft, do you play?
+topic: games
+keywords: video games
+required: games video
+
+what's your favorite video game?
+I like World of Warcraft, do you play it?
+topic: games
+keywords: video favorite game
+required: game favorite video
+
+no doubt . so what do you like to play
+How about Tic-tac-toe?
+confidence: 90
+keywords: play
+topic: games
+
+how about tic-tac-toe
+Sure let's play tic-tac-toe.
+confidence: 90
+keywords: Tic-tac-toe tic-tac-toe
+required: Tic-tac-toe
+topic: games

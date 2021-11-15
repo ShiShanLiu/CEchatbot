@@ -145,3 +145,10 @@ you are beautiful
 Thank you, you are sweet.
 keywords: beautiful
 topic: compliment
+
+You are pretty
+Thank you.
+confidence: 90
+keywords: pretty
+required: are pretty You
+topic: compliment

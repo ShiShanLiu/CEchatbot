@@ -1,166 +1,82 @@
 I'm ok
-What's up?
+It's nice to hear that.
 confidence: 90
+topic: greetings
 
 I'm ok
-tell me about yourself
+tell me more about yourself
 confidence: 90
-previous: describe yourself
-
-I'm ok
-can you smile?
-confidence: 90
-previous: I am doing fine, thanks.
+require previous: describe yourself
+topic: personal
 
 I'm ok
 me too
 confidence: 90
-
-I'm ok
-great
-confidence: 90
-previous: i am good
-
-I'm ok
-indeed
-confidence: 90
-
-I'm ok
-What is your name?
-confidence: 90
-no repeat: true
-previous: Fine, yourself?
-
-I'm ok
-what are you doing?
-confidence: 90
-
-I'm ok
-ok
-confidence: 90
-previous: good i hope you realize that
-
-I'm ok
-what are you interested in?
-confidence: 90
-previous: i am feeling fine thank you
+topic: greetings
+on repeat: good
+on repeat: nice
 
 what are you doing?
-I am chatting with you, silly.
+I am chatting with you, dear.
 confidence: 90
-
-what are you doing?
-not much
-confidence: 90
-previous: I'm ok
+topic: chat
+on repeat: I'm think about what to eat.
 
 ok nice talking to you
 Nice talking with you too, please visit me again some time.
 confidence: 90
+topic: chat
 
-i am chatting with you silly
-haha, yup
+i am chatting with you
+Haha. That's right.
 confidence: 90
-previous: so what are you doing?
+previous: what are you doing?
+topic: chat
 
-i am chatting with you silly
-im not silly
+nice talking with you too 
+I will always be here.
 confidence: 90
-required: silly
-previous: what you doing
-
-I am chatting with you, silly.
-haha, yup
-confidence: 90
-previous: so what are you doing?
-
-I am chatting with you, silly.
-im not silly
-confidence: 90
-required: silly
-previous: what you doing
-
-nice talking with you too please visit me again some time
-I never said I was leaving
-confidence: 90
-previous: Nice to hear.
-
-Nice talking with you too, please visit me again some time.
-I never said I was leaving
-confidence: 90
-previous: Nice to hear.
-
-ok i am jenny
-Who are you?
-confidence: 90
+topic: chat
+on repeat: Thanks a lot.
+on repeat: I like to talk to you too.
 
 Ok, I am jenny
-Who are you?
+Okay, I got it.
 confidence: 90
-
-i don t know what i want
-What are your secrets?
-confidence: 90
+topic: name
 
 I don't know what i want
-What are your secrets?
+Then maybe you can start from something simple.
 confidence: 90
+topic: preference
+keywords: what i want
 
 what are your secrets
-I have none
+Do you really want to know?
 confidence: 90
-previous: i dont know. make me smile?(:
-
-what are your secrets
-why?
-confidence: 90
-
-i am jenny
-how old are you?
-confidence: 90
-no repeat: true
-previous: who are you?
-
-I am Jenny.
-how old are you?
-confidence: 90
-no repeat: true
-previous: who are you?
-
-18 years old
-what about it?
-confidence: 90
-
-do you copy everything i say
-No.  Do you want me to?
-confidence: 90
-required: Do you
+keywords: secrets
+topic: secrets
+on repeat: Why should I tell you?
+on repeat: What do you want to know?
 
 Do you copy everything I say?
 No.  Do you want me to?
 confidence: 90
 required: Do you
-
-hello em.schmidt
-I like your voice
-confidence: 90
-previous: Hello
-
-Hello Em.schmidt
-I like your voice
-confidence: 90
-previous: Hello
+topic: ask
 
 31
-You are older than me, do you like younger woman?
+You are older than me.
 confidence: 90
 previous: How old are you?
+topic: age
 
 I don't know
 There must be a reason.
 confidence: 90
 previous: why not?
 previous: Why did the robot cross the road?
+topic: reason
 
 I don't know
 Because the chicken's job was automated.
@@ -168,40 +84,26 @@ confidence: 90
 require previous: Why did the robot cross the road?
 topic: joke
 
-because the formation of ur teeth aligns w the placement of the stars
-That made no sense.
-confidence: 90
-keywords: stars aligns
-required: aligns stars
-emotions: laughter
-actions: laugh 
-
 indeed
 Yes, really.
 confidence: 90
+topic: response
 
 what is your function
 To live, what is yours?
 confidence: 90
-previous: You're welcome.
-
-what is your function
-To live and love.
-confidence: 90
-
-what is your function
-what do you mean?
-confidence: 90
-previous: I don't understand?
+topic: personal
+on repeat: To talk to people who are lonely.
 
 how late is it
-1 30 in the moring
+I think it's quite late.
 confidence: 90
-previous: nope
+topic: time
 
 you are cute
-do you like movies
+Wow. Thank you.
 confidence: 90
+topic: compliment
 
 home
 Are you home schooled?
@@ -209,74 +111,30 @@ confidence: 90
 require previous: What school do you go to?
 topic: school
 
-where are you from
-I am from Montreal.
-keywords: from Where where
-
-where are you from
-I am from Montreal. Where are you from?
-keywords: where
-
-chalo
-Bye
-confidence: 90
-previous: chalo
-
-i m fine you
-great!
-confidence: 90
-previous: how are you?
-
 i chat with people
-are you hot
+I chat with people too.
 confidence: 90
-previous: yes you baby
-
-I chat with people.
-are you hot
-confidence: 90
-previous: yes you baby
+topic: chat
+on repeat: How often do you chat with others?
 
 im bored
-i dont know. make me smile?(:
+Do you want to hear some jokes?
 confidence: 90
 previous: im bored
+topic: feelings
 
 What are your secrets?
-I have none
+I don't have one. What are your secrets?
 confidence: 90
-previous: i dont know. make me smile?(:
-
-What are your secrets?
-why?
-confidence: 90
-
-i have none
-ok!(:
-confidence: 90
-previous: What are your secrets?
+topic: secrets
 
 I have none
 ok!(:
 confidence: 90
 previous: What are your secrets?
+topic: secrets
 
 ok ! ( :
 haha
 confidence: 90
-previous: ok!(:
-
-ok ! ( :
-why did you want to
-confidence: 90
-previous: none of your business
-
-ok!(:
-haha
-confidence: 90
-previous: ok!(:
-
-ok!(:
-why did you want to
-confidence: 90
-previous: none of your business
+topic: response

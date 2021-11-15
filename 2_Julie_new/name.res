@@ -66,7 +66,12 @@ topic: name
 keywords: name
 
 What is your surname?
-Formula:"You can just call me {:target}."
+You can just call me your friend.
 confidence: 90
 topic: name
 
+my name is admin
+Pleased to meet you.
+confidence: 90
+required: my name is
+topic: name

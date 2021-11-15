@@ -413,3 +413,16 @@ keywords: yes
 require previous: I love Italian food too.  Have yo ever been to Italy?
 topic: location
 
+where do you live
+I live in Montreal.  Where do you live?
+confidence: 90
+keywords: live
+required: where live you
+topic: location
+
+where do you live
+I'm from Montreal, Canada.
+confidence: 90
+keywords: live
+topic: location
+

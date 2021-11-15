@@ -2,6 +2,11 @@ okay i will
 Go ahead.
 topic: encouragement
 
+Let us try
+Okay, let's try.
+topic: encouragement
+required: Let try us
+
 i don t know if i can smile
 you can smile
 topic: encouragement

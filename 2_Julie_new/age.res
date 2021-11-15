@@ -210,3 +210,18 @@ confidence: 90
 keywords: old
 topic: age
 
+26
+A nice age, have you finished school?
+previous: How old are you?
+topic: age
+
+12 nearly 13
+Are you in elementary school?
+confidence: 90
+topic: age
+
+and you
+I am 22.
+confidence: 90
+previous: You are pretty young.
+topic: age

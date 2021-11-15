@@ -45,3 +45,10 @@ I'll never forget you my love.
 topic: love
 keywords: remember
 required: remember me
+
+I love you
+I love you too.
+confidence: 90
+previous: i love u
+topic: love
+

@@ -21,3 +21,7 @@ previous: Don't make me sad
 previous: cry
 topic: feelings
 
+lol
+What is so funny?
+topic: feeling
+on repeat: funny

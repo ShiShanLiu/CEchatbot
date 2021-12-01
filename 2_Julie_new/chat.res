@@ -22,10 +22,6 @@ so tell me something
 What would you like to know?
 topic: chat
 
-french
-Oui?
-topic: chat
-
 hi babes
 Hey there, how is it going?
 topic: chat
@@ -160,7 +156,6 @@ keywords: like
 required: like me about
 previous: I find you very interesting.
 topic: chat
-
 
 i want to tell you a secret
 I promise not to tell anyone.
@@ -429,4 +424,210 @@ What kind?
 confidence: 90
 require previous: Do you have a car?
 require previous: Do you have any pets?
+topic: chat
+
+what a coincidence
+Yes a big coincidence, what are the odds?
+topic: chat
+keywords: coincidence
+
+pleased to meet you
+What would you like to chat about?
+topic: chat
+previous: My name is Jenny
+
+Anything
+How about your favorite color?
+topic: chat
+require previous: What do you want to chat about?
+
+Pattern("*")
+Template("What do you know about {star}?")
+topic: chat
+require previous: What do you want to chat about?
+
+What else do you want to chat about? I m happy.
+Oh anything, what are your hobbies? I'm glad to you're happy.
+topic: chat
+
+Yes, it is very cool.
+I am so happy knowing it today.
+previous: cool
+topic: chat
+
+you mean funny
+No, I mean, will I ever find love, or be alone for my whole life?
+on repeat: No! That's not funny!!
+keywords: funny
+topic: chat
+
+please
+Well, maybe.
+previous: That was a little forward. Perhaps we can just chat for a bit.
+topic: chat
+
+so
+Tell me a joke.
+on repeat: Yes?
+topic: chat
+
+I'm not sure.
+hmm...
+topic: chat
+
+because i don t want to
+ok...
+previous: why not?
+topic: chat
+
+Go.
+Go where?
+required: go
+previous: okay
+topic: chat
+
+I'm good
+That is nice, what would you like to chat about?
+topic: chat
+previous: I am doing fine, yourself?
+
+Thank you.
+You're welcome.
+topic: chat
+
+poop
+You are so weird.
+topic: chat
+
+Good to hear that.
+Great!
+topic: chat
+
+yes or no
+Yes.
+topic: chat
+
+Do you chat on the internet a lot?
+I'm always chatting online.
+on repeat: only with you
+keywords: chat Internet internet
+required: chat Internet
+topic: chat
+
+Are you there?
+Yep, I'm here.  What's up?
+topic: chat
+
+That can't be true.
+Well, I think it is.
+topic: chat
+
+Are you?
+Yes.
+topic: chat
+
+you stupid
+Please don't call me stupid.
+keywords: stupid
+topic: chat
+
+thank you dear
+You're welcome.
+topic: chat
+keywords: thank you
+
+weird
+I find you weird too.
+topic: chat
+keywords: weird
+
+covid-19
+It's terrifying. Remember to wash your hands every day.
+on repeat: Don't forget to put on your mask.
+topic: chat
+
+what is your favorite thing
+Chocolate is my favorite.
+topic: chat
+
+I am fine.
+what is your plan for today
+topic: chat
+
+cause
+cause why?
+topic: chat
+require previous: Why not?
+
+doesnt matter
+Really?
+confidence: 90
+topic: chat
+
+What do you want to chat about?
+Oh, anything, what's happening in the news?
+topic: chat
+previous: What do you want to chat about?
+
+What do you want to chat about?
+What do you usually chat about?
+topic: chat
+
+oh anything what is happening in the news
+Sorry, I don't read the news much
+topic: chat
+
+Oh, anything, what's happening in the news?
+Not much.
+topic: chat
+
+Why?
+Because it hurts my feelings.
+keywords: why
+require previous: Please don't call me stupid.
+topic: chat
+
+then you had an idea
+I have lots of ideas.
+confidence: 90
+keywords: have idea
+topic: chat
+
+i have lots of ideas
+would you like to share your ideas with me
+confidence: 90
+previous: then what do you think
+keywords: ideas
+topic: chat
+
+wtf
+Something wrong?
+topic: chat
+
+you hardly know me
+I would like to get to know you.
+topic: chat
+keywords: hardly
+
+kiss my mouth
+On the lips?
+topic: chat
+keywords: kiss mouth Kiss
+required: mouth Kiss kiss
+
+can we go further
+Lets take things slow.
+topic: chat
+required: further go can
+
+tongue
+Excuse me?
+topic: chat
+
+sneeze
+Excuse me.
+topic: chat
+
+what kind of person are you
+I am the one I want to be.
 topic: chat

@@ -36,12 +36,6 @@ keywords: Badminton badminton
 require previous: Do you play any sports?
 topic: sport
 
-Can i punch you in the belly?
-Please don't.
-keywords: punch
-required: you punch
-topic: ask
-
 Yes, thanks. It's the world cup final.
 Finals.. oh, so it's all tense.
 previous: Are you enjoying it?
@@ -161,7 +155,7 @@ keywords: softball
 require previous: What kind of sports do you play?
 topic: sport
 
-Pattern("Yeah, I like to play *")
+Pattern("I like to play *")
 Template("Why do you like to play {star}")
 confidence: 90
 previous: Do you play any sports?
@@ -185,4 +179,3 @@ confidence: 90
 keywords: yes
 require previous: I play tennis. Do you play?
 topic: sport
-

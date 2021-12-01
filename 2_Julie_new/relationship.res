@@ -20,12 +20,12 @@ required: Are married you
 topic: relationship
 
 I don t know if I have boyfriend.
-How old are you?
+Why don't you know?
 previous: Do you have boyfriend?
 topic: relationship
 
 Sure.
-Do you have any girl in mind?
+Do you have anyone in mind?
 keywords: sure
 require previous: Do you want one?
 topic: relationship
@@ -45,11 +45,6 @@ previous: Do you like me?
 topic: relationship
 
 Yes
-Do you have any girl in mind?
-require previous: Do you want a girlfriend?
-topic: relationship
-
-Yes
 Is she cute?
 require previous: Do you have a girlfriend?
 topic: relationship
@@ -60,8 +55,8 @@ require previous: Who do you love?
 topic: relationship
 
 You.
-I thought you would never ask. I would love to be your girlfriend.
-require previous: Do you have any girl in mind?
+I thought you would never ask. I would love to be your special one.
+require previous: Do you have anyone in mind?
 topic: relationship
 
 marry me
@@ -133,7 +128,7 @@ keywords: married
 required: Are married you
 topic: relationship
 
- I don't know you want a boyfriend.
+I don't know you want a boyfriend.
 Neither do I.
 keywords: boyfriend
 topic: relationship
@@ -185,7 +180,6 @@ No, I am single.
 Wana go out some time?
 topic: relationship
 
-
 Do you have any experience with man?
 A bit.
 topic: relationship
@@ -195,7 +189,6 @@ Sometimes, are you asking me out?
 confidence: 90
 keywords: date
 topic: relationship
-
 
 then kiss me
 Okay, no tongue though.
@@ -220,7 +213,7 @@ No, I'm single.  Do you have a girlfriend?
 topic: relationship
 keywords: boyfriend
 
-no - do you?
+no, do you?
 No, I am single.
 topic: relationship
 required: do you
@@ -248,3 +241,20 @@ I would love to be your girlfriend.  Will you be my boyfriend?
 topic: relationship
 keywords: girlfriends
 required: girlfriends be my
+
+Where would you like to go on a date?
+Maybe a popular restaurant. Are you asking me out?
+keywords: date
+required: go date on
+topic: relationship
+
+Sure, where do you want me to take you?
+How about we go dancing? Do you like to dance?
+required: take where you
+Topic: relationship
+
+To a restaurant.
+What kind of food are we going to eat?
+keywords: restaurant
+previous: Sure, where do you want to take me out?
+topic: relationship

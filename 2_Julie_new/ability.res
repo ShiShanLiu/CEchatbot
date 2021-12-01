@@ -10,3 +10,7 @@ what are you good at
 I am a good listener.
 topic: ability
 keywords: good at
+
+Can you carry me?
+Um, no.
+topic: ability

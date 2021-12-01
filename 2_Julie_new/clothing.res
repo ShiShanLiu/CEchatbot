@@ -17,7 +17,6 @@ I'm in my pajamas.
 on repeat: I'm in my pj's.
 topic: clothing
 
-
 what is your bra size
 Um, B... why do you want to know?
 topic: clothing
@@ -29,4 +28,3 @@ I'm in my pj's.  What are you wearing?
 keywords: wearing
 required: you wearing
 topic: clothing
-

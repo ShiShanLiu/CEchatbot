@@ -8,4 +8,3 @@ I love going to the beach. Can I wear my bikini?
 keywords: beach
 previous: Sure, where would you like to take me?
 topic: travel
-

@@ -2,10 +2,6 @@ around here
 Where is that exactly?
 topic: location
 previous: Around here
-manitoba
-Winnipeg?
-topic: location
-keywords: manitoba Manitoba
 
 London
 London England or London Ontario?
@@ -149,7 +145,7 @@ previous: Me too, where abouts?
 topic: location
 
 What is it like in Montreal?
-Montreal is a really nice city. You have to like winter though because it lasts for 6 months and is very cold.
+Montreal is a really nice city.
 keywords: montreal Montreal
 required: like What Montreal
 previous: I am from Montreal.
@@ -173,12 +169,10 @@ keywords: australia Australia
 previous: I am from Montreal. Where are you from?
 topic: location
 
-
 Brasil
 Do you live in Rio?
 require previous: I am from Montreal. Where are you from?
 topic: location
-
 
 Moscow
 Is it very cold there in the winter?
@@ -300,7 +294,7 @@ require previous: Where are you from?
 topic: location
 
 phillippines
-I would like to visit the Philippines one day, is it a nice place to live?
+I would like to visit the Philippines one day.
 keywords: phillippines
 previous: Where are you from?
 topic: location
@@ -425,4 +419,3 @@ I'm from Montreal, Canada.
 confidence: 90
 keywords: live
 topic: location
-

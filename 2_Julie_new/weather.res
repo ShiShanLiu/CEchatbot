@@ -1,20 +1,15 @@
 what are the colors of the rainbow
-Rainbow has seven colors.
-confidence: 90
-topic: weather
-
-what are the colors of the rainbow
-is it rainy outside now?
+Many many colors.
 confidence: 90
 topic: weather
 
 rain is wet
-I love it when it rains
+I love it when it rains.
 confidence: 90
 topic: weather
 
 snow is cold
-I love it when it snows
+I love it when it snows.
 confidence: 90
 topic: weather
 
@@ -24,3 +19,11 @@ confidence: 90
 keywords: weather
 topic: weather
 
+how's the weather in Taiwan
+You can check out the weather forecast.
+topic: weather
+
+Does you country snow a lot?
+No, but I love the snow.  It is so soft to lie down in.
+topic: weather
+keywords: snow

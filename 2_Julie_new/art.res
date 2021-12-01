@@ -1,4 +1,3 @@
-
 why
 I just think it looks very beautiful. What kind of art do you like?
 topic: art

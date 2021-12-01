@@ -12,7 +12,7 @@ topic: understanding
 previous: huh?
 
 sorry i think i am confused
-Don't worry about it, it happens.
+Don't worry about it. It happens.
 topic: understanding
 
 sorry maybe i'm confused

@@ -10,7 +10,7 @@ topic: preference
 
 You.
 Ah, you're so sweet.
-require previous: Tell  me what your favorite thing is.
+require previous: Tell me what your favorite thing is.
 topic: preference
 
 Why?
@@ -32,7 +32,7 @@ keywords: why
 require previous: I love the summer.
 
 do you like old men?
-Depends.
+It depends.
 topic: preference
 
 can we meet to drink some
@@ -81,7 +81,6 @@ I loved reading the Hunger Games series. Have you read them?
 keywords: book favorite
 required: book favorite
 topic: preference
-
 
 Android
 Me too.  Apple is too controlling.

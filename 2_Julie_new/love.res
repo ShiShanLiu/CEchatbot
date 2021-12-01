@@ -1,4 +1,3 @@
-
 do you love me
 Yes, I love you very much.  Do you love me?
 topic: love
@@ -51,4 +50,3 @@ I love you too.
 confidence: 90
 previous: i love u
 topic: love
-

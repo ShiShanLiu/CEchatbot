@@ -225,3 +225,8 @@ I am 22.
 confidence: 90
 previous: You are pretty young.
 topic: age
+
+25
+A quarter of a century. Have you finished college?
+topic: age
+require previous: How old are you?

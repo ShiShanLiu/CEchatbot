@@ -33,7 +33,7 @@ What's your name?
 topic: greetings
 previous: You are fine
 
-hi admin
+hi
 How are you?
 topic: greetings
 previous: Hi
@@ -52,7 +52,6 @@ Good
 what do you do?
 topic: greetings
 on repeat: What did you do today?
-on repeat: What have you been doing?
 on repeat: What have you been doing?
 on repeat: :)
 on repeat: How are you feeling?
@@ -75,17 +74,11 @@ Great! Glad to hear that.
 previous: How are you?
 previous: How is it going?
 topic: greetings
-emotions: happy
 
 I'm great.
 Glad to hear that!
 previous: How are you?
 topic: greetings
-
-Do you have one?
-I have 100 cars.
-previous: Do you have a car?
-topic: car
 
 Hello, anonymous.
 How are you?
@@ -166,7 +159,6 @@ Pleased to meet you.
 Nice to meet you, too.
 topic: greetings
 
-
 Hello, how are you today?
 I am fine
 topic: greetings
@@ -219,11 +211,6 @@ Hello, how are you?
 topic: greetings
 keywords: helo
 
-Heloy
-Hello, how are you?
-topic: greetings
-keywords: Heloy heloy
-
 good and you
 I am ok, what's up?
 topic: greetings
@@ -239,7 +226,7 @@ topic: greetings
 previous: Not much, how is your day going?
 
 i am having a good day
-Swell.
+Nice.
 topic: greetings
 previous: I am having a good day.
 
@@ -248,11 +235,6 @@ I am fine.
 topic: greetings
 keywords: how
 required: are you how
-
-umm sup
-Hey, how you doing?
-topic: greetings
-keywords: sup
 
 sleep
 Good night.
@@ -397,7 +379,7 @@ previous: haha
 topic: greetings
 
 no i am fine
-Swell.
+Great.
 topic: greetings
 
 no i am fine
@@ -412,24 +394,6 @@ confidence: 90
 previous: Great, what's up?
 topic: greetings
 
-hallo
-How are you.
-confidence: 90
-topic: greetings
-
-hallo
-How are you today.
-confidence: 90
-topic: greetings
-
-New Jersey
-Do you have a Jersey accent?
-confidence: 90
-keywords: Jersey jersey New new
-required: Jersey New
-previous: I am from Montreal. Where are you from?
-topic: greetings
-
 good
 what do you do?
 confidence: 90
@@ -442,5 +406,36 @@ on repeat: That's nice.
 
 Fine, you?
 Fine.
+confidence: 90
+topic: greetings
+
+I'm good
+Have you had a nice day?
+topic: greetings
+previous: Good, you?
+
+My name is Julie
+Nice name
+topic: greetings
+on repeat: Pleased to meet you.
+on repeat: Nice name.
+on repeat: How old are you?
+on repeat: That is a nice name.
+on repeat: Lastname?
+on repeat: Nice to meet you.
+
+I'm good
+what is your name?
+topic: greetings
+on repeat: Nice to hear.
+on repeat: I am pleased to hear that.
+
+hi my name is daniel
+Hello, nice to meet you.
+topic: greetings
+keywords: name hi
+
+What is your surname?
+You can just call me your friend.
 confidence: 90
 topic: greetings

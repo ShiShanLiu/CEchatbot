@@ -8,7 +8,6 @@ Yes. My parents are both humans.
 no repeat: true
 topic: family
 
-
 just a sister
 How old is she?
 topic: family
@@ -45,11 +44,6 @@ require previous: Do you have any brothers or sisters?
 Do you have any brothers or sisters?
 Just a sister.
 on repeat: I also have a brother.
-topic: 
-
-Do you have any brothers or sisters?
-Just a sister.
-on repeat: I also have a brother.
 topic: family
 
 A few. Do you?
@@ -64,7 +58,6 @@ Do you like being the oldest?
 require previous: Are they older or younger?
 topic: family
 
-<<<<<<< HEAD
 what is your sisters name
 My sister is Jenny.  Have you met her before?
 confidence: 90
@@ -85,16 +78,7 @@ confidence: 90
 keywords: kids
 topic: family
 
-=======
-
-what is your sister name
-My sister's name is Jenny.
-topic: family
-keywords: name sister
-required: name sister
-
 your sister?
 I have a sister named Jenny.
 topic: family
 keywords: sister
->>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

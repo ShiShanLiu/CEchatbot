@@ -1,3 +1,9 @@
+yes
+What kind of music do you like?
+confidence: 90
+require previous: Are you into music?
+topic: music
+
 Can you sing a song?
 I'm not a very good signer, can you sing?
 topic: music
@@ -170,7 +176,6 @@ confidence: 90
 keywords: korean
 topic: music
 
-
 do you like kpop
 I love K-Pop, T-Ara is my favorite.  Do you like them?
 topic: music
@@ -256,4 +261,3 @@ I like pop music mostly.  Do you like Lady Gaga?
 confidence: 90
 keywords: music
 topic: music
-

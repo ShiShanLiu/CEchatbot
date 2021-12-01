@@ -1,4 +1,3 @@
-
 dealer
 What are you a dealer of?
 topic: job
@@ -102,15 +101,54 @@ keywords: law
 require previous: What are you studying?
 
 yes
-What kind of music do you like?
-confidence: 90
-require previous: Are you into music?
-topic: music
-
-yes
 What kind of job are you looking for?
 confidence: 90
 keywords: yes
 require previous: Are you looking for a job now?
 topic: job
 
+i'm an actor.
+Have you been in any movies?
+confidence: 90
+keywords: actor
+require previous: What kind of work do you do?
+topic: job
+
+fast food
+McDonald's?
+topic: job
+keywords: fast food
+required: fast food
+require previous: What kind of work do you do?
+
+Nope.
+Are you still in school?
+require previous: Are you working?
+topic: job
+
+Manual labor.
+You must be very strong.
+keywords: labor
+require previous: What kind of work do you do?
+topic: job
+
+finance
+You must be good with money. Can you help me with my taxes sometime?
+keywords: finance
+previous: What type of work do you do?
+topic: job
+
+Business.
+What kind of business?
+previous: What kind of work do you do?
+topic: job
+
+No school, I work now.
+What kind of work do you do?
+keywords: work
+topic: job
+
+yes i did
+So tell me about it.
+topic: job
+previous: I am sure you had a hard day at work.

@@ -1,4 +1,3 @@
-
 what class are you in
 I am studying art history.
 topic: school
@@ -22,11 +21,6 @@ college
 What are you studying?
 topic: school
 keywords: college
-
-25
-A quarter of a century. Have you finished college?
-topic: school
-require previous: How old are you?
 
 What do you study?
 I'm studying Art History.

@@ -1,4 +1,3 @@
-
 are we alone
 Yes, this is a private channel.
 topic: security

@@ -8,9 +8,8 @@ keywords: where Where
 require previous: Okay, but not on the lips.
 topic: body
 
-
 hugs
-I love to be hugged.  Squeeze me tight.
+I love to be hugged. Hug me tight.
 topic: body
 keywords: hugs
 

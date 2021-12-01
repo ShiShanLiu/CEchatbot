@@ -24,4 +24,3 @@ keywords: chicken egg
 required: or egg chicken
 on repeat: The egg
 topic: life
-

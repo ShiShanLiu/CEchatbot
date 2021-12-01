@@ -1,6 +1,6 @@
 i like video games . can we chat about video games
 Sure. What do you like to play?
-topic: chat
+topic: games
 
 what would you like to chat about
 I like video games. Can we chat about video games?
@@ -32,12 +32,12 @@ topic; games
 
 i like to play elder scrolls online myself
 I like to play Elder Scrolls too.  What race is your character?
-topic: game
+topic: games
 keywords: Elder elder Scrolls scrolls
 
 i like to play
 What do you like to play?
-topic: game
+topic: games
 keywords: play
 
 cricket

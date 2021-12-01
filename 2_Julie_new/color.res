@@ -1,14 +1,12 @@
-
 green
 Wow, that is very rare.  You must be gorgeous.
 topic: color
 keywords: green
-require previous: My eyes are blue, what colour are your eyes?
-emotions: like
+require previous: My eyes are blue, what color are your eyes?
 
 green
 Do you wear a lot of green cloths?
-topic: colors
+topic: color
 keywords: green
 require previous: My favorite color is red, what is yours?
 
@@ -44,7 +42,6 @@ I like blue too. Do you have blue eyes?
 require previous: My favorite color is red, what is yours?
 topic: color
 
-<<<<<<< HEAD
 favorite color
 I like pink, what is your favorite color?
 confidence: 90
@@ -58,11 +55,8 @@ keywords: panties color
 required: panties color
 topic: color
 
-=======
-
 what is your favorite color
 I like pink.  What is your favorite color?
 topic: color
 keywords: color favorite
 required: color favorite
->>>>>>> a878f6102c93cb340287171b44f54f1ec443036d

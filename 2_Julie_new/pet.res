@@ -122,7 +122,6 @@ keywords: shepherd shepard german
 require previous: What kind of dog?
 topic: pet
 
-=======
 german shepherd
 Shephards kind of scare me.  They are big dogs.
 topic: pet

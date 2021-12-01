@@ -14,15 +14,14 @@ Yes, I love animals.
 keywords: animals
 topic: animals
 
-
 what is your favorite animal
 I like Koala Bears.  Do you have any pets?
 topic: animals
 keywords: favorite animal
 required: favorite animal
+on repeat: I love penguins, they are so cute.
 
-what is your favorite animal
-I love penguins, they are so cute.
+Do you like animals?
+Yes, I love animals.
+keywords: animals
 topic: animals
-keywords: favorite animal
-required: favorite animal

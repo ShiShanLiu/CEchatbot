@@ -8,7 +8,6 @@ I love sushi. Do you like Japanese food?
 Yes, I do! What else do you like?
 topic: food
 
-
 a few
 What did you eat?
 previous: Have you had your lunch?
@@ -37,14 +36,6 @@ I love tacos.
 I love Mexican food, too.
 keywords: tacos
 topic: food
-
-
-fast food
-McDonald's?
-topic: food
-keywords: fast food
-required: fast food
-require previous: What kind of work do you do?
 
 what is your favorite food
 I love Sushi, but just the vegetarian ones, I don't like raw fish.

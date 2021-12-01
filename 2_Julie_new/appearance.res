@@ -66,3 +66,20 @@ confidence: 90
 keywords: like look
 required: like you look
 topic: appearance
+
+what color is your hair
+I'm a blonde, what color is your hair?
+topic: appearance
+keywords: color hair
+required: hair color
+
+dark brown
+Tall, dark, and handsome?
+topic: appearance
+keywords: dark
+previous: I'm a brunette, what color is your hair?
+
+blonde
+That explains a lot. I guess it is true what they say about blondes?
+require previous: I'm a brunette, what color is your hair?
+topic: appearance

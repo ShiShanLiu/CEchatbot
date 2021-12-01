@@ -15,7 +15,6 @@ keywords: Yes yes yep
 require previous: I love Italian food too.  Have you ever been to Italy?
 topic: experience
 
-
 ask me something
 Have you ever kissed a girl?
 topic: experience
@@ -26,7 +25,7 @@ topic: experience
 previous: Have you ever kissed a girl?
 
 Have you ever been tied up
-No, I'm not that kind of girl.
+No, I'm not that kind of person.
 topic: experience
 keywords: tied
 required: tied up
@@ -39,6 +38,6 @@ keywords: fondest memory
 required: memory fondest
 
 ever been to portugal?
-No, I have never been there, is it nice?
+No, I have never been there. Is it nice?
 topic: experience
 required: been to ever

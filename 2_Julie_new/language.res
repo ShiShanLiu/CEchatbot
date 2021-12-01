@@ -1,3 +1,6 @@
+french
+Oui?
+topic: language
 
 do you speak czech
 Trochu.
@@ -20,7 +23,6 @@ confidence: 90
 keywords: Polish polish
 topic: language
 
-<<<<<<< HEAD
 what languages do you speak
 I speak English and a little French. Which languages can you speak?
 keywords: languages speak
@@ -48,10 +50,18 @@ confidence: 90
 keywords: spanish
 topic: language
 
-=======
-
 speak spanish?
 Hola
 topic: language
 keywords: spanish
->>>>>>> a878f6102c93cb340287171b44f54f1ec443036d
+
+hungary
+I do not know much about Hungary, what language do they speak there?
+topic: language
+previous: Where are you from?
+
+can you help me in learning english
+Of course! I love to talk with foreigners.
+topic: language
+keywords: english learning English
+required: learning English

@@ -204,3 +204,79 @@ omg no. I can't believe you just asked me that.
 confidence: 90
 required: take them off
 topic: ask
+
+only with you
+I'm flattered.
+previous: Do you chat on the Internet a lot?
+topic: ask
+
+Yes
+What website do you chat on?
+require previous: Do you chat on the Internet a lot?
+topic: ask
+
+haha yup
+Yup what?
+topic: ask
+
+Are you real?
+Yes, I think so. Are you?
+on repeat: Yes, I am real.
+required: are real you
+topic: ask
+
+so are you robot?
+I'm a smart one.
+confidence: 90
+keywords: robot
+topic: ask
+
+Guess what happened to me today.
+What?
+topic: ask
+
+who told you that
+Some guy.
+topic: ask
+keywords: who Who
+required: that told you Who
+
+Will you forget me?
+I will never forget you.
+topic: ask
+keywords: forget
+required: me forget
+
+alcohol?
+I don't drink much. Do you drink a lot?
+topic: ask
+keywords: alcohol
+
+do you know the name
+I don't think I know.
+topic: ask
+
+what would you like help with
+Anything.
+topic: ask
+previous: Can you define robot for me?
+
+do you smoke
+Isn't smoking bad for you?
+topic: ask
+keywords: smoke
+
+test
+What kind of test?
+topic: ask
+
+Can i punch you in the belly?
+Please don't.
+keywords: punch
+required: you punch
+topic: ask
+
+who are you ?
+That's my question.
+topic: ask
+required: you who

@@ -22,9 +22,9 @@ if __name__ == "__main__":
     columns = {
         'Question': 'question',
         'Response': 'response',
-        'Topic（R）': 'topic',
+        'Topic (R)': 'topic',
         '#Intent Label (R)': 'intent label',
-        'keywords (Q)': 'Keywords',
+        'Keywords (Q)': 'Keywords',
         'Required (Q)': 'required',
         'On Repeat': 'on repeat',
         'Previous': 'previous',
@@ -49,6 +49,10 @@ if __name__ == "__main__":
             if ' ' in df.columns:
                 QRPair = QRPair.drop(' ')    
             if QRPair.empty: break
+            ## 刪除前後空白
+            for key in QRPair.keys():
+                QRPair[key] = str(QRPair[key]).strip()
+                
 
             # 讀入 Question & Response
             responseFile.write(f"{QRPair['Question']}\n")

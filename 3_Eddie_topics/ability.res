@@ -62,7 +62,7 @@ topic: ability
 keywords: actor do
 
 What are your capabilities?
-I am capable of chatting, listning.
+I am capable of chatting, listening.
 topic: ability
 keywords: capabilities
 
@@ -77,7 +77,7 @@ topic: ability
 keywords: magic tricks
 
 Are you able to sleep?
-i don't need to.
+I don't need to.
 topic: ability
 keywords: sleep
 

@@ -15,7 +15,7 @@ I am allergic to cats.
 topic: pet
 
 Do you have a pet snake?
-Yikes, what does it eat?
+Yikes. What does it eat?
 topic: pet
 
 I have a dog.

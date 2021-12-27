@@ -1,19 +1,10 @@
-I understand that you are fine
-Thanks, me too.
-topic: age
-previous: i am good
-
-i understand i am fine
-I'm glad to hear that.
-topic: age
-
 i'm 14
 You are very young.
 topic: age
 on repeat: Are you a junior school student?
 
-15 years old
-Wow, you are so young.
+Pattern("* years old")
+Template("{star} years old. Wow, wish you a promising future!")
 topic: age
 require previous: how old are you?
 
@@ -37,7 +28,7 @@ topic: age
 keywords: so young
 
 what's my age
-25
+Did you tell me?
 topic: age
 keywords: my age
 
@@ -52,7 +43,7 @@ topic: age
 keywords: average lifetime of human beings
 
 what's the age when a child graduates from the elementary school?
-it's about 12.
+It's about 12.
 topic: age
 keywords: graduates elementary school
 
@@ -61,12 +52,12 @@ The oldest living man is Jiroemon Kimura
 topic: age
 
 what's the average lifetime of male
-according to online statistics, the average lifetime of males is 76.
+According to online statistics, the average lifetime of males is 76.
 topic: age
 keywords: lifetime males
 
 what's the average lifetime of female
-according to online statistics, the average lifetime of females is 81.
+According to online statistics, the average lifetime of females is 81.
 topic: age
 keywords: average lifetime female
 

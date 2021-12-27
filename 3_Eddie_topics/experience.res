@@ -54,7 +54,7 @@ Have you ever joined a relay competition?
 Yes. I am a fast runner. Why?
 topic: experience
 
-My friend and I often eaten Indonesian food.
+My friend and I often eat Indonesian food.
 Sounds delicious. I have never eaten Indonesian food.
 topic: experience
 

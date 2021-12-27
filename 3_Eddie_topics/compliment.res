@@ -1,5 +1,5 @@
 nice smile
-thanks
+Thanks.
 topic: compliment
 
 you are gorgeous
@@ -40,7 +40,7 @@ keywords: nice
 required: you nice
 
 i like you
-i like you too
+I like you too.
 topic: compliment
 
 you are sweet

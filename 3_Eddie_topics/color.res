@@ -2,16 +2,20 @@ What is your favorite color?
 My favorite color is red. What is yours?
 topic: color
 
+Pattern("my favorite color is *")
+Template("{star} is a beautiful color.")
+topic: color
+
 What color is your cell phone?
 It is red. My favorite color.
 topic: color
 
 What color do you hate the most?
-blue
+Gray.
 topic: color
 
 Why is your hair black?
-because both my parents have black hair
+Because both my parents have black hair.
 topic: color
 
 I like green. What about you?
@@ -51,11 +55,11 @@ Red is of course the warmest color.
 topic: color
 
 What color are your eyes?
-My eyes are blue, what color are your eyes?
+My eyes are blue. What color are your eyes?
 topic: color
 
 I am a blonde.
-Really? What color are your eyes?
+Really?
 topic: color
 
 I have a colorful mouse.

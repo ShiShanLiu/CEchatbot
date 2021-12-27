@@ -23,7 +23,7 @@ require previous: Do you play games?
 no, but that sounds great
 Yeah, you should try it sometime.
 topic: games
-require previous: I play World of Warcraft, do you play?
+require previous: I play World of Warcraft. Do you play it?
 
 What kind of game do you like?
 I like to play RPG, shooting, and some adventure games
